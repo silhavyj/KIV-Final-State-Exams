@@ -10,6 +10,7 @@
 06) [Meziprocesová synchronizace – princip a implementace semaforu, mutexu, roury, zpráv a signálů. [KIV/OS]](06.md)
 07) [Souborový systém - Virtual File System, Installable File System, FAT, Ext2, NTFS. [KIV/OS, (KIV/ZOS)]](07.md)
 08) [Emulace, paravirtualizace, binární překlad, hardwarová virtualizace (Intel VT-x), Virtualization for aggregation. [KIV/OS]](08.md)
+09) [Systémy reálného času - typy úloh, plánování a rizika. [KIV/OS]](09.md)
 
 ### KIV/PPR
 
