@@ -14,4 +14,6 @@
 
 ### KIV/PPR
 
+10) [Flynnova taxonomie – architektury a jejich urychlení. Amdahlův a Gustafsonův zákon, Karp-Flattova metrika – odvození a jejich limity. [KIV/PPR]](10.md)
+
 ### KIV/FJP
