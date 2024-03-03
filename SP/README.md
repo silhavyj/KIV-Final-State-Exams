@@ -16,5 +16,6 @@
 
 10) [Flynnova taxonomie – architektury a jejich urychlení. Amdahlův a Gustafsonův zákon, Karp-Flattova metrika – odvození a jejich limity. [KIV/PPR]](10.md)
 11) [Paralelismus na úrovni instrukcí, predikce skoků, paměťová závislost, falešné sdílení a transakční paměť (Intel TSX) – jejich princip a význam pro urychlení sekvenčních a konkurenčních částí algoritmů. [KIV/PPR]](11.md)
+12) [Paralelizace cyklů, typy proměnných a paralelizace výpočtu součtů prefixů – charakteristika a řešení. [KIV/PPR]](12.md)
 
 ### KIV/FJP
