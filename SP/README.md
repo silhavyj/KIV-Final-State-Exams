@@ -21,5 +21,6 @@
 14) [Intel Threading Building Blocks – task-stealing plánovač, dekompozice úloh, redukční operace, flow-graph. [KIV/PPR]](14.md)
 15) [Práce s GPGPU – princip, faktory ovlivňující výsledné urychlení, přesun dat, redukční operace, využití OpenCL a C++ AMP. [KIV/PPR]](15.md)
 16) [Spurious wakeup – charakteristika a ošetření. Rendez-Vous, vč. konstrukce “select” v jazyce Ada a jejího porovnání s Java monitorem. [KIV/PPR]](16.md)
+17) [Výpočetní prostředí s distribuovanou pamětí - topologie, možnosti komunikace a relokace procesů, vektorové hodiny. Přidělování práce v prostředí s distribuovanou pamětí, možnosti urychlení výpočtu a přiřazení procesů na jednotlivé uzly. [KIV/PPR]](17.md)
 
 ### KIV/FJP
