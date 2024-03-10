@@ -20,5 +20,6 @@
 13) [Programové prostředky pro multithreading – POSIX, WinAPI, C++11 (s využitím STL a RAII). [KIV/PPR]](13.md)
 14) [Intel Threading Building Blocks – task-stealing plánovač, dekompozice úloh, redukční operace, flow-graph. [KIV/PPR]](14.md)
 15) [Práce s GPGPU – princip, faktory ovlivňující výsledné urychlení, přesun dat, redukční operace, využití OpenCL a C++ AMP. [KIV/PPR]](15.md)
+16) [Spurious wakeup – charakteristika a ošetření. Rendez-Vous, vč. konstrukce “select” v jazyce Ada a jejího porovnání s Java monitorem. [KIV/PPR]](16.md)
 
 ### KIV/FJP
