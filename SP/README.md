@@ -24,3 +24,5 @@
 17) [Výpočetní prostředí s distribuovanou pamětí - topologie, možnosti komunikace a relokace procesů, vektorové hodiny. Přidělování práce v prostředí s distribuovanou pamětí, možnosti urychlení výpočtu a přiřazení procesů na jednotlivé uzly. [KIV/PPR]](17.md)
 
 ### KIV/FJP
+
+18) [Základní struktura překladače, datové struktury potřebné pro překlad. [KIV/FJP]](18.md)
