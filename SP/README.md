@@ -30,3 +30,4 @@
 20) [Definice bezkontextové gramatiky, vztah bezkontextové gramatiky a obecného zásobníkového automatu. Využití bezkontextových gramatik. Nástroje pro generování automatu a překladače, jejich výhody a omezení. [KIV/FJP]](20.md)
 21) [Metody syntaktické analýzy. Výhody a nevýhody rekurzivního sestupu. [KIV/FJP]](21.md)
 22) [Ekvivalence gramatik, transformace gramatik vč. transformace do podoby LL gramatiky. Důvody pro transformace. Úlohy algoritmicky nerozhodnutelné. [KIV/FJP]](22.md)
+23) [Využití zásobníkového automatu k analýze shora dolů. Konstrukce deterministického automatu, vhodný tvar gramatiky. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](23.md)
