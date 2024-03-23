@@ -31,6 +31,6 @@
 21) [Metody syntaktické analýzy. Výhody a nevýhody rekurzivního sestupu. [KIV/FJP]](21.md)
 22) [Ekvivalence gramatik, transformace gramatik vč. transformace do podoby LL gramatiky. Důvody pro transformace. Úlohy algoritmicky nerozhodnutelné. [KIV/FJP]](22.md)
 23) [Využití zásobníkového automatu k analýze shora dolů. Konstrukce deterministického automatu, vhodný tvar gramatiky. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](23.md)
-24)
+24) [Využití zásobníkového automatu k analýze zdola nahoru. Konstrukce nedeterministického automatu, třídy gramatik pro deterministickou analýzu zdola nahoru. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](24.md)
 25) [Vnitřní jazyky překladače. Interpretace a generování cílového kódu, výhody a nevýhody obou přístupů. [KIV/FJP]](25.md)
 26) [Přidělování paměti pro data programu - způsoby, použití, související datové struktury. Volání podprogramů a předávání parametrů, řešení rekurze a paralelních výpočtů. [KIV/FJP, (KIV/PPR)]](26.md)
