@@ -5,3 +5,4 @@
 03) [Závislosti modulů v sw architekturách, způsob řešení vazeb (dependency resolution), přístup Inversion of Control. Kompatibilita vazeb, kontrakt a Liskov substitution principle. [KIV/SAR, KIV/PIA]](03.md)
 04) [Architektonické styly, architektonické vzory a produktové řady – principy, účel a použití, způsoby
     realizace. [KIV/SAR]](04.md)
+5) [5. Vícevrstvé a servisně orientované architektury – struktura a vlastnosti, příklady použití a technologie používané pro realizaci. [KIV/SAR, KIV/PIA]](05.md)
