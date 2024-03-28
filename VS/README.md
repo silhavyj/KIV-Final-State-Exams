@@ -5,3 +5,4 @@
 03) [Definice účelu softwarového produktu. Metody získávání a definice požadavků, související dokumenty, modely a standardy. [KIV/ASWI, (KIV/ZSWI, KIV/EITM)]](03.md)
 04) [Architektura softwarového systému, vztah k požadavkům na systém, formy popisu a modely. Způsoby ověření architektury, pojem „spustitelná architektura“. [KIV/ASWI, KIV/SAR, (KIV/EITM)]](04.md)
 05) [Postupy pro správu a řízení změn v projektu vývoje software, typy a možnosti nástrojů. Souvislost správy změn s ostatními disciplínami vývoje software. [KIV/ASWI, KIV/EITM]](05.md)
+06) [Správa verzí, základní pojmy a postupy (hlavní vývoj, použití větví, značky). Struktura úložiště pro projekty různé velikosti. Nástroje pro správu verzí, jejich možnosti. [KIV/ASWI]](06.md)
