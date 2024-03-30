@@ -8,3 +8,4 @@
 06) [Správa verzí, základní pojmy a postupy (hlavní vývoj, použití větví, značky). Struktura úložiště pro projekty různé velikosti. Nástroje pro správu verzí, jejich možnosti. [KIV/ASWI]](06.md)
 07) [Měření kvantitativních a kvalitativních charakteristik sw produktu či procesu, metoda GQM, příklady metrik. Využití metrik při řízení a zajištění kvality vývoje. [KIV/ASWI]](07.md)
 08) [Postupy a techniky související s nasazením produktu do provozu. Postup vyřazení softwarového produktu z provozu. [KIV/ASWI, (KIV/EITM)]](08.md)
+09) [Přehled činností při provozu sw (IS/IT) produktu. Řízení, dodávka a podpora IT služeb (ITSM), řízení změn a incidentů, související metodiky (ITIL a další). [KIV/ASWI, KIV/EITM]](09.md)
