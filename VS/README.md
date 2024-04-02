@@ -16,3 +16,4 @@
 11) [Proces akvizice IS/IT systému. Výběrové řízení, poptávka a nabídka, výběr a nákup řešení, studie proveditelnosti, PoC, PoT, poptávkové řízení (RFI, RFP, RFQ).[KIV/EITM]](11.md)
 12) [Projektové a multiprojektové řízení, projektová kancelář, metody hodnocení projektů, PMBOK. [KIV/EITM, (KIV/ASWI)]](12.md)
 13) [Způsoby integrace informačních systémů, přístupy a technologie pro jednotlivé vrstvy. [KIV/EITM, (KIV/PIA)]](13.md)
+14) [Integrace IS na datové vrstvě, datová pumpa, EDI, proces extrakce, transformace a vložení dat (ETL). [KIV/EITM, KIV/DBM2]](14.md)
