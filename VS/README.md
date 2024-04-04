@@ -18,3 +18,4 @@
 13) [Způsoby integrace informačních systémů, přístupy a technologie pro jednotlivé vrstvy. [KIV/EITM, (KIV/PIA)]](13.md)
 14) [Integrace IS na datové vrstvě, datová pumpa, EDI, proces extrakce, transformace a vložení dat (ETL). [KIV/EITM, KIV/DBM2]](14.md)
 15) [Správa dat v podniku (Data Management). Kvalita dat a její řízení, master data management (MDM). Nestrukturovaná podniková data, správa podnikového obsahu (ECM). [KIV/EITM, (KIV/DBM2)]](15.md)
+16) [Analytické nástroje pro sledování výkonu organizace, KPI a dashboardy, podpora rozhodování, Business Inteligence (BI). [KIV/EITM, (KIV/DBM2)]](16.md)
