@@ -21,3 +21,4 @@
 16) [Analytické nástroje pro sledování výkonu organizace, KPI a dashboardy, podpora rozhodování, Business Inteligence (BI). [KIV/EITM, (KIV/DBM2)]](16.md)
 17) [Řízení komunikace a spolupráce v organizaci, workflow, ESN. Business process management (BPM). [KIV/EITM, (KIV/ZIM)]](17.md)
 18) [Přehled problematiky bezpečnosti IT/IS, komplexní přístupy a nástroje pro řízení bezpečnosti [KIV/EITM, (KIV/BIT)]](18.md)
+19) [Outsourcing IT. Poskytování IT jako služby (ITaaS), výhody a nevýhody cloudových technologií. [KIV/EITM]](19.md)
