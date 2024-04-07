@@ -33,3 +33,4 @@
 23) [SQL/MM – multimediální databáze - základní rámec normy ISO/IEC 13249, full-textová data, prostorová data, obrázky (statické i videa). Možnosti dotazování, oblasti využití. XML databáze – charakteristické vlastnosti, výhody a nevýhody. Standard SQL/XML. [KIV/DB2]](23.md)
 24) [NoSQL databáze – charakteristika, porovnání ACID a BASE, CAP teorém. Kategorie NoSQL databází na základě datového modelu, příklady architektur. [KIV/DB2]
 ](24.md)
+25) [Problém zpracování velkých dat, Big Data – charakteristické vlastnosti (5V), příklady uvedeného typu dat, alternativy zpracování, princip Map Reduce, Hadoop. [KIV/DB2, (KIV/DBM2, KIV/EITM)]](25.md)
