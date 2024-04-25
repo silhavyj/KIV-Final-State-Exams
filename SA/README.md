@@ -17,4 +17,4 @@
 14) [14. Tvorba webových aplikací s použitím základních knihoven a pokročilých aplikačních rámců, obsluha požadavků a generování klientské (prezentační) části. Dopady na efektivitu. [KIV/PIA,(KIV/WEB, KIV/NET)]](14.md)
 15) [15. Řešení persistence dat, základní mechanismy. ORM, jeho výhody a nedostatky. Související standardy a technologie. [KIV/PIA]](15.md)
 16) [16. Formy integrace na aplikační vrstvě, webové služby. Technologie, příklady realizace. [KIV/PIA, (KIV/EITM)]](16.md)
-17) 
+17) [17. Základní pojmy a modely v oblasti spolehlivosti a výkonnosti softwarových systémů, jejich příklady a souvislost se specifikací požadavků, návrhem architektury a implementaci. [KIV/VSS,(KIV/ASWI)]](17.md)
