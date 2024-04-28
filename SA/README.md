@@ -20,3 +20,4 @@
 17) [17. Základní pojmy a modely v oblasti spolehlivosti a výkonnosti softwarových systémů, jejich příklady a souvislost se specifikací požadavků, návrhem architektury a implementaci. [KIV/VSS,(KIV/ASWI)]](17.md)
 18) [18. Způsoby zajištění spolehlivosti systému na úrovni hw a sw, spolehlivostní modely. Normy související s tvorbou spolehlivých softwarových systémů. [KIV/VSS]](18.md)
 19) [19. Metody generování náhodných a pseudonáhodných čísel, jejich vlastnosti a omezení, využití náhodných čísel [KIV/VSS].](19.md)
+20) [20. Modely systémů pro analýzu výkonnosti – sítě front, markovské modely. Abstraktní (formální) reprezentace, možnosti programové realizace. Způsoby využití. [KIV/VSS]](20.md)
