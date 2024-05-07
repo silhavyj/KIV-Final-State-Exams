@@ -3,9 +3,42 @@
 ### KIV/OS
 
 01) [Jádro operačního systému a uživatelský režim procesu, zavedení vybraného typu jádra a uživatelského procesu. [KIV/OS, (KIV/ZOS)]](01.md)
+    - co je OS (planovani procesu + rizeny pristup ke zdrojum)
+    - jadro kernelu (co to je, zavedeni, interface - syscally, typy jadra)
+    - uzivatelsky proces (CPL0, RTL, privelegovani instrukce, bootstrap)
+    - real mode (adresovani - baze + offset = 20b)
+    - protected mode (PAE, prepnuti do 32b modu - GDT/LDT + PE bit v CR0, segment selectory - adresace)
+    - unreal
+    - zavedeni MSDOS (IO.SYS, MSDOS.SYS, zavedeni jadra > 1MB - XMS a EMS)
+    - UEFI (GPT, EFI binarky - zajisteni integrity)
+
 02) [Virtuální adresový prostor – implementace sdílené paměti, sdílených knihoven a copy-on-write. [KIV/OS, (KIV/ZOS)]](02.md)
+    - virtualni prostor (k cemu to je, MMU, TLB+ flush)
+    - segmentace (vyhody + nevyhody, segment selector, segment descripor, segmentove registry, fragmentace)
+    - strankovani (vyhody + nevyhody, TLB, CR3, swapping - RR, MRU, LRU, dirty bit, present bit, access bit, granulatira velikosti stranky, page fault)
+    - princip prikladu virtualni adresy (virtualni -> linearni -> fyzicka, segmentace + strankovani)
+    - Symbol resolving (dll, so, PLT, GOT, __declspec(dllimport/dllexport))
+    - Copy-on-Write (princip, vyuziti - napr. fork, sdilene knihovny)
+
 03) [Přerušení, systémová volání, výjimky, V/V zařízení – jejich implementace a obsluha. [KIV/OS, (KIV/ZOS)]](03.md)
+    - co je preruseni (IDT, typy - SW, HW, a vyjimky, CPL, maskovani)
+    - co je to systemove volani (RTL, STL, INT, IRET, TSS)
+    - top-half & bottom-half (kriticke, tasklet)
+    - zpracovani prerusni (postup)
+    - vyjimky (try-catch -> handlery v PCB, typy - trap, fault, abort)
+    - IO/zarizeni (IRQ, PIC, PMOI, MMIO - backplane bus, Linux VFS - vse se tvari jako soubor)
+    - komunikace s I/O (prime, radic (+ preruseni), DMA, ovladac)
+
 04) [Vlákna na symetrickém multiprocesoru, jejich synchronizace a implementace. [KIV/OS]](04.md)
+    - vlakno (co to je - planovaci jednotka? implementace TCB + obsah TCB, crt0)
+    - concurrency vs parallelism
+    - kooperativni (napr. MS-DOS, yield) vs preemtivni planovani (IRQ0, kontext switch, TSS)
+    - SMP bootstrap (MPFPS - _MP_signature, MP Config - seznam dostupnych CPU, bootstrap, BSP, AP, APIC)
+    - synchronizace na SMP (teoreticky - sbernice, atomic operace (+ strojove slovo), prkaticky - TLS, spinlock)
+    - fork() + copy on write, exec(), clone(), zombie, sirotek, init proces
+    - stavove fronty vlakna
+    - kernelova vs userspace vlakna (RTL planovac, kernel planovac)
+
 05) [Plánovač – Process Control Block, Thread Control Block, stavová fronta a algoritmus plánovače. [KIV/OS, (KIV/ZOS)]](05.md)
 06) [Meziprocesová synchronizace – princip a implementace semaforu, mutexu, roury, zpráv a signálů. [KIV/OS]](06.md)
 07) [Souborový systém - Virtual File System, Installable File System, FAT, Ext2, NTFS. [KIV/OS, (KIV/ZOS)]](07.md)
