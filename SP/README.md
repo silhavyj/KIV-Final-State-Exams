@@ -70,7 +70,25 @@
     - NTFS (struktura, obsah MTF a jeji zalohovani, nastupce FAT, sifrovani, komprese, ACL, kodovani delkou behu, MBR vs VBR, $BOOT)
 
 08) [Emulace, paravirtualizace, binární překlad, hardwarová virtualizace (Intel VT-x), Virtualization for aggregation. [KIV/OS]](08.md)
+    - simulace vs emulace vs virtualizace
+    - emulace (preklad ISA_1 na ISA_2, nemusi byt stejna architektura)
+    - virtualizace (musi byt stejna architektura, VMM, typy VMMM - 1.,2.)
+    - V86 (proc? princip, ISR, vyjimky, privilegovane a citilive instrukce, problem 2 OS)
+    - paravirtualizace
+    - binarni preklad (priklad, int 10h, problemy, staticky a dynamicky preklad)
+    - HW virtualizace (VT-x, VMX-root, VMX-non-root, OS v CPL0, strankovani, VPID, read-only tabulka stranek - CoW, EPT, EPT base pointer)
+    - VT-d (routovani I/O mezi virtualizovanymi OS)
+    - VfA (vSMP, VMM, sitove uzly)
+
 09) [Systémy reálného času - typy úloh, plánování a rizika. [KIV/OS]](09.md)
+    - non-real-time, soft-real-time, hard-real-time
+    - terminologie (task, job, plan, parametry (ai, ci, si, fi), odvozene parametry Di, Ri, ...)
+    - typy tasku (periodicky, aperiodicky, sporadicky)
+    - RMA (Rate Monotonic Analysis, RMS planovac)
+    - RMS test naplanovatelnosti (kolektivni vyuziti < 70%)
+    - Response time test (ri < di)
+    - EDF (pocita i s aperiodickymi a sporadickymi tasky, existence splnitelneho planu)
+    - rizika (cache, dynamicka alokace, IRQ, inverze priorit, rekurze, vyjimky, fragmentace)
 
 ### KIV/PPR
 
