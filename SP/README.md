@@ -74,8 +74,8 @@
     - emulace (preklad ISA_1 na ISA_2, nemusi byt stejna architektura)
     - virtualizace (musi byt stejna architektura, VMM, typy VMMM - 1.,2.)
     - V86 (proc? princip, ISR, vyjimky, privilegovane a citilive instrukce, problem 2 OS)
-    - paravirtualizace
-    - binarni preklad (priklad, int 10h, problemy, staticky a dynamicky preklad)
+    - paravirtualizace (instrukce co meni HW jsou nahrazeny volanim hypervizoru; vyzaduje modifikaci OS)
+    - binarni preklad (priklad, int 10h, problemy, staticky a dynamicky preklad; OS se nemodifikuje, za runtime hledame instrukce ktere nepodporuje nase architektura => nahradime temi co podporujeme = emulace)
     - HW virtualizace (VT-x, VMX-root, VMX-non-root, OS v CPL0, strankovani, VPID, read-only tabulka stranek - CoW, EPT, EPT base pointer)
     - VT-d (routovani I/O mezi virtualizovanymi OS)
     - VfA (vSMP, VMM, sitove uzly)
