@@ -40,8 +40,35 @@
     - kernelova vs userspace vlakna (RTL planovac, kernel planovac)
 
 05) [Plánovač – Process Control Block, Thread Control Block, stavová fronta a algoritmus plánovače. [KIV/OS, (KIV/ZOS)]](05.md)
+    - PCB (struktura - co obsahuje, afinita, ACL, ...)
+    - TCB ve Windows (TEB, TLS = Thread Local Storage)
+    - stavy vlakna (zjednoduseni vs realita - SMP, afinita)
+    - stavove fronty (prosovani ukazatele na PCB)
+    - planovac (RR, RR s prioritama, staticka vs dynamicka priorita)
+    - Linux planovac (Active, Expired, epocha, => CPF - red/black, vrtuntime)
+    - Windows (RR s prioritami - staticka + dynamicka)
+
 06) [Meziprocesová synchronizace – princip a implementace semaforu, mutexu, roury, zpráv a signálů. [KIV/OS]](06.md)
+    - k cemu je meziprocesova komunikace
+    - spinlock (= jedina moznost synchronizace, implementovano v userspace - RTL)
+    - semafor (struktura - co obsahuje, kod, Acquire (while (counter == 0)), TryAcquire, Release, notify_all_threads, binarni semafor)
+    - producent konzument (3 semafory inicializovane na 0, N, 1)
+    - mutex (binarni semafor vs mutex, implementace)
+    - pipe (in/out, buffer, producent-konzument, pojmenovava pipe)
+    - zpravy (PostMessage, SendMessage, PeekMessage(), GetMessage(), WM_COPYDATA  - IParam, fronty zprav)
+    - signaly (handlery - obdoba IDT, Process-Directed Signals, Thread-Directed Signals, sigmask & pending_mask => implementace, signaly u fork() a exec(), realtime signaly 0-31, 32-63 (determinismus))
+
 07) [Souborový systém - Virtual File System, Installable File System, FAT, Ext2, NTFS. [KIV/OS, (KIV/ZOS)]](07.md)
+    - VFS (userspace, FS, driver = 3 urovne, pointery na funkce -> close, read, write, atd.)
+    - IFS (FS, MiniFilter (FilterDriver - legacy), registrace filtru (FilterManager))
+    - IORP (IO Manager, fronta pozadavku driveru, FastIO, obsluha IO pozadavku - postup)
+    - APIC (nedostatky PICu, MSI = {ID, IRQ}, APIC bus)
+    - top-half & bottom-half (SoftIRQ, Tasklet, polling vs interrupt, workqueue - Linux)
+    - IO_uring, userspace drivery
+    - FAT (struktura, FAT tabulka, typy FAT, root folder)
+    - EXT2 (struktura, bitmapy, obsah inodu, obsah slozky, prime vs neprime odkazy, ACL od ext4, symlink vs hardlink)
+    - NTFS (struktura, obsah MTF a jeji zalohovani, nastupce FAT, sifrovani, komprese, ACL, kodovani delkou behu, MBR vs VBR, $BOOT)
+
 08) [Emulace, paravirtualizace, binární překlad, hardwarová virtualizace (Intel VT-x), Virtualization for aggregation. [KIV/OS]](08.md)
 09) [Systémy reálného času - typy úloh, plánování a rizika. [KIV/OS]](09.md)
 
