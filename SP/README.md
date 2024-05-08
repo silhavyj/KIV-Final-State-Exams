@@ -114,6 +114,21 @@
     - segmented scan (maska, custom operator, reset algoritmu)
 
 13) [Programové prostředky pro multithreading – POSIX, WinAPI, C++11 (s využitím STL a RAII). [KIV/PPR]](13.md)
+    - POSIX (kontrakt funci .h, objekty + atributy, mapovani POSIX na WinAPI)
+    - WinAPI
+        - Job
+        - Thread (__declspec(thread) int a; TLS)
+        - Thread pool
+        - Fiber (FLS, kooperativni planovani -> nema prioritu, SwitchToFiber(), princip vytvoreni)
+        - UMS (user-mode planovac, Java, vlastni kontext, light-weight)
+    - WinAPI synchronizace
+        - Objects (event, mutex, pipe, file, semafor, KS, podminkova promenna, SWR (duvod vstupu do KS - R/W => optimalizace), messages (post, send, peek, get))
+        - Wait (single/multiple objects, timeout, callback)
+    - APC (alertable, pole pointeru na fce v TCB)
+    - SMP fetching (load/store | fence | load/store)
+    - DLL shared section (RWS = read/write/shared)
+    - C++11 (API pro mulithreading, synchronizacni primitiva, RAII, STL)
+
 14) [Intel Threading Building Blocks – task-stealing plánovač, dekompozice úloh, redukční operace, flow-graph. [KIV/PPR]](14.md)
 15) [Práce s GPGPU – princip, faktory ovlivňující výsledné urychlení, přesun dat, redukční operace, využití OpenCL a C++ AMP. [KIV/PPR]](15.md)
 16) [Spurious wakeup – charakteristika a ošetření. Rendez-Vous, vč. konstrukce “select” v jazyce Ada a jejího porovnání s Java monitorem. [KIV/PPR]](16.md)
