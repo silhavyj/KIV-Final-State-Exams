@@ -93,7 +93,18 @@
 ### KIV/PPR
 
 10) [Flynnova taxonomie – architektury a jejich urychlení. Amdahlův a Gustafsonův zákon, Karp-Flattova metrika – odvození a jejich limity. [KIV/PPR]](10.md)
-11) [Paralelismus na úrovni instrukcí, predikce skoků, paměťová závislost, falešné sdílení a transakční paměť (Intel TSX) – jejich princip a význam pro urychlení sekvenčních a konkurenčních částí algoritmů. [KIV/PPR]](11.md)
+    - Flynnova taxonomie (SISD, SIMD, SIMT, MISD (fail-stop, fault-tolerant), MIMD, SPMD (JSON; machine learning), MPMD (JSON + XML))
+    - Ahmdaluv zakon (fixni velikost problemu, vzorecek, graf urcyhleni, graf efektivity, celkove urychleni)
+    - Gustafsonuv zakon (teoreticke urcyhleni oproti exekuci na jednojadrovem CPU, zakladni vzorecek urcyhleni + dve cesty odvozeni, fixni cas => stejne vyuziti zdroju + zvetsovani velikosti problemu)
+    - Karp-Flattova metrika (vzorecek - analogie ke Gustafsonovi, paralelni overhead, chceme konstantni e a co nejmensi, graf prubehu e s poctem CPU, odvozeni)
+
+11) [Paralelismus na úrovni instrukcí, predikce skoků, paměťová závislost, falešné sdílení a transakční paměť (Intel TSX) – jejich princip a význam pro urychlení   sekvenčních a konkurenčních částí algoritmů. [KIV/PPR]](11.md)
+    - ILP (HW - scoreboarding vs SW pritup - prekladac, out-of-order execution)
+    - pipeline a hazardy (strukturalni, datovy (RAW, WAR, WAW), ridici)
+    - predikce skoku (prediktory, metaprediktor, saturacni citac, BHT, BTB, cmov)
+    - false sharing (cache line)
+    - TSX (transakcni pamet, princip, L1 cache, fallbach path, reseni SW vs HW, HLE - HW lock elision, RTM - restricted transaction mode)
+
 12) [Paralelizace cyklů, typy proměnných a paralelizace výpočtu součtů prefixů – charakteristika a řešení. [KIV/PPR]](12.md)
 13) [Programové prostředky pro multithreading – POSIX, WinAPI, C++11 (s využitím STL a RAII). [KIV/PPR]](13.md)
 14) [Intel Threading Building Blocks – task-stealing plánovač, dekompozice úloh, redukční operace, flow-graph. [KIV/PPR]](14.md)
