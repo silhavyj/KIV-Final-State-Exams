@@ -106,6 +106,13 @@
     - TSX (transakcni pamet, princip, L1 cache, fallback path, reseni SW vs HW, HLE - HW lock elision, RTM - restricted transaction mode)
 
 12) [Paralelizace cyklů, typy proměnných a paralelizace výpočtu součtů prefixů – charakteristika a řešení. [KIV/PPR]](12.md)
+    - typy promennych (lokalni, sdilene - zavisle, nezavisle - redukcni, usporadany, zamykani (min))
+    - parallel prefix sum (zaklad pro paralelni algo., popis problemu, naivni reseni, reinterpretace -> odstraneni usporadany promenny (strom, nevyhody, graf urychleni), first-stop algo (inkluzivni, exkluzivni)
+    - SIMD instrukce (staticka - prekladac vs maualni, AVX-512)
+    - verktorizace cyklu (loop unrolling, problemy (break, continue, pointery, ...), maska pro odstraneni if)
+    - SoA a AoS (usporadni pameti -> linerarni uruychleni jen teoreticke!!)
+    - segmented scan (maska, custom operator, reset algoritmu)
+
 13) [Programové prostředky pro multithreading – POSIX, WinAPI, C++11 (s využitím STL a RAII). [KIV/PPR]](13.md)
 14) [Intel Threading Building Blocks – task-stealing plánovač, dekompozice úloh, redukční operace, flow-graph. [KIV/PPR]](14.md)
 15) [Práce s GPGPU – princip, faktory ovlivňující výsledné urychlení, přesun dat, redukční operace, využití OpenCL a C++ AMP. [KIV/PPR]](15.md)
