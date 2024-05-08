@@ -103,7 +103,7 @@
     - pipeline a hazardy (strukturalni, datovy (RAW, WAR, WAW), ridici)
     - predikce skoku (prediktory, metaprediktor, saturacni citac, BHT, BTB, cmov)
     - false sharing (cache line)
-    - TSX (transakcni pamet, princip, L1 cache, fallback path, reseni SW vs HW, HLE - HW lock elision, RTM - restricted transaction mode)
+    - TSX (transakcni pamet, princip, L1 cache, fallback path, reseni SW vs HW, HLE - HW lock elision (xacquire , xrelease), RTM - restricted transaction mode (xbegin, xrend, xabort))
 
 12) [Paralelizace cyklů, typy proměnných a paralelizace výpočtu součtů prefixů – charakteristika a řešení. [KIV/PPR]](12.md)
     - typy promennych (lokalni, sdilene - zavisle, nezavisle - redukcni, usporadany, zamykani (min))
