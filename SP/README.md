@@ -153,6 +153,14 @@
     - DPC++ (= Data Parallel C++, implementace SYCL od Intelu, soucasti OneAPI toolkitu)
 
 16) [Spurious wakeup – charakteristika a ošetření. Rendez-Vous, vč. konstrukce “select” v jazyce Ada a jejího porovnání s Java monitorem. [KIV/PPR]](16.md)
+    - spurious wakeup (falesne vzbuzeni, notify_all, rezie, notify_one + signal = problem, reseni ne v kernelu ale userpacu (if => while))
+    - Ada (historie, popis jazyka, zpusob synchronizace, tasky, subtasky, begin end = telo tasku)
+    - Entry (blokujici - ceka na accept = bod setkani = randez-vous)
+    - Priklad Ada task (accept Start; num *= 2; accept Report)
+    - Ada select (loop, terminate, podminky, reakce na vicero vstupnich bodu, vyzozeni podminky misto blokace tasku)
+    - Ada protected objects (vynuceni exkluzivniho pristupu, priklad semafor - Acquire = vstupni volani accept, Release = procedure, Get_Num = funkce)
+    - Monitor (co to je, problem funkce signal/release - Hoare, Hansen, Java si planuje vlakne sama => nemozne vynut poradi vzbuzeni)
+
 17) [Výpočetní prostředí s distribuovanou pamětí - topologie, možnosti komunikace a relokace procesů, vektorové hodiny. Přidělování práce v prostředí s distribuovanou pamětí, možnosti urychlení výpočtu a přiřazení procesů na jednotlivé uzly. [KIV/PPR]](17.md)
 
 ### KIV/FJP
