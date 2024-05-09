@@ -162,6 +162,19 @@
     - Monitor (co to je, problem funkce signal/release - Hoare, Hansen, Java si planuje vlakne sama => nemozne vynut poradi vzbuzeni)
 
 17) [Výpočetní prostředí s distribuovanou pamětí - topologie, možnosti komunikace a relokace procesů, vektorové hodiny. Přidělování práce v prostředí s distribuovanou pamětí, možnosti urychlení výpočtu a přiřazení procesů na jednotlivé uzly. [KIV/PPR]](17.md)
+    - topologie (komunikacni kanal, overlay network, cluster, uzly, toroid, mrizka (Dij, Dmax), krychle, Network Node Address)
+    - vykon zavisi na (kvalita SW, granularita dat (chunk size), efektnivni alokace vzhledem k HW)
+    - univerzalni pocitacova sit (skolni laborator)
+    - SETI@Home (farmer-work, dynamicke zapojovani podvytizenych PC, mimozemstani)
+    - univerzalni paralelni PC (MPI = Message Passing Interface, single-purpose computer - LED)
+    - moznosti komuniace (Worm Swithing - flit, cut-through switching, store & forward, adaptive switching)
+    - lampartovi hodiny (castecne usporadani, timestamp)
+    - vektovove hodiny (detekce poruseni kauzality, vektor lamparovych timestampu)
+    - load sharing (Worm (staticke), Condor (dynamicke))
+    - load balancing (staticky (vime co mame za HW, hodne info o siti, problem vypadku uzlu), dynamicky - preemptivni, centralizovani (arbiter), kooperativni, sender-initiated, receiver-initiated, adaptivni)
+    - problem load balancingu a load sharingu (masova migrace, oscilace (reseni pres kredity), zbytecna migrace -> stejny vykon nodu)
+    - mobilni agenti (ANT routovani, OSPF)
+    - aktivni site (capsule, code distribution protocol)
 
 ### KIV/FJP
 
