@@ -130,7 +130,28 @@
     - C++11 (API pro mulithreading, synchronizacni primitiva, RAII, STL)
 
 14) [Intel Threading Building Blocks – task-stealing plánovač, dekompozice úloh, redukční operace, flow-graph. [KIV/PPR]](14.md)
+    - TBB (= knihovna, tasky, cache-cooling efekt (schema cache), task-stealing)
+    - task-stealing planovac (graf rozdeleni na podtasky, zasobnik odlozenych uloh, depth-first, breadth-first)
+    - redukcni operace
+        - tbb::task, tbb::parallel_for, tbb::parallel_reduce (neni const), tbb::parallel_do (+ feeder)
+        - tbb:parallel_pipeline (filtery - serial-in-order, serial-out-of-order, paralell)
+        - tbb::flow_graph (continue_msg, OpenCL node, make_edge())
+
 15) [Práce s GPGPU – princip, faktory ovlivňující výsledné urychlení, přesun dat, redukční operace, využití OpenCL a C++ AMP. [KIV/PPR]](15.md)
+    - GPGPU (task paralelismus vs data paralelismus, SIMD vs SIMT)
+    - aligned memory access, memory prefetching (random access)
+    - OpenCL (prumyslovy standard, heterogenni zarizeni, __kernel void, priklad souctu dvou vektoru c[i]=a[i]+b[i])
+    - work-group (WG), work-item (WI), wavefronta, ND-range
+    - OpenCL buffery (clEnqueueWriteBuffer, CL_MEM_WRITE_ONLY | CL_MEM_HOST_READ_ONLY, clEnqueueKernel)
+    - redukcni operace (vektorova suma na GPGPU)
+    - OpenCL volani (global id, locacl id, group id, global size, local size)
+    - OpenCL memory (globalni, lokalni, privatni; preteceni privatni do lokalni)
+    - OpenCL barrier vs fence (R/W | fence | RW; synchronizace WI v ramci WG)
+    - faktory urychleni (vetveni if else, bank-conflict, nechceme globalni pamet - read-only, |work group| == |wave front|, velikost data - rezie)
+    - C++ AMP (= C++ Accelerated Massive Parallelism, restrict(cp, amp), predchudce SYCL)
+    - SYCL (jeden codebase, vice backendu, programovaci model)
+    - DPC++ (= Data Parallel C++, implementace SYCL od Intelu, soucasti OneAPI toolkitu)
+
 16) [Spurious wakeup – charakteristika a ošetření. Rendez-Vous, vč. konstrukce “select” v jazyce Ada a jejího porovnání s Java monitorem. [KIV/PPR]](16.md)
 17) [Výpočetní prostředí s distribuovanou pamětí - topologie, možnosti komunikace a relokace procesů, vektorové hodiny. Přidělování práce v prostředí s distribuovanou pamětí, možnosti urychlení výpočtu a přiřazení procesů na jednotlivé uzly. [KIV/PPR]](17.md)
 
