@@ -198,6 +198,12 @@
     - implementace DKA (= tabulka prechodu, curr_state = [curr_state, next_intput])
 
 20) [Definice bezkontextové gramatiky, vztah bezkontextové gramatiky a obecného zásobníkového automatu. Využití bezkontextových gramatik. Nástroje pro generování automatu a překladače, jejich výhody a omezení. [KIV/FJP]](20.md)
+    - bezkontextove gramatiky (definice, tvar prepisovaciho pravidla)
+    - obecny zasobnikovy automat (𝑃𝐷𝐴 = { 𝑄, Σ, Γ, 𝛿, 𝑞0 , 𝑧0 , 𝐹 }, schema, pamet, konfigurace, vlastnosti (jednocestky, nedeterministiky - backtracking, akceptacni), kazda BKG lze prevest do GNF => lze sestavit jednoduchy LL(1) ale n^4 pravidel)
+    - GNF (= Greinbachove Normalni forma, S -> e, prave strany zacinaji neterminalnem, ruzny 1. neterminal pravych stran)
+    - analyza shora dolu (first-first kolize (leva faktorizce/vytikani), first-folow (pohlceni terminalu) kolize, FIRST (E.), FOLLOW(E -> E.))
+    - analyza zdole nahoru (reduce-reduce kolize, shift-reduce kolize, SLR(k), LALR(k))
+
 21) [Metody syntaktické analýzy. Výhody a nevýhody rekurzivního sestupu. [KIV/FJP]](21.md)
 22) [Ekvivalence gramatik, transformace gramatik vč. transformace do podoby LL gramatiky. Důvody pro transformace. Úlohy algoritmicky nerozhodnutelné. [KIV/FJP]](22.md)
 23) [Využití zásobníkového automatu k analýze shora dolů. Konstrukce deterministického automatu, vhodný tvar gramatiky. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](23.md)
