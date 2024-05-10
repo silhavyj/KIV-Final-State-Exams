@@ -191,6 +191,12 @@
     - generovani kodu (jazyk trojic, jazyk ctveric)
 
 19) [Definice regulární gramatiky, vztah regulárních gramatik a konečných automatů, implementace automatu, způsoby a příklady využití. Nástroje pro práci s regulárními výrazy. [KIV/FJP]](19.md)
+    - gramatika (definice - G = (𝑁, Σ, 𝑃, 𝑆), prepisovaci pravidla, L(G), derivace, vetna forma, slovo/veta)
+    - klasifikace gramatik (viz tvar prepisovacich pravidel, rekurzivne spocetna, kontextova, bezkontextova, regularni (typ 3), podmnoziny, BNF)
+    - regularni gramatiky (prava + leva = gramatika typu 2, nedostatky KA, NKA vs DKA (prevod - obraceni pravidel, nakreslit, obratit hrany, NDK na DKAm, nakreslit))
+    - regularni vyrazy (konkantenace ab, sjednoceni a+b, uzavera a*, vylepsni - a?, a{4}, popis tokenu lexeru, validace vstupu (email, ip), formalni struktura lexeru (= automaticke generovani, paralelni DKA))
+    - implementace DKA (= tabulka prechodu, curr_state = [curr_state, next_intput])
+
 20) [Definice bezkontextové gramatiky, vztah bezkontextové gramatiky a obecného zásobníkového automatu. Využití bezkontextových gramatik. Nástroje pro generování automatu a překladače, jejich výhody a omezení. [KIV/FJP]](20.md)
 21) [Metody syntaktické analýzy. Výhody a nevýhody rekurzivního sestupu. [KIV/FJP]](21.md)
 22) [Ekvivalence gramatik, transformace gramatik vč. transformace do podoby LL gramatiky. Důvody pro transformace. Úlohy algoritmicky nerozhodnutelné. [KIV/FJP]](22.md)
