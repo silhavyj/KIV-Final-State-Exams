@@ -179,6 +179,17 @@
 ### KIV/FJP
 
 18) [Základní struktura překladače, datové struktury potřebné pro překlad. [KIV/FJP]](18.md)
+    - vyuziti prekladacu (IDE, SQL, MS Word, silikon)
+    - vicevrstvy prekladac (LLVM, frontend, backend)
+    - struktura prekladace vs interpretu
+    - lexikalni analyza (DKA, lexem, token, bile znaky, rohrani pro syntakticnou analyzu)
+    - syntakticka analyza (AST vs derivacni strom, automaticke/formalni (ANTLR, yacc + bison) vs rekurzivni sestup, shora dolu vs ze spoda nahoru)
+    - semanticka analyza (atribuovana gramatika (syntetizovany vs zdedeny attr) vs rekurzivni prochazeni AST)
+    - tabulka symbolu (obsah, linked list hashmap, rozsah viditelnosti, B-strom (super, this), operace nad tabulkou symbolu, dynamicky rozsah (tabulka + zasobnik), vyuziti (-g -O0))
+    - typova kontrola (silna vs slaba, staticka vs dynamicka, odpozeni typu (var/auto), formalni odvozeni)
+    - optimalizator (kde, cile, priklady (inlining, zjednoduseni algebry, autovekrotizace, mrtvy kod)
+    - generovani kodu (jazyk trojic, jazyk ctveric)
+
 19) [Definice regulární gramatiky, vztah regulárních gramatik a konečných automatů, implementace automatu, způsoby a příklady využití. Nástroje pro práci s regulárními výrazy. [KIV/FJP]](19.md)
 20) [Definice bezkontextové gramatiky, vztah bezkontextové gramatiky a obecného zásobníkového automatu. Využití bezkontextových gramatik. Nástroje pro generování automatu a překladače, jejich výhody a omezení. [KIV/FJP]](20.md)
 21) [Metody syntaktické analýzy. Výhody a nevýhody rekurzivního sestupu. [KIV/FJP]](21.md)
