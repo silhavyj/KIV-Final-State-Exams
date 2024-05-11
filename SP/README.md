@@ -205,7 +205,28 @@
     - analyza zdole nahoru (reduce-reduce kolize, shift-reduce kolize, SLR(k), LALR(k))
 
 21) [Metody syntaktické analýzy. Výhody a nevýhody rekurzivního sestupu. [KIV/FJP]](21.md)
+    - gramatika (G = (𝑁, Σ, 𝑃, 𝑆), obecny tvar prepisovacich pravidel, L(G), derivace (prava/leva), vetna forma, slovo, fraze vzhledem k F)
+    - viceznacnost gramatiky (nutna podminka, postup odstraneni, NP problem, priorita vyhodnocovani derivacniho stromu)
+    - syntakticka analyza (shora dolu, ze spoda, backtracking, rekurzivni sestup, zasobnikovy automat)
+    - rekurzivni sestup (case, switch, pruhledna implementace, derivacni strom v RAM)
+    - problemy rekurzivniho sestupu (prvni neterminal, leva rekurze, e-pravidla, first-first kolize, first-follow kolize)
+
 22) [Ekvivalence gramatik, transformace gramatik vč. transformace do podoby LL gramatiky. Důvody pro transformace. Úlohy algoritmicky nerozhodnutelné. [KIV/FJP]](22.md)
+    - ekvivalence gramatik (S->aS | S->Sa | S->e, L(G1)=L(G2))
+    - FIRST & FOLLOW funkce (vstup, vystup)
+    - ekvivalentni upravy
+        - gramatika porad generuje stejny jazyk
+        - hledani zbytecnych symbolu (od listu ke koreni, nepodili se na generovani jazyka, O1={a,b} -> pridavame leve strany slozeny z kombinace v O1 (rekurzivne))
+        - hledani nedostupnych symbolu (od korene k listum, nedosazitelne z S, N0={S} -> pridame vsechny jeho prave strany (rekurzivne))
+        - odstraneni e pravidel (nalezeni Ne mnoziny -> stejny jako hledani zbytecnych symbolu ale zaciname z A->e, substituce - bud tam A je nebo neni, odstranime A->e, opakujeme rekurzivne, pokus S->e => S'->S | e)
+        - odstraneni jednoduchych pravidel (S->A => misto A dame vsechny jeho prave strany)
+        - odstraneni cyklu = odstraneni jednoduchych pravidel
+        - odstraneni leve rekurze (A->Aα1 | Aα2 | β1 | β2)
+            - A->β1A' | β2A'
+            - A' -> α1A' | α2A' | e (nebo α1, α1, a v A pak β1, β2, ...)
+    - transformace gramatiky (GNF (n^4), duvody = odstraneni kolizi, zacykleni pri reseni first-first nebo first-follow kolizi)
+    - ulohy algoritmicky nerozhodnutelne (nalezeni ekvivalentni jednoznacne gramatiky)
+
 23) [Využití zásobníkového automatu k analýze shora dolů. Konstrukce deterministického automatu, vhodný tvar gramatiky. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](23.md)
 24) [Využití zásobníkového automatu k analýze zdola nahoru. Konstrukce nedeterministického automatu, třídy gramatik pro deterministickou analýzu zdola nahoru. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](24.md)
 25) [Vnitřní jazyky překladače. Interpretace a generování cílového kódu, výhody a nevýhody obou přístupů. [KIV/FJP]](25.md)
