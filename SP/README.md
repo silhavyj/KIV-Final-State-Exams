@@ -228,6 +228,12 @@
     - ulohy algoritmicky nerozhodnutelne (nalezeni ekvivalentni jednoznacne gramatiky)
 
 23) [Využití zásobníkového automatu k analýze shora dolů. Konstrukce deterministického automatu, vhodný tvar gramatiky. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](23.md)
+    - zasobnikovy automat (𝑃𝐷𝐴 = { 𝑄, Σ, Γ, 𝛿, 𝑞0 , 𝑧0 , 𝐹 }, konfigurace, jednocestny, nedeterministicky, akceptacni, nekonecna pamet)
+    - analyza shora dolue (redukce/srovnani, GNF (definice), implementace tabulky prechodu, FIRST, FOLLOW)
+    - LL analyzator (FIRST(α U FOLLOW(A)) ∩ FIRST(β U FOLLOW(A), nesmi obsahovat levou rekurzi, first-first kolize (substituce + leva faktorizace), first-follow kolize (pohlceni symbolu)), FIRST_k, FOLLOW_k)
+    - silna vs slaba LL(k) (rozhodnuti na zaklade k symbolu na vstupu + zasobnik, CELY NACTENY VSTUP + k symbolu na vstupu + zasobnik => v praxi nepouzitelne)
+    - vyjadrovaci sila LL a LR (|LR| > |LL|, |LR| > |LALR| > |SLR(k)| > |SLR(1)| > |LR(0)|)
+
 24) [Využití zásobníkového automatu k analýze zdola nahoru. Konstrukce nedeterministického automatu, třídy gramatik pro deterministickou analýzu zdola nahoru. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](24.md)
 25) [Vnitřní jazyky překladače. Interpretace a generování cílového kódu, výhody a nevýhody obou přístupů. [KIV/FJP]](25.md)
 26) [Přidělování paměti pro data programu - způsoby, použití, související datové struktury. Volání podprogramů a předávání parametrů, řešení rekurze a paralelních výpočtů. [KIV/FJP, (KIV/PPR)]](26.md)
