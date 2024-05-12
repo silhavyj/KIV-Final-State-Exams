@@ -235,5 +235,20 @@
     - vyjadrovaci sila LL a LR (|LR| > |LL|, |LR| > |LALR| > |SLR(k)| > |SLR(1)| > |LR(0)|)
 
 24) [Využití zásobníkového automatu k analýze zdola nahoru. Konstrukce nedeterministického automatu, třídy gramatik pro deterministickou analýzu zdola nahoru. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](24.md)
+    - zasobnikovy automat (𝑃𝐷𝐴 = { 𝑄, Σ, Γ, 𝛿, 𝑞0 , 𝑧0 , 𝐹 }, konfigurace, jednocestny, nedeterministicky, akceptacni, nekonecna pamet)
+    - analyza zdola nahoru (chceme dojit k S, postupne slucovani pravidel -> nahrazovani levou stranou)
+    - LR(0) (rekuce/prsun, ctelme zleva doprava a delame nejpravejsi moznou derivaci, tabulka akci, tabulka prechodu (jazyk PDA))
+    - LR polozky (polozka = vrchol zasobniku, tecka = rozhrani mezi zpracovanou a nezpracovanou casti, konflikty (redukce-redukce, presun-redukce))
+    - SLR(k) (presun-redukce: FIRST_k() ∩ FOLLOW_k() = {}, redukce-redukce: FOLLOW_k() ∩ FOLLOW_k() = {})
+    - LALR(k) (lookahead, dedeni lookaheadu + first to co je za teckou, FIRST(to co je za teckou + lookahead) ∩ ... = {}, uprava tabulky akci => symbolu na vstupu + vrchol zasobniku)
+    - LR(k) (nesjednocujeme LR polozky se stejnym jadrem jako u LALR, rozliseni i na zaklade lookahead retezce => "duplicitni polozky")
+    - vyjadrovaci sila LL a LR (|LR| > |LL|, |LR| > |LALR| > |SLR(k)| > |SLR(1)| > |LR(0)|)
+
 25) [Vnitřní jazyky překladače. Interpretace a generování cílového kódu, výhody a nevýhody obou přístupů. [KIV/FJP]](25.md)
+    - mezijazyk (optimalizace, abstrakce JSA, postfix/prefix, jazyk trojic, jazyk ctveric, static single assignment form (verzovani prirazni kazde promenne))
+    - generovani kodu (zavislsot na platforme, zasobnikova architektura, co vse musi prekladac spravovat, generovani vyrazu, if-else, volani podprogramu (navratove adresy - dynamicky, relativni adresovani vuci BP), AZ)
+    - docasne promenne (Temp(a+b), Temp(e1+e2), Temp(ident), Temp(fce(x1, x2, ..) = e))
+    - objektove jazyky (CD, CIR, Dispatch Table, virtualni tabulky, implicitni self/this parametr u metod, relativni adresovani)
+    - intepretace vs preklad (profiling, debugging, dynamicky scope, reflexe, JIT viz Java)
+
 26) [Přidělování paměti pro data programu - způsoby, použití, související datové struktury. Volání podprogramů a předávání parametrů, řešení rekurze a paralelních výpočtů. [KIV/FJP, (KIV/PPR)]](26.md)
