@@ -252,3 +252,14 @@
     - intepretace vs preklad (profiling, debugging, dynamicky scope, reflexe, JIT viz Java)
 
 26) [Přidělování paměti pro data programu - způsoby, použití, související datové struktury. Volání podprogramů a předávání parametrů, řešení rekurze a paralelních výpočtů. [KIV/FJP, (KIV/PPR)]](26.md)
+    - behove prostredi (ALU, cache, Von Neumann / Harvard)
+    - zasobnik vs halva (lokalni promenne vs CIR, tabulka symbolu -> CD, umisteni dat)
+    - staticky vs dynamicky pridelovani pameti
+    - sprava zasobniku (AZ = RA, dynamicky ukazate, staticky ukazatel, SP = BP(RA)-1, BP = dynamicky ukazatel)
+    - predavani paramteru (hodnotou, odkazem, vysledkem)
+    - predavani podprogramu (melka vazba (JavaScript), hluboka vazba (C#), ad-hoc vazba (volani funkce ktera vnitrne vola fukci kterou ji davame jako parametr))
+    - zasobnik a paralelismus (vicero paralelnich zasobniku kde kazdy rizen vlasnitmi AZ, komunikace pres haldu)
+    - ukladani poli (desckriptor pole - velikost pole, typ prvku, pocet dymenzi, baze, velikost jednotlivych dimenzi; mapovaci funkce, kontrola mezi pole (Pascal vs Java vs C))
+    - zpracovani objektovych konstrukci (staticky (CD) vs dynamicky (CIR), dedeni atributu)
+    - alokace dynamicke pameti (RTL - malloc, free; new delete, RAII, implicitni seznamy (pouze velikost), explicitni seznamy (pointery), first fit, next fit, best fit, interni fragmentace, externi fragmentace, slucovani bloku (pri alloc/free))
+    - GC (mark & sweep - neresi fragmentaci, vyuziva 100% pameti, stop & copy - vyuziva 50% pameti, resi fragmentaci, meni pointery)
