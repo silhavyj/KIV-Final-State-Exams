@@ -19,6 +19,14 @@
 
 
 02) [Prvky struktury softwarových systémů v popisu architektury, koncept softwarových komponent a konektorů. Způsoby jejich realizace v konkrétních jazycích/prostředcích.[KIV/SAR]](02.md)
+    - architektura (popis, preskriptivní, deskriptivní, komponenty, konektory)
+    - komponentové modely a frameworky (definice, výhody, nevýhody - závislosti)
+    - konektor (RPC, pipe, sdílená paměť, REST, SOAP, ESB, event)
+      - koordinace, konverze, usnadnění
+      - role: komunikační, řídící, konverzní, facilitační
+      - příklady: Procedure call, event, data access(JDBC), Arbitrator, distributor
+      - Způsob realizace: objekt (OOP), DAO(Spring repository), modul (.c/.h soubory), middleware
+
 03) [Závislosti modulů v sw architekturách, způsob řešení vazeb (dependency resolution), přístup Inversion of Control. Kompatibilita vazeb, kontrakt a Liskov substitution principle. [KIV/SAR, KIV/PIA]](03.md)
 04) [Architektonické styly, architektonické vzory a produktové řady – principy, účel a použití, způsoby
     realizace. [KIV/SAR]](04.md)
