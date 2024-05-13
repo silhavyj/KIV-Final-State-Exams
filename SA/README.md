@@ -45,6 +45,32 @@
 
 04) [Architektonické styly, architektonické vzory a produktové řady – principy, účel a použití, způsoby
     realizace. [KIV/SAR]](04.md)
+    - Architektonický styl (soubor design. rozhodnutí, obecné řešení ne detaily, přenositelný mezi doménama)
+      - monolit
+      - Hlavní program a podprogramy (jazyk C - volání procedur)
+      - Objektově orientovaný styl (java - posílání zpráv, volání metod)
+      - Component-based (Blackbox, glassbox, greybox, whitebox)
+      - Service-oriented architecture (SOAP, XML, WSDL - definice služby)
+      - Mikroservisová architektura (nástupce SOA, mini komponenty)
+      - Vrstvený architektonický styl(Komunikace s vyšší vrstvou) - TCP/IP, klient-server
+      - Filtry a roury (unix shell) - nejslabší komponenta->bottleneck
+      - Dávkově Sekvenční Styl - filtr->filtr->filtr
+      - Black Board - styl tabule,centrální, konzistence dat, př rezervační systém
+      - Rule Based Architecture - znalostní db (ITIL), pravidlo x dotaz x odvození pravidel
+      - Implicit invocation/Publisher-Subscriber - publisher posílá subům
+      - Event-based - viz ESB
+      - Interpreter - parsuje, vykonává příkazy, konektor-stream,data access, př.Excel
+      - Mobile code - remote místo výkonu kódu
+        - code on demand(JS), remote evaluation(validátor), mobile agent(PPR)
+      - Peer-to-peer - komunikace přímo mezi uzly, robustní,rovnost uzlů
+    - Architektonický vzor (doménově specifický)
+      - 3-vrstvá architektura (prezenční, bussiness, datová)
+      - MVC - uživatel->view(HTML/CSS), controler(PHP skript), model(DB)
+      - MVP - vše přes presenter
+      - MVVM - na základě notifikací. př Widget
+      - Sensor-Controller-Actuator - vstup senzor->počítač->motor/ventil
+    - Produktové řady - stejné jádro (stabilní), přidávání změn, př. Auta, iPhone
+
 5) [5. Vícevrstvé a servisně orientované architektury – struktura a vlastnosti, příklady použití a technologie používané pro realizaci. [KIV/SAR, KIV/PIA]](05.md)
 6) [6. Způsoby modelování, vizualizace a dokumentace architektury softwarových systémů a programových rozhraní (API), související standardy. [KIV/SAR, (KIV/ASWI)]](06.md)
 7) [Charakteristiky a metriky kvality softwarové architektury. Metody a nástroje pro analýzu a ověření kvality architektury. [KIV/SAR, (KIV/ASWI)]](07.md)
