@@ -52,7 +52,7 @@
       - Component-based (Blackbox, glassbox, greybox, whitebox)
       - Service-oriented architecture (SOAP, XML, WSDL - definice služby)
       - Mikroservisová architektura (nástupce SOA, mini komponenty)
-      - Vrstvený architektonický styl(Komunikace s vyšší vrstvou) - TCP/IP, klient-server
+      - Vrstvený architektonický styl(Komunikace s vyšší vrstvou) - TCP/IP, klient-server(tlustý, tenký klient)
       - Filtry a roury (unix shell) - nejslabší komponenta->bottleneck
       - Dávkově Sekvenční Styl - filtr->filtr->filtr
       - Black Board - styl tabule,centrální, konzistence dat, př rezervační systém
@@ -72,6 +72,24 @@
     - Produktové řady - stejné jádro (stabilní), přidávání změn, př. Auta, iPhone
 
 5) [5. Vícevrstvé a servisně orientované architektury – struktura a vlastnosti, příklady použití a technologie používané pro realizaci. [KIV/SAR, KIV/PIA]](05.md)
+    - Architektonický styl (soubor design. rozhodnutí, obecné řešení ne detaily, přenositelný mezi doménama)
+      - Service-oriented architecture (SOAP, XML, WSDL - definice služby, HTTPS, izolovanost)
+      - Mikroservisová architektura (modulárnost,izolovanost,škálování,komunikace po síti - režie, bezpečnost)
+      - Vrstvený architektonický styl(Komunikace s vyšší vrstvou) - TCP/IP, klient-server(tlustý, tenký klient)
+        - Klient-Server(tlustý,tenký klient) - Škálovatelnost,oddělení odpovednosti, flexibilita 
+          - Webové, databázový, aplikační, souborový
+      - Architektonický vzor(doménově specifický)
+        - 3-vrstvá architektura (prezenční, bussiness, datová)
+        - MVC - uživatel->view(HTML/CSS), controler(PHP skript), model(DB)
+        - MVP - vše přes presenter
+        - MVVM - na základě notifikací. př Widget
+        - Sensor-Controller-Actuator - vstup senzor->počítač->motor/ventil
+      - Realizace
+        - Prezenční: HTML/CSS, Angular, React
+        - Aplikační: Java-Spring, C#ASP.NET, Python-Django/FastAPI
+        - Datová: SQL(Postgres,MySQL,MariaDB), NoSQL(Cassandra,MongoDB)
+
+
 6) [6. Způsoby modelování, vizualizace a dokumentace architektury softwarových systémů a programových rozhraní (API), související standardy. [KIV/SAR, (KIV/ASWI)]](06.md)
 7) [Charakteristiky a metriky kvality softwarové architektury. Metody a nástroje pro analýzu a ověření kvality architektury. [KIV/SAR, (KIV/ASWI)]](07.md)
 8) [Role architektury v rámci vývoje software, vztah k dalším disciplínám a modelům vývoje. Principy vývoje software řízeného návrhem (MDA, MDD). [KIV/SAR,KIV/ASWII]](08.md)
