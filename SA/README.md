@@ -27,7 +27,22 @@
       - příklady: Procedure call, event, data access(JDBC), Arbitrator, distributor
       - Způsob realizace: objekt (OOP), DAO(Spring repository), modul (.c/.h soubory), middleware
 
+
 03) [Závislosti modulů v sw architekturách, způsob řešení vazeb (dependency resolution), přístup Inversion of Control. Kompatibilita vazeb, kontrakt a Liskov substitution principle. [KIV/SAR, KIV/PIA]](03.md)
+    - Moduly (coupling - provázanost: Tight, Loose), interakce mezi modulami = konector
+    - Inversion of Control - odstranění tight coupling - lepší vývoj, testování, znovupoužitelnost
+      - Lazy, Eager init
+    - Dependency Lookup - závislosti v XML, tabulka..., komponenta sama hledá závislosti
+      - MyClass c = ctx.getBean("myClass");
+    - Dependency Injection
+      - závislosti dohledává framework (Construktor injection (povinný), Setter injection(nepovinný), interface injection)
+    - Kontrakt - dohoda mezi klientem a programátorem
+      - syntaktická, sémantická, synchronizační, kvalitativní
+    - SOLID - Single responsibility, Open-closed principle, Liskov substitution principle, Interface segregation principle, Dependency inversion principle
+        - => lepší spravovatelnost, čitelnost, testování, rozšíření, vývoj
+        - realizace přes návrhové vzory
+
+
 04) [Architektonické styly, architektonické vzory a produktové řady – principy, účel a použití, způsoby
     realizace. [KIV/SAR]](04.md)
 5) [5. Vícevrstvé a servisně orientované architektury – struktura a vlastnosti, příklady použití a technologie používané pro realizaci. [KIV/SAR, KIV/PIA]](05.md)
