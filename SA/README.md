@@ -1,6 +1,23 @@
 ## SA - Softwarové architektury
 
 01) [Principy správného strukturování software (modularita, skrývání informace, separation of concerns, SOLID), způsoby realizace a význam pro kvalitu sw systémů. [KIV/SAR; KIV/OOP]](01.md)
+    - Imperativní(Procedurální) programování (píšeme jak má program dělat) vs deklarativní (SQL, specifikujeme co ale ne jak)
+    - Modularita (rozdělení kódu, testování, čitelnost, znovupoužitelnost, nahrazení)
+    - Skrávání informace (rozhraní x implementace, popis rozhraní, specifikace - verifikace = rozhraní programátor-klient)
+    - Kontrakt (úrovně - syntaktická(hlavička, parametry, výjimky), sémantická (vedlejší efekty, pre/postconditions, bod xy od jakého rohu), synchronizační, kvalitativní)
+    - Separation of concern - oddělení nesouvisejícího kódu, redukce duplicit, udržovatelnost, menší složitost a lepší porozumění,TCP/IP nebo CSS+HTML
+    - SOLID - Single responsibility, Open-closed principle, Liskov substitution principle, Interface segregation principle, Dependency inversion principle
+      - => lepší spravovatelnost, čitelnost, testování, rozšíření, vývoj
+      - realizace přes návrhové vzory
+    - Návrhové vzory 
+      - Creational patterns(vytváření objektů)
+        - Singleton, Lazy Initialization, Abstract Factory, Builder, Object Pool
+      - Structural Patterns (uspořádání tříd)
+        - Proxy, Decorator, Adapter, Facade, Bridge
+      - Behavioral Patterns(komunikace mezi objekty)
+        - Command, Inversion of Control, Iterator, Observer, Mediator
+
+
 02) [Prvky struktury softwarových systémů v popisu architektury, koncept softwarových komponent a konektorů. Způsoby jejich realizace v konkrétních jazycích/prostředcích.[KIV/SAR]](02.md)
 03) [Závislosti modulů v sw architekturách, způsob řešení vazeb (dependency resolution), přístup Inversion of Control. Kompatibilita vazeb, kontrakt a Liskov substitution principle. [KIV/SAR, KIV/PIA]](03.md)
 04) [Architektonické styly, architektonické vzory a produktové řady – principy, účel a použití, způsoby
