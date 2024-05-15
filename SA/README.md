@@ -211,6 +211,15 @@
 
 
 12) [12. Zpracování klientských požadavků na webovém serveru, základní mechanismus a varianty řešení (statický a dynamický obsah). Realizace v různých jazycích a technologiích. [KIV/PIA,(KIV/WEB, KIV/NET)]](12.md)
+    - Webový server(pool vláken, zpracování HTTP)
+    - Statický x dynamický obsah
+    - LAMP(Linux,apache,MySql,PHP), Apache vs Nginx
+    - Java Servlets - třída obsluhující Http požadavek, cyklus zpracování,kontejner
+    - Šablony(teplate engine-thymeleaf,JSP)
+    - Spring(@Controller),Node.JS(JS+Chrome V8 prostředí, Single Page Application)
+    - CGI(jednotné rozhraní, zastaralé, dynamický generování)
+
+
 13) [13. Struktura (architektura) serverové části webové aplikace, související návrhové a architektonické vzory. Předávání dat mezi vrstvami aplikace, techniky pro oddělení  obsahu a prezentace. [KIV/PIA (KIV/WEB)]](13.md)
 14) [14. Tvorba webových aplikací s použitím základních knihoven a pokročilých aplikačních rámců, obsluha požadavků a generování klientské (prezentační) části. Dopady na efektivitu. [KIV/PIA,(KIV/WEB, KIV/NET)]](14.md)
 15) [15. Řešení persistence dat, základní mechanismy. ORM, jeho výhody a nedostatky. Související standardy a technologie. [KIV/PIA]](15.md)
