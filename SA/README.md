@@ -192,6 +192,24 @@
 
 
 11) [11. Struktura klientské části webových systémů, technologie webových stránek pro prezentační a aplikační weby. Zásady pro tvorbu stránek (přístupnost, SEO, ...). [KIV/PIA , (KIV/WEB)]](11.md)
+    - Základní rozdělení
+      - Server Side Render - posílá celou HTML,znovunačtení celé stránky při interakci,horší odezva na vstupy
+      - Client Side Render - generování u klienta, asynchroní získání dat,lepší odezva
+      - kombinace
+    - Prezentační weby - neměnné,HTML+CSS,životopis nebo portfolio,často Server-Side render
+    - Aplikační (dynamické weby)
+      - webové aplikace,zabezpečení(session),HTML,CSS,PHP,JS,JAVA
+    - HTML,XHTML(přísnější, založené na XML), HTML5(multimédia, localstorage,sessinstorage)
+    - CSS(vizuální vzhled, kaskádově přepisované podle pravidel)
+    - PHP
+      - kód přímo v HTML, skript proveden na serveru, multiplatformní
+    - Zásady pro tvorbu webů
+      - Navigace, Přístupnost(i pro mobili), Použitelnost
+    - Search Engine Optimization
+      - snaha mít co nejlepší pozici při vyhledávání
+      - neetické metody: Spamování odkazu na fórech, oklamání botů, skrytý text
+
+
 12) [12. Zpracování klientských požadavků na webovém serveru, základní mechanismus a varianty řešení (statický a dynamický obsah). Realizace v různých jazycích a technologiích. [KIV/PIA,(KIV/WEB, KIV/NET)]](12.md)
 13) [13. Struktura (architektura) serverové části webové aplikace, související návrhové a architektonické vzory. Předávání dat mezi vrstvami aplikace, techniky pro oddělení  obsahu a prezentace. [KIV/PIA (KIV/WEB)]](13.md)
 14) [14. Tvorba webových aplikací s použitím základních knihoven a pokročilých aplikačních rámců, obsluha požadavků a generování klientské (prezentační) části. Dopady na efektivitu. [KIV/PIA,(KIV/WEB, KIV/NET)]](14.md)
