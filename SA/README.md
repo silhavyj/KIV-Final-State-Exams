@@ -167,6 +167,30 @@
       - web 2.0(obsah vytváří uživatelé - fórum)
 
 10) [10. Protokoly pro komunikaci a přenos dat mezi klientskou a serverovou částí webu, řešení zabezpečení a udržování sezení (session), základní funkčnost webového serveru. [KIV/PIA, (KIV/UPS, KIV/WEB)]](10.md)
+    - HTTP/S
+    - Session(stavovost do bezstavového protokolu,data na serveru,mapa/tabulka,info o uživateli,sessionID)
+    - Cookies(data u klienta, sessionID)
+        - správa relací, sledování uživatelů, personalizace stránek
+        - odesílají se všechny s každým http/s, musí odpovídat doména/cesta/protokol
+        - Set-Cookie: name=value
+          - Expires,Domain,Path,Secure(HTTPS only)
+    - HTML WebStorage API
+      - uložené v prohlížeči, neposílají se s požadavky
+      - Session storage, Local storage
+    - Websockety(obousměrná komunikace)
+      - Polling, Long-Polling
+      - založena na TCP, navázání přes HTTP(upgrade connection)
+      - parametry websocket packetu: FIN(konec zprávy),opcode(typ zprávy), payload lenght/data
+    - Heartbeat-kontrola spojení,periodický vs před odesláním požadavku
+    - Ukončení spojení
+    - RESTful WebService
+      - návrhový vzor pro návrh API, není protokol, formáty: XML,JSON,YAML, struktura, bezstavový, operace(GET,PUT..)
+    - HTTP Proxy
+      - nahrazuje IP svojí vlastní IP
+      - Forward(do externí sítě-omezení stránek), Reverse(z externí sítě-load balancer)
+      - X-Forwarded-For(původní IP), X-Forwarded-Host(cílová adresa), X-Forwarded-Proto(prokotol)
+
+
 11) [11. Struktura klientské části webových systémů, technologie webových stránek pro prezentační a aplikační weby. Zásady pro tvorbu stránek (přístupnost, SEO, ...). [KIV/PIA , (KIV/WEB)]](11.md)
 12) [12. Zpracování klientských požadavků na webovém serveru, základní mechanismus a varianty řešení (statický a dynamický obsah). Realizace v různých jazycích a technologiích. [KIV/PIA,(KIV/WEB, KIV/NET)]](12.md)
 13) [13. Struktura (architektura) serverové části webové aplikace, související návrhové a architektonické vzory. Předávání dat mezi vrstvami aplikace, techniky pro oddělení  obsahu a prezentace. [KIV/PIA (KIV/WEB)]](13.md)
