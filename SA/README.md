@@ -71,6 +71,7 @@
       - Sensor-Controller-Actuator - vstup senzor->počítač->motor/ventil
     - Produktové řady - stejné jádro (stabilní), přidávání změn, př. Auta, iPhone
 
+
 5) [5. Vícevrstvé a servisně orientované architektury – struktura a vlastnosti, příklady použití a technologie používané pro realizaci. [KIV/SAR, KIV/PIA]](05.md)
     - Architektonický styl (soubor design. rozhodnutí, obecné řešení ne detaily, přenositelný mezi doménama)
       - Service-oriented architecture (SOAP, XML, WSDL - definice služby, HTTPS, izolovanost)
@@ -91,6 +92,20 @@
 
 
 6) [6. Způsoby modelování, vizualizace a dokumentace architektury softwarových systémů a programových rozhraní (API), související standardy. [KIV/SAR, (KIV/ASWI)]](06.md)
+    - Architektura (popis, preskriptivní(as intended architecture)/deskriptivní(as implemented architecture))
+    - Architektonický model(popis přirozený jazyk, UML, ADL(jazyk pro popis architektur)) - komponenty, konektory, rozhraní, konfigurace, dataflow
+    - UML(struktury, chování, interakce) 
+        - struktury-(Tříd(asociace,agregace,kompozice,dědičnost), komponent, nasazení, balíčků(Java), instancí)
+        - chování -Aktivit, Use Case, Stavový(KA)
+        - interakce-Sekvenční, (komunikace),
+    - Architecture Description Language (formální popis architektur, výhody, nevýhody)
+      - viz. generování překladačů, PIM, PSM
+      - záměření - struktura(komponent,konector,rozhraní), analýza(konzistence, nejednoznačnost, výkon)
+      - požadavky->UML->Implementace
+      - př. AADL(popis SW i HW)
+    - Dokumentace API
+      - JavaDoc,DoxyGen,WSDL(XML),Swagger(YAML/anotace) 
+
 7) [Charakteristiky a metriky kvality softwarové architektury. Metody a nástroje pro analýzu a ověření kvality architektury. [KIV/SAR, (KIV/ASWI)]](07.md)
 8) [Role architektury v rámci vývoje software, vztah k dalším disciplínám a modelům vývoje. Principy vývoje software řízeného návrhem (MDA, MDD). [KIV/SAR,KIV/ASWII]](08.md)
 9) [9. Architektonické principy, standardy a technologie tvořící technický základ WWW, vývoj v této oblasti, důsledky pro tvorbu webových aplikací. [KIV/PIA]](09.md)
