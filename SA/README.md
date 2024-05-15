@@ -107,6 +107,25 @@
       - JavaDoc,DoxyGen,WSDL(XML),Swagger(YAML/anotace) 
 
 7) [Charakteristiky a metriky kvality softwarové architektury. Metody a nástroje pro analýzu a ověření kvality architektury. [KIV/SAR, (KIV/ASWI)]](07.md)
+    - Kvalita(levnější opravit na začátku, primární uživatelské požadavky, vnitřní->vnější)
+    - Opak kvalita - Omyl->Defekt->Chybový stav->selhání
+    - Analýza architektury(zkoumání mimofunčních vlastností systému)
+      - úroveň formálnosti(neformální(sketch) x formální(ADL))
+      - Spustitelná architektura(ADL->graf+implementace)
+      - PoC, PoT
+    - Analyzovatelné vlastnosti architektury
+      - účinnost, složitost, škálovatelnost, přenositelnost, spolehlivost, Dostupnost, Odolnost proti selhání, Možnost přežití
+    - The four "C" - Completeness, Consistency, Compatibility, Correctness
+    - Kategorie analýz - Založené na:
+      - Modelu(ADL, hard vlastnosti)
+      - Simulaci(složité-mnoho parametrů, simulační jazyk)
+      - Inspekci a kontrole(stakeholdeři, soft vlastnosti systému)
+    - ATAM(Architecture Tradeoff Analysis Method)
+      - zmírnění rizika, diskutace se stakeholdery, mimofunkční požadavky
+      - bezpečnost, výkonnost, spolehlivost, modifikace(dynamický škálování podle zátěže)
+
+
+
 8) [Role architektury v rámci vývoje software, vztah k dalším disciplínám a modelům vývoje. Principy vývoje software řízeného návrhem (MDA, MDD). [KIV/SAR,KIV/ASWII]](08.md)
 9) [9. Architektonické principy, standardy a technologie tvořící technický základ WWW, vývoj v této oblasti, důsledky pro tvorbu webových aplikací. [KIV/PIA]](09.md)
 10) [10. Protokoly pro komunikaci a přenos dat mezi klientskou a serverovou částí webu, řešení zabezpečení a udržování sezení (session), základní funkčnost webového serveru. [KIV/PIA, (KIV/UPS, KIV/WEB)]](10.md)
