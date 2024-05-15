@@ -124,9 +124,31 @@
       - zmírnění rizika, diskutace se stakeholdery, mimofunkční požadavky
       - bezpečnost, výkonnost, spolehlivost, modifikace(dynamický škálování podle zátěže)
 
-
-
+    
 8) [Role architektury v rámci vývoje software, vztah k dalším disciplínám a modelům vývoje. Principy vývoje software řízeného návrhem (MDA, MDD). [KIV/SAR,KIV/ASWII]](08.md)
+    - Architektura (popis, preskriptivní(as intended architecture)/deskriptivní(as implemented architecture))
+    - Turbínová vizualizace - množství a typ artefaktů zachycena v čase(požadavky až vývoj a testování)
+      - průřez=zachycení stavu v čase, průměr=množství artefaktů, tělo/vnitřek=typ artefaktu
+    - Proces:
+      - Analýza požadavků(sledování existujících řešení, úplné požavky, levné při návrhu)
+        - Twin Peaks(architektura a požadavky jsou vrcholy->rozvijí se vzájemně)
+      - Design a architektura(popis)
+        - Architecture-Centric design - architektura centrální prvek, zachycení rizik,požadavků
+          - Separation of concern, abstrakce, modularita
+      - Implementace
+        - automatické generování, manuální, outsourcing, middlewaqre, reuse-base
+      - Analýza a testování
+        - zhodnocení kvality, PoC, PoT, ATAM, ověření správnosti
+      - Evoluce a údržba
+    - Degradace architektury (architektonický drift a eroze)
+    - Principy vývoje software řízeného návrhem
+      - Model Driven Development (MDD) - paradigma
+      - Model Driven Architecture (MDA)
+        - PIM (Platform Independent Model)-business logika,chování,přenositelnost, technologická nezávislost
+        - PSM (Platform Specific Model)
+      - PIM(UML)->PSM(.NET)
+
+
 9) [9. Architektonické principy, standardy a technologie tvořící technický základ WWW, vývoj v této oblasti, důsledky pro tvorbu webových aplikací. [KIV/PIA]](09.md)
 10) [10. Protokoly pro komunikaci a přenos dat mezi klientskou a serverovou částí webu, řešení zabezpečení a udržování sezení (session), základní funkčnost webového serveru. [KIV/PIA, (KIV/UPS, KIV/WEB)]](10.md)
 11) [11. Struktura klientské části webových systémů, technologie webových stránek pro prezentační a aplikační weby. Zásady pro tvorbu stránek (přístupnost, SEO, ...). [KIV/PIA , (KIV/WEB)]](11.md)
