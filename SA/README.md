@@ -143,13 +143,29 @@
     - Degradace architektury (architektonický drift a eroze)
     - Principy vývoje software řízeného návrhem
       - Model Driven Development (MDD) - paradigma
-      - Model Driven Architecture (MDA)
+      - Model Driven Architecture (MDA)-oddělení business logiky od implementace
         - PIM (Platform Independent Model)-business logika,chování,přenositelnost, technologická nezávislost
         - PSM (Platform Specific Model)
       - PIM(UML)->PSM(.NET)
 
 
 9) [9. Architektonické principy, standardy a technologie tvořící technický základ WWW, vývoj v této oblasti, důsledky pro tvorbu webových aplikací. [KIV/PIA]](09.md)
+    - WWW(klient(požadavek),server(odpověď),http,tcp/ip,soap,frontend,backend,URI=URL+URN)
+    - vývoj WWW-HTML+CSS,javascript,verze(1.1->1 TCP=soubor,1.2->1 TCP=soubory,1.3->UDP)
+    - Požadavky(GET,HEAD(metadata),POST,PUT,DELETE,TRACE,CONNECT,OPTIONS(endpointy))
+    - Struktura požadavku
+      - hlavička(host,origin,content-type,accept,authorization,content-lenght,cookies)
+      - tělo
+    - HTTP odpověď
+      - stavy(1xx,2xx,3xx,4xx,5xx)
+    - HTTPS(SSL/TLS, symetrická/asimetrická šifra, certifikát, certifikační autorita(let's encrypt))
+    - Důsledky pro vývoj web. aplikací
+      - nejdříve jen PC, postupem mobily, tablety -> responzivní web
+      - omezené technologie- statické weby->dynamické weby
+      - formuláře,interaktivita,databáze,příchod CSS a JS, HTML5(multimédia)
+      - frameworky/knihovny - React,Angular
+      - web 2.0(obsah vytváří uživatelé - fórum)
+
 10) [10. Protokoly pro komunikaci a přenos dat mezi klientskou a serverovou částí webu, řešení zabezpečení a udržování sezení (session), základní funkčnost webového serveru. [KIV/PIA, (KIV/UPS, KIV/WEB)]](10.md)
 11) [11. Struktura klientské části webových systémů, technologie webových stránek pro prezentační a aplikační weby. Zásady pro tvorbu stránek (přístupnost, SEO, ...). [KIV/PIA , (KIV/WEB)]](11.md)
 12) [12. Zpracování klientských požadavků na webovém serveru, základní mechanismus a varianty řešení (statický a dynamický obsah). Realizace v různých jazycích a technologiích. [KIV/PIA,(KIV/WEB, KIV/NET)]](12.md)
