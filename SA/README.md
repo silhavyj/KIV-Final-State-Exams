@@ -229,6 +229,16 @@
 
 
 14) [14. Tvorba webových aplikací s použitím základních knihoven a pokročilých aplikačních rámců, obsluha požadavků a generování klientské (prezentační) části. Dopady na efektivitu. [KIV/PIA,(KIV/WEB, KIV/NET)]](14.md)
+    - Framework(popis, obsah, co řeší, frozen/hot spots)
+      - řeší útoky XSS, CSRF
+      - Angular, Node.JS, Laravel, Symfony, Spring (Boot)
+    - Knihovna - popis, React
+    - Balíčkovací systémy(Composer,NPM,Bower)
+    - Dopady na efektivitu
+      - výhody - rychlejší vývoj,SoC, standard, podpora
+      - nevýhody - ne pro malé apky, režie, znalost, ztráta kontroly, ORM
+
+
 15) [15. Řešení persistence dat, základní mechanismy. ORM, jeho výhody a nedostatky. Související standardy a technologie. [KIV/PIA]](15.md)
 16) [16. Formy integrace na aplikační vrstvě, webové služby. Technologie, příklady realizace. [KIV/PIA, (KIV/EITM)]](16.md)
 17) [17. Základní pojmy a modely v oblasti spolehlivosti a výkonnosti softwarových systémů, jejich příklady a souvislost se specifikací požadavků, návrhem architektury a implementaci. [KIV/VSS,(KIV/ASWI)]](17.md)
