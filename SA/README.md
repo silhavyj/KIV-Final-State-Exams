@@ -221,6 +221,13 @@
 
 
 13) [13. Struktura (architektura) serverové části webové aplikace, související návrhové a architektonické vzory. Předávání dat mezi vrstvami aplikace, techniky pro oddělení  obsahu a prezentace. [KIV/PIA (KIV/WEB)]](13.md)
+    - architektury-monolit,SOA,mikroslužby
+    - základní principy-aplikační vrstvy(UI,business,datová)
+    - Clean Architecture-z vnější dovnitřní(drivers/frameworks->rozhraní->use-case->entities)
+    - Návrhové vzory-MVC, MVP, MVVM, IoC, DI, Aspect-oriented programming
+    - Datová vrstva-DTO, DAO(JDBC,JPA-Hibernate)
+
+
 14) [14. Tvorba webových aplikací s použitím základních knihoven a pokročilých aplikačních rámců, obsluha požadavků a generování klientské (prezentační) části. Dopady na efektivitu. [KIV/PIA,(KIV/WEB, KIV/NET)]](14.md)
 15) [15. Řešení persistence dat, základní mechanismy. ORM, jeho výhody a nedostatky. Související standardy a technologie. [KIV/PIA]](15.md)
 16) [16. Formy integrace na aplikační vrstvě, webové služby. Technologie, příklady realizace. [KIV/PIA, (KIV/EITM)]](16.md)
