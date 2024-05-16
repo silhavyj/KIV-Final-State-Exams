@@ -216,7 +216,7 @@
     - LAMP(Linux,apache,MySql,PHP), Apache vs Nginx
     - Java Servlets - třída obsluhující Http požadavek, cyklus zpracování,kontejner
     - Šablony(teplate engine-thymeleaf,JSP)
-    - Spring(@Controller),Node.JS(JS+Chrome V8 prostředí, Single Page Application)
+    - Spring(@Controller),Node.js(JS+Chrome V8 prostředí, Single Page Application)
     - CGI(jednotné rozhraní, zastaralé, dynamický generování)
 
 
@@ -240,7 +240,30 @@
 
 
 15) [15. Řešení persistence dat, základní mechanismy. ORM, jeho výhody a nedostatky. Související standardy a technologie. [KIV/PIA]](15.md)
+    - Perzistence dat(trvalé uložení dat, dopad na nefunkční požadavky)
+      - Relační - MariaDB,PostgreSQL
+      - NoSQL(Distribuovaný systémy, škálování) - Document-based(MongoDb), Key-Value(Redis), Wide-Column(Cassandra, Graph(Giraph)
+    - Souborový systém(Alfresco)
+    - Základní mechanismy 
+      - manuální(JDBC)
+      - ORM(výhody,nevýhody,plně/částečně generovaný SQL)
+        - problém
+          - Select N+1(Lazy/Eager init)
+          - dědičnost(tabulka=třída, jedna tabulka pro všechno, tabulka(rodič)->potomci samostatně))
+          - public/private 
+        - třídy->tabulky,atributy->sloupce
+        - př: JPA-Hivernate
+
+
 16) [16. Formy integrace na aplikační vrstvě, webové služby. Technologie, příklady realizace. [KIV/PIA, (KIV/EITM)]](16.md)
+    - Webová služba(komunikace mezi apps, SOAP, HTTP, kontrakt, WSDL, ESB)
+    - SOAP(service: registry, provider, requester)
+    - SOA(govenance, lifecycle,Service Integration Maturity Model)
+    - REST(popis, metody(GET,PUT,POST...), formát zpráv, HATEOAS, overfetching)
+    - GraphQL(řešení over/under fetching)
+    - Webové sockety(ws, (long) polling, http connection: upgrade, formát zprávy, Heartbeat, Ukončení spojení)
+
+
 17) [17. Základní pojmy a modely v oblasti spolehlivosti a výkonnosti softwarových systémů, jejich příklady a souvislost se specifikací požadavků, návrhem architektury a implementaci. [KIV/VSS,(KIV/ASWI)]](17.md)
 18) [18. Způsoby zajištění spolehlivosti systému na úrovni hw a sw, spolehlivostní modely. Normy související s tvorbou spolehlivých softwarových systémů. [KIV/VSS]](18.md)
 19) [19. Metody generování náhodných a pseudonáhodných čísel, jejich vlastnosti a omezení, využití náhodných čísel [KIV/VSS].](19.md)
