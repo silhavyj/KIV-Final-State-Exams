@@ -299,6 +299,30 @@
     - testovani generatoru (E(X), D(X), histogram (vizualne), Chi-Square test dobre shody)
 
 20) [20. Modely systémů pro analýzu výkonnosti – sítě front, markovské modely. Abstraktní (formální) reprezentace, možnosti programové realizace. Způsoby využití. [KIV/VSS]](20.md)
+    - makrovske modely
+      - fronta lidi, nemocnice, router, buffery, page rank, SIR modely
+      - neco jako KA ale s ppsti prechodu (nahoda), markovska vlastnost
+      - poisson vs exponencialni rozdeleni, matice ppsti prechodu, matice intenzit prechodu
+      - obecny model odvozeni (podminena ppst prechodu - pij = λ \* dt (dt -> 0); pi(t+dt) = pi(t) - λij \* pi(t) dt)
+      - doba setrvani ve stavu, frekvence pruchodu stavem, frekvence pruchodu hranou
+      - kolmogorovy rovnice (pi(t)' = pi(t) * matice intenzit prechodu, linarne zavisle rovnice => p1 + p2 + p3 = 1; pocatecni podminka, absorpcni stav, absence absorpcniho stavu => pi(t)' = 0 => diferencialni rovnice odpadnou, silne souvisly graf)
+      - priklad dvou procesu a KS, producent-konzument
+    - SHO (aplikace markovskych modelu)
+      - modelovani nemocnic, prapazek na pokladne, krizovatky, atd.
+      - elementarni SHO (schema)
+        - vstupni proud λ (pro pouziti markovskych modelu musi byt: homogeni a ordinalni, pokud nezname => odmerit pro zjisteni statistickych udaju, koeficient variace)
+        - fronta (politika (napr. FIFO), konecne vs omezena, Tw, Lw)
+        - kanal(y) obsluhy μ (koeficient variace, realne vs teoreticke ρ)
+        - vystupni proud (silne zavisi na ρ, stacionarni vs nestacionarni rezim)
+      - zatizeni systemu ρ = 1/m \* λ/μ
+      - Littlovy vzorce (plati zakon zachovani, propojuji cas a delku, Lq = Lw + Ls; Tq = Tw + Ts; Lq = λ \* Tq; plati pouze ve stacionarnim rezimu (fronty nerostou do nekonecna))
+      - Kandellova klasifikace (X/Y/m/I/disc. napr. M/M/1/n/FIFO)
+    - site front
+      - propojeni vicero SHO
+      - otevrene site front (trivialni dosazeni do vzorecku, rovnice toku (velke lambda = zapocitani i zpetnych vazeb), vaha hrany = ppst; vytizeni dilcich SHO = misto male lambdy vezmeme velkou lambdu; stationarni stav = pro ani jeden SHO neni ρ > 1)
+      - uzavrene site front (tezsi analyza, lisi se priklad od prikladu, lepsi skoro az pouzit simulace; viz n terminalu ktere se pripojuji na server)
+    - reprezentace markovskych modelu (matice podminnych ppsti, matice intenzit prechodu, graf)
+  
 21) [21. Softwarové simulace – základní pojmy a techniky, práce s časem. Využití, výhody a nedostatky simulace. [KIV/VSS]](21.md)
 22) [22. Tvorba a parametrizace simulačního modelu, simulace paralelních systémů, okolí simulovaného systému. [KIV/VSS]](22.md)
 23) [23. Hodnocení a metriky výkonnosti, dostupnosti a spolehlivosti softwarových systémů, způsoby získání hodnot, jejich analýza a prezentace. [KIV/VSS, (KIV/VID)]](23.md)
