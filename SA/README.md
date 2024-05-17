@@ -265,6 +265,19 @@
     - obnovovane systemy: silne souvisly graft, konstantni ppst setrvani ve stavech
 
 18) [18. Způsoby zajištění spolehlivosti systému na úrovni hw a sw, spolehlivostní modely. Normy související s tvorbou spolehlivých softwarových systémů. [KIV/VSS]](18.md)
+    - zpusoby zjisteni spolehlivosti
+      - SW (systematicke chyby, testovani - jednotkove, funkci, atd., formalni dokazovani, review, metriky (pokryti testy, ...), oponentura, normy - ISO, MISRA, AUTOSAR, IEEE)
+      - HW (nahodne chyby, redundance, bezpecnost vs cena, horka, studena, tepla zaloha)
+    - poissonovo vs exponencialni rozdeleni
+    - systemy s nezavislymi prvky
+      - seriove zapojeni (nasobime R(t))
+      - parlaleni zapojeni (nasobime Q(t)); + kombinace
+      - stavovy graf (R = R1R2R3 + R1R2Q3 + ...)
+      - root-cause analysis (strom poruch)
+    - systemy se zavislymi prvky
+      - simulace (hod kostkou T = min{t1 + t1', t2 + t2'})
+      - markovske modely (obnovovane vs neobnovovane)
+
 19) [19. Metody generování náhodných a pseudonáhodných čísel, jejich vlastnosti a omezení, využití náhodných čísel [KIV/VSS].](19.md)
 20) [20. Modely systémů pro analýzu výkonnosti – sítě front, markovské modely. Abstraktní (formální) reprezentace, možnosti programové realizace. Způsoby využití. [KIV/VSS]](20.md)
 21) [21. Softwarové simulace – základní pojmy a techniky, práce s časem. Využití, výhody a nedostatky simulace. [KIV/VSS]](21.md)
