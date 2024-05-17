@@ -279,6 +279,25 @@
       - markovske modely (obnovovane vs neobnovovane)
 
 19) [19. Metody generování náhodných a pseudonáhodných čísel, jejich vlastnosti a omezení, využití náhodných čísel [KIV/VSS].](19.md)
+    - vyuziti generovani nahodnych cisel (kryptografie, hry, testovani, simulace - napr. Monte Carlo)
+    - zdroje nahody (statisticke tabulky, fyzikalni generatory, algebraitske generatory)
+    - fyzikalni generator (sum, pocasi, castice, "tiche selhani", /dev/random vs /dev/urandom, /dev/hwrnd)
+    - pseudo-nahodne (vlastnosti: algebraticke, deterministicke, konecne; idealni vlastnosti: mala pamet, velka rychlost, dlouha perioda)
+    - statistika (nahodna velicina, stredni hodnota E(X), rozptyl D(X) vs smerodatna odchylka σ)
+      - diskretni (funkce ppst, kumulativni distribucni fce; hod kostkou)
+      - spojite (funkce hustotu, kumulativni distribucni fce, vyska osoby)
+    - rovnomerne vs kvazirovnomerne rozdeleni
+    - metoda prostrednich radu (nevyhody: akumulace 0 (generovani malych cisel), generovani stejneho cisla)
+    - LCG (multiplikativni, aditivni, prodlouzeni periody, modulo m, volba parametru, rychlost => jedna instrukce, mala pamet)
+    - smisene generatory
+    - Mersenne Twister (vetsi pamet, kryptograficky bezpecny, implementovan v C++, Pythonu, ...)
+    - kryptograficky test generatoru (ppst dalsiho bitu < 50%, nelze zpetne dekryptovat)
+    - trnsformacni metoda (transformace distribucne fce)
+    - vylucovaci metoda (2 generatory, prijmuti/odmitnuti hodnoty, funkce hustoty)
+    - centralni limitni veta (12 LCG, soucet, Sn -= 6)
+    - generovani obecneho diskretniho rozdeleni (viz transformacni metoda)
+    - testovani generatoru (E(X), D(X), histogram (vizualne), Chi-Square test dobre shody)
+
 20) [20. Modely systémů pro analýzu výkonnosti – sítě front, markovské modely. Abstraktní (formální) reprezentace, možnosti programové realizace. Způsoby využití. [KIV/VSS]](20.md)
 21) [21. Softwarové simulace – základní pojmy a techniky, práce s časem. Využití, výhody a nedostatky simulace. [KIV/VSS]](21.md)
 22) [22. Tvorba a parametrizace simulačního modelu, simulace paralelních systémů, okolí simulovaného systému. [KIV/VSS]](22.md)
