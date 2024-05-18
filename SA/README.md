@@ -356,7 +356,6 @@
 
 24) [Techniky měření výkonnostních a zátěžových parametrů software, zajištění opakovatelnosti testů, benchmarking. [KIV/VSS, (KIV/ASWI, KIV/OKS)]](24.md)
     - zakladni pojmy ( system, uzivatel, metrika, zatez, benchmark)
-    - musime merit v kontextu ( 
     - k cemu je to dobry ( srovnavani systemu, spravne planovani atd.)
     - zakladni vlastnosti - opakovatelnost, meritelny vysledek
     - rozdeleni: realne programy, specializovane programy (napodobeniny), synteticke programy (sady instrukci), specificke algoritmy (Erastothenovo sito), jadro systemu.
