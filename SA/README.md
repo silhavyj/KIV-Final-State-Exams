@@ -68,7 +68,7 @@
       - Sensor-Controller-Actuator - vstup senzor->počítač->motor/ventil
     - Produktové řady - stejné jádro (stabilní), přidávání změn, př. Auta, iPhone
 
-5) [5. Vícevrstvé a servisně orientované architektury – struktura a vlastnosti, příklady použití a technologie používané pro realizaci. [KIV/SAR, KIV/PIA]](05.md)
+5) [Vícevrstvé a servisně orientované architektury – struktura a vlastnosti, příklady použití a technologie používané pro realizaci. [KIV/SAR, KIV/PIA]](05.md)
     - Architektonický styl (soubor design. rozhodnutí, obecné řešení ne detaily, přenositelný mezi doménama)
       - Service-oriented architecture (SOAP, XML, WSDL - definice služby, HTTPS, izolovanost)
       - Mikroservisová architektura (modulárnost,izolovanost,škálování,komunikace po síti - režie, bezpečnost)
@@ -86,7 +86,7 @@
         - Aplikační: Java-Spring, C#ASP.NET, Python-Django/FastAPI
         - Datová: SQL(Postgres,MySQL,MariaDB), NoSQL(Cassandra,MongoDB)
 
-6) [6. Způsoby modelování, vizualizace a dokumentace architektury softwarových systémů a programových rozhraní (API), související standardy. [KIV/SAR, (KIV/ASWI)]](06.md)
+6) [Způsoby modelování, vizualizace a dokumentace architektury softwarových systémů a programových rozhraní (API), související standardy. [KIV/SAR, (KIV/ASWI)]](06.md)
     - Architektura (popis, preskriptivní(as intended architecture)/deskriptivní(as implemented architecture))
     - Architektonický model(popis přirozený jazyk, UML, ADL(jazyk pro popis architektur)) - komponenty, konektory, rozhraní, konfigurace, dataflow
     - UML(struktury, chování, interakce)
@@ -142,7 +142,7 @@
         - PSM (Platform Specific Model)
       - PIM(UML)->PSM(.NET)
 
-9) [9. Architektonické principy, standardy a technologie tvořící technický základ WWW, vývoj v této oblasti, důsledky pro tvorbu webových aplikací. [KIV/PIA]](09.md)
+9) [Architektonické principy, standardy a technologie tvořící technický základ WWW, vývoj v této oblasti, důsledky pro tvorbu webových aplikací. [KIV/PIA]](09.md)
     - WWW(klient(požadavek),server(odpověď),http,tcp/ip,soap,frontend,backend,URI=URL+URN)
     - vývoj WWW-HTML+CSS,javascript,verze(1.1->1 TCP=soubor,1.2->1 TCP=soubory,1.3->UDP)
     - Požadavky(GET,HEAD(metadata),POST,PUT,DELETE,TRACE,CONNECT,OPTIONS(endpointy))
@@ -159,7 +159,7 @@
       - frameworky/knihovny - React,Angular
       - web 2.0(obsah vytváří uživatelé - fórum)
 
-10) [10. Protokoly pro komunikaci a přenos dat mezi klientskou a serverovou částí webu, řešení zabezpečení a udržování sezení (session), základní funkčnost webového serveru. [KIV/PIA, (KIV/UPS, KIV/WEB)]](10.md)
+10) [Protokoly pro komunikaci a přenos dat mezi klientskou a serverovou částí webu, řešení zabezpečení a udržování sezení (session), základní funkčnost webového serveru. [KIV/PIA, (KIV/UPS, KIV/WEB)]](10.md)
     - HTTP/S
     - Session(stavovost do bezstavového protokolu,data na serveru,mapa/tabulka,info o uživateli,sessionID)
     - Cookies(data u klienta, sessionID)
@@ -183,7 +183,7 @@
       - Forward(do externí sítě-omezení stránek), Reverse(z externí sítě-load balancer)
       - X-Forwarded-For(původní IP), X-Forwarded-Host(cílová adresa), X-Forwarded-Proto(prokotol)
 
-11) [11. Struktura klientské části webových systémů, technologie webových stránek pro prezentační a aplikační weby. Zásady pro tvorbu stránek (přístupnost, SEO, ...). [KIV/PIA , (KIV/WEB)]](11.md)
+11) [Struktura klientské části webových systémů, technologie webových stránek pro prezentační a aplikační weby. Zásady pro tvorbu stránek (přístupnost, SEO, ...). [KIV/PIA , (KIV/WEB)]](11.md)
     - Základní rozdělení
       - Server Side Render - posílá celou HTML,znovunačtení celé stránky při interakci,horší odezva na vstupy
       - Client Side Render - generování u klienta, asynchroní získání dat,lepší odezva
@@ -201,7 +201,7 @@
       - snaha mít co nejlepší pozici při vyhledávání
       - neetické metody: Spamování odkazu na fórech, oklamání botů, skrytý text
 
-12) [12. Zpracování klientských požadavků na webovém serveru, základní mechanismus a varianty řešení (statický a dynamický obsah). Realizace v různých jazycích a technologiích. [KIV/PIA,(KIV/WEB, KIV/NET)]](12.md)
+12) [Zpracování klientských požadavků na webovém serveru, základní mechanismus a varianty řešení (statický a dynamický obsah). Realizace v různých jazycích a technologiích. [KIV/PIA,(KIV/WEB, KIV/NET)]](12.md)
     - Webový server(pool vláken, zpracování HTTP)
     - Statický x dynamický obsah
     - LAMP(Linux,apache,MySql,PHP), Apache vs Nginx
@@ -210,14 +210,14 @@
     - Spring(@Controller),Node.js(JS+Chrome V8 prostředí, Single Page Application)
     - CGI(jednotné rozhraní, zastaralé, dynamický generování)
 
-13) [13. Struktura (architektura) serverové části webové aplikace, související návrhové a architektonické vzory. Předávání dat mezi vrstvami aplikace, techniky pro oddělení  obsahu a prezentace. [KIV/PIA (KIV/WEB)]](13.md)
+13) [Struktura (architektura) serverové části webové aplikace, související návrhové a architektonické vzory. Předávání dat mezi vrstvami aplikace, techniky pro oddělení  obsahu a prezentace. [KIV/PIA (KIV/WEB)]](13.md)
     - architektury-monolit,SOA,mikroslužby
     - základní principy-aplikační vrstvy(UI,business,datová)
     - Clean Architecture-z vnější dovnitřní(drivers/frameworks->rozhraní->use-case->entities)
     - Návrhové vzory-MVC, MVP, MVVM, IoC, DI, Aspect-oriented programming
     - Datová vrstva-DTO, DAO(JDBC,JPA-Hibernate)
 
-14) [14. Tvorba webových aplikací s použitím základních knihoven a pokročilých aplikačních rámců, obsluha požadavků a generování klientské (prezentační) části. Dopady na efektivitu. [KIV/PIA,(KIV/WEB, KIV/NET)]](14.md)
+14) [Tvorba webových aplikací s použitím základních knihoven a pokročilých aplikačních rámců, obsluha požadavků a generování klientské (prezentační) části. Dopady na efektivitu. [KIV/PIA,(KIV/WEB, KIV/NET)]](14.md)
     - Framework(popis, obsah, co řeší, frozen/hot spots)
       - řeší útoky XSS, CSRF
       - Angular, Node.JS, Laravel, Symfony, Spring (Boot)
@@ -227,7 +227,7 @@
       - výhody - rychlejší vývoj,SoC, standard, podpora
       - nevýhody - ne pro malé apky, režie, znalost, ztráta kontroly, ORM
 
-15) [15. Řešení persistence dat, základní mechanismy. ORM, jeho výhody a nedostatky. Související standardy a technologie. [KIV/PIA]](15.md)
+15) [Řešení persistence dat, základní mechanismy. ORM, jeho výhody a nedostatky. Související standardy a technologie. [KIV/PIA]](15.md)
     - Perzistence dat(trvalé uložení dat, dopad na nefunkční požadavky)
       - Relační - MariaDB,PostgreSQL
       - NoSQL(Distribuovaný systémy, škálování) - Document-based(MongoDb), Key-Value(Redis), Wide-Column(Cassandra, Graph(Giraph)
@@ -242,7 +242,7 @@
         - třídy->tabulky,atributy->sloupce
         - př: JPA-Hivernate
 
-16) [16. Formy integrace na aplikační vrstvě, webové služby. Technologie, příklady realizace. [KIV/PIA, (KIV/EITM)]](16.md)
+16) [Formy integrace na aplikační vrstvě, webové služby. Technologie, příklady realizace. [KIV/PIA, (KIV/EITM)]](16.md)
     - Webová služba(komunikace mezi apps, SOAP, HTTP, kontrakt, WSDL, ESB)
     - SOAP(service: registry, provider, requester)
     - SOA(govenance, lifecycle,Service Integration Maturity Model)
@@ -250,7 +250,7 @@
     - GraphQL(řešení over/under fetching)
     - Webové sockety(ws, (long) polling, http connection: upgrade, formát zprávy, Heartbeat, Ukončení spojení)
 
-17) [17. Základní pojmy a modely v oblasti spolehlivosti a výkonnosti softwarových systémů, jejich příklady a souvislost se specifikací požadavků, návrhem architektury a implementaci. [KIV/VSS,(KIV/ASWI)]](17.md)
+17) [Základní pojmy a modely v oblasti spolehlivosti a výkonnosti softwarových systémů, jejich příklady a souvislost se specifikací požadavků, návrhem architektury a implementaci. [KIV/VSS,(KIV/ASWI)]](17.md)
     - spolehlivost (mimofunkci pozadavky, kvantifikace, metrika (MTBF = MTTF + MTTR), SLA)
       - MTTF = 1 / λ; MTTR = 1 / μ
     - stav systemu ((bez)poruchovy), provoz systemu ((ne)obnovovany, poruchy (systematicke/nahodne), mistake -> fault -> error -> failure)
@@ -264,7 +264,7 @@
     - trik s diferencialnimi rovnicemi = spocitame ppst a cas kazde cesty od zdroje ke stoku => Ts = vazeny prumer
     - obnovovane systemy: silne souvisly graft, konstantni ppst setrvani ve stavech
 
-18) [18. Způsoby zajištění spolehlivosti systému na úrovni hw a sw, spolehlivostní modely. Normy související s tvorbou spolehlivých softwarových systémů. [KIV/VSS]](18.md)
+18) [Způsoby zajištění spolehlivosti systému na úrovni hw a sw, spolehlivostní modely. Normy související s tvorbou spolehlivých softwarových systémů. [KIV/VSS]](18.md)
     - zpusoby zjisteni spolehlivosti
       - SW (systematicke chyby, testovani - jednotkove, funkci, atd., formalni dokazovani, review, metriky (pokryti testy, ...), oponentura, normy - ISO, MISRA, AUTOSAR, IEEE)
       - HW (nahodne chyby, redundance, bezpecnost vs cena, horka, studena, tepla zaloha)
@@ -278,7 +278,7 @@
       - simulace (hod kostkou T = min{t1 + t1', t2 + t2'})
       - markovske modely (obnovovane vs neobnovovane)
 
-19) [19. Metody generování náhodných a pseudonáhodných čísel, jejich vlastnosti a omezení, využití náhodných čísel [KIV/VSS].](19.md)
+19) [Metody generování náhodných a pseudonáhodných čísel, jejich vlastnosti a omezení, využití náhodných čísel [KIV/VSS].](19.md)
     - vyuziti generovani nahodnych cisel (kryptografie, hry, testovani, simulace - napr. Monte Carlo)
     - zdroje nahody (statisticke tabulky, fyzikalni generatory, algebraitske generatory)
     - fyzikalni generator (sum, pocasi, castice, "tiche selhani", /dev/random vs /dev/urandom, /dev/hwrnd)
@@ -298,7 +298,7 @@
     - generovani obecneho diskretniho rozdeleni (viz transformacni metoda)
     - testovani generatoru (E(X), D(X), histogram (vizualne), Chi-Square test dobre shody)
 
-20) [20. Modely systémů pro analýzu výkonnosti – sítě front, markovské modely. Abstraktní (formální) reprezentace, možnosti programové realizace. Způsoby využití. [KIV/VSS]](20.md)
+20) [Modely systémů pro analýzu výkonnosti – sítě front, markovské modely. Abstraktní (formální) reprezentace, možnosti programové realizace. Způsoby využití. [KIV/VSS]](20.md)
     - makrovske modely
       - fronta lidi, nemocnice, router, buffery, page rank, SIR modely
       - neco jako KA ale s ppsti prechodu (nahoda), markovska vlastnost
@@ -323,7 +323,7 @@
       - uzavrene site front (tezsi analyza, lisi se priklad od prikladu, lepsi skoro az pouzit simulace; viz n terminalu ktere se pripojuji na server)
     - reprezentace markovskych modelu (matice podminnych ppsti, matice intenzit prechodu, graf)
   
-21) [21. Softwarové simulace – základní pojmy a techniky, práce s časem. Využití, výhody a nedostatky simulace. [KIV/VSS]](21.md)
+21) [Softwarové simulace – základní pojmy a techniky, práce s časem. Využití, výhody a nedostatky simulace. [KIV/VSS]](21.md)
     - simulacni model (zjednoduseni reality, uroven detailu, verifikace/validace)
     - deleni simulaci
       - dle ucelu (analyticke / virtualni prostredi (simulatory))
@@ -339,7 +339,7 @@
     - nastroje pro tvorbu simulace (prog. jazyky (Java), knihovny (JSim), nastroje (Simulink))
     - simulace markovskych (KS, bariera, randez-vous)
 
-22) [22. Tvorba a parametrizace simulačního modelu, simulace paralelních systémů, okolí simulovaného systému. [KIV/VSS]](22.md)
+22) [Tvorba a parametrizace simulačního modelu, simulace paralelních systémů, okolí simulovaného systému. [KIV/VSS]](22.md)
     - simulacni model (zjednoduseni reality, uroven detailu, overeni modelu = verifikace/validace)
     - tvorba modelu (konceptualni, specifikacni, vypocetni / implementacni)
     - parametrizace (volba rozdeleni + parametry, velikosti front, trvani simulace)
@@ -349,10 +349,10 @@
     - simulace SHO (= stochasticka diskretni udalosti simulace)
     - simulace Markovskych modelu (page-rank, KS, bariera, producent-konzument)
 
-23) [23. Hodnocení a metriky výkonnosti, dostupnosti a spolehlivosti softwarových systémů, způsoby získání hodnot, jejich analýza a prezentace. [KIV/VSS, (KIV/VID)]](23.md)
+23) [Hodnocení a metriky výkonnosti, dostupnosti a spolehlivosti softwarových systémů, způsoby získání hodnot, jejich analýza a prezentace. [KIV/VSS, (KIV/VID)]](23.md)
     - metriky (spojene s mimofunkcnimi pozadavky)
     - cas (reakcni doba, doba odezvy, atd.), vykon (zrychleni - Amdahluv zakon, doba obratky, prutok - pocet pozadavku/s, kapacita - nominalni vs maximalni, efektivika - S(n)/n, vyuzitelnost - Kp (koeficient pohotovosti), pametova narocnost, dostupnost - MTBF = MTTF + MTTR)
     - prezentace vysledku (zalezi na publiku, nepouzivat prilis statistickych pojmu, jasne znazornic co je lepsi/horsi, pocatek v 0, nemichat vice veci dohromady, vhodny typ grafu, nezavisla promenna na ose x, spolehlivostni intervaly, popis os, relativni cisla, atd.)
 
-24) [24. Techniky měření výkonnostních a zátěžových parametrů software, zajištění opakovatelnosti testů, benchmarking. [KIV/VSS, (KIV/ASWI, KIV/OKS)]](24.md)
-25) [25. Metody, modely a nástroje pro statickou a pro dynamickou analýzu software. Použití pro ověření spolehlivosti, výhody a omezení. [KIV/VSS]](25.md)
+24) [Techniky měření výkonnostních a zátěžových parametrů software, zajištění opakovatelnosti testů, benchmarking. [KIV/VSS, (KIV/ASWI, KIV/OKS)]](24.md)
+25) [Metody, modely a nástroje pro statickou a pro dynamickou analýzu software. Použití pro ověření spolehlivosti, výhody a omezení. [KIV/VSS]](25.md)
