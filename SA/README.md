@@ -340,6 +340,15 @@
     - simulace markovskych (KS, bariera, randez-vous)
 
 22) [22. Tvorba a parametrizace simulačního modelu, simulace paralelních systémů, okolí simulovaného systému. [KIV/VSS]](22.md)
+    - simulacni model (zjednoduseni reality, uroven detailu, overeni modelu = verifikace/validace)
+    - tvorba modelu (konceptualni, specifikacni, vypocetni / implementacni)
+    - parametrizace (volba rozdeleni + parametry, velikosti front, trvani simulace)
+    - metoda (pseudo) paralelnich systemu (deterministicky "paralelismus", objekty - aktivni/pasivni, kooperativni planovani = predavani rizeni pomoci resume, kalendar)
+    - zakladni objekty pro simulaci (Link, Head, Process; stavy procesu - aktivni, pasivni, naplanovany, ukonceny)
+    - okoli systemu (vnejsi generovani pozadavku, mockovani, vime o nem neco?)
+    - simulace SHO (= stochasticka diskretni udalosti simulace)
+    - simulace Markovskych modelu (page-rank, KS, bariera, producent-konzument)
+
 23) [23. Hodnocení a metriky výkonnosti, dostupnosti a spolehlivosti softwarových systémů, způsoby získání hodnot, jejich analýza a prezentace. [KIV/VSS, (KIV/VID)]](23.md)
 24) [24. Techniky měření výkonnostních a zátěžových parametrů software, zajištění opakovatelnosti testů, benchmarking. [KIV/VSS, (KIV/ASWI, KIV/OKS)]](24.md)
 25) [25. Metody, modely a nástroje pro statickou a pro dynamickou analýzu software. Použití pro ověření spolehlivosti, výhody a omezení. [KIV/VSS]](25.md)
