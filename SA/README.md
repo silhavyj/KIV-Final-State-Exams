@@ -364,4 +364,22 @@
     - parametry vs faktory
     - analyza vysledku (extremy, prumer, korelace vs kauzalita)
     - podminena pravdepodobnost: senzitivita, specificita testu, prelevance jevu
-26) [Metody, modely a nástroje pro statickou a pro dynamickou analýzu software. Použití pro ověření spolehlivosti, výhody a omezení. [KIV/VSS]](25.md)
+    
+25) [Metody, modely a nástroje pro statickou a pro dynamickou analýzu software. Použití pro ověření spolehlivosti, výhody a omezení. [KIV/VSS]](25.md)
+    - Statická analýza((Ne)výhody, před spuštěním, odhalení chyb-přetečení, dělení nulou, zlepšuje kvalitu SW)
+      - manuální - technická oponentura(1 prezentuje ostatní připomínky), Strukturované procházení, Peer review(nezávislý člověk), párové programování
+      - automatické - Data flow analysis, Cyklomatická složitost(větvení programu), Dodržování standardů
+      - Nástroje - lint, PMD, Misra C
+    - Dynamická analýza(za běhu)
+      - Profilování(whitebox), Benchmarking(blackbox), Ukazatele výkonnosti a spolehlivosti systému, Metriky založené na: chybách, testech, pokrytí
+    - Profilování - optimalizace, externí nástroj, hledání - bottleneck, memory leak, velké objekty
+    - Profiling vs Benchmarking
+    - Pozice profilování - v IDE x po nasazení
+    - Technické podoby profilování
+      - Instrumentace(před spustěním, přidání instrukcí, výhody, nevýhody)
+        - manuální(log.info(""))
+        - zdrojové texty(automaticky doplněné na sledované body)
+        - Překladačem doplněná(Binární instrumentace)
+      - Vzorkování(memory dump, stack trace, instrukce v CPU)
+      - Událostní(přes API)
+    - Výstupy profileru-profil(statický souhrn info), trasování, pamětové statistiky, memory dump
