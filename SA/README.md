@@ -324,6 +324,21 @@
     - reprezentace markovskych modelu (matice podminnych ppsti, matice intenzit prechodu, graf)
   
 21) [21. Softwarové simulace – základní pojmy a techniky, práce s časem. Využití, výhody a nedostatky simulace. [KIV/VSS]](21.md)
+    - simulacni model (zjednoduseni reality, uroven detailu, verifikace/validace)
+    - deleni simulaci
+      - dle ucelu (analyticke / virtualni prostredi (simulatory))
+      - dle chovani (deterministicke (3 telesa) / stochasticke (monte carlo))
+      - dle casu (staticke (vypocet PI) / dynamicke (SHO))
+      - dle reprezentace casu (spojite (let rakety), diskretni (udalostni simulace - kalendar, interpret, command pattern))
+      - dle urovne detailu (makroskopicke (tok silnic), mesoskopicke (kolony), mikroskopicke (auta), nanoskopicke (ridici))
+      - dle typu modelu (analyticke, numericke, logicke (celularni automaty))
+      - hybridni simulace
+    - vyhody pouziti simulace / nevyhody pouziti simulace (kdy je dobre ji pouzit a kdy ne)
+    - zakladni pojmy (entita, stav, aktivita, udalost)
+    - navrh simulacniho modelu (cile, tvorba modelu (validace), navrh experimentu, beh, agregace vysledku, zaver; citlivostni analyza)
+    - nastroje pro tvorbu simulace (prog. jazyky (Java), knihovny (JSim), nastroje (Simulink))
+    - simulace markovskych (KS, bariera, randez-vous)
+
 22) [22. Tvorba a parametrizace simulačního modelu, simulace paralelních systémů, okolí simulovaného systému. [KIV/VSS]](22.md)
 23) [23. Hodnocení a metriky výkonnosti, dostupnosti a spolehlivosti softwarových systémů, způsoby získání hodnot, jejich analýza a prezentace. [KIV/VSS, (KIV/VID)]](23.md)
 24) [24. Techniky měření výkonnostních a zátěžových parametrů software, zajištění opakovatelnosti testů, benchmarking. [KIV/VSS, (KIV/ASWI, KIV/OKS)]](24.md)
