@@ -350,5 +350,9 @@
     - simulace Markovskych modelu (page-rank, KS, bariera, producent-konzument)
 
 23) [23. Hodnocení a metriky výkonnosti, dostupnosti a spolehlivosti softwarových systémů, způsoby získání hodnot, jejich analýza a prezentace. [KIV/VSS, (KIV/VID)]](23.md)
+    - metriky (spojene s mimofunkcnimi pozadavky)
+    - cas (reakcni doba, doba odezvy, atd.), vykon (zrychleni - Amdahluv zakon, doba obratky, prutok - pocet pozadavku/s, kapacita - nominalni vs maximalni, efektivika - S(n)/n, vyuzitelnost - Kp (koeficient pohotovosti), pametova narocnost, dostupnost - MTBF = MTTF + MTTR)
+    - prezentace vysledku (zalezi na publiku, nepouzivat prilis statistickych pojmu, jasne znazornic co je lepsi/horsi, pocatek v 0, nemichat vice veci dohromady, vhodny typ grafu, nezavisla promenna na ose x, spolehlivostni intervaly, popis os, relativni cisla, atd.)
+
 24) [24. Techniky měření výkonnostních a zátěžových parametrů software, zajištění opakovatelnosti testů, benchmarking. [KIV/VSS, (KIV/ASWI, KIV/OKS)]](24.md)
 25) [25. Metody, modely a nástroje pro statickou a pro dynamickou analýzu software. Použití pro ověření spolehlivosti, výhody a omezení. [KIV/VSS]](25.md)
