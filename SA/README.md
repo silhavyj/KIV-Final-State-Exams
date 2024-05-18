@@ -355,4 +355,14 @@
     - prezentace vysledku (zalezi na publiku, nepouzivat prilis statistickych pojmu, jasne znazornic co je lepsi/horsi, pocatek v 0, nemichat vice veci dohromady, vhodny typ grafu, nezavisla promenna na ose x, spolehlivostni intervaly, popis os, relativni cisla, atd.)
 
 24) [Techniky měření výkonnostních a zátěžových parametrů software, zajištění opakovatelnosti testů, benchmarking. [KIV/VSS, (KIV/ASWI, KIV/OKS)]](24.md)
-25) [Metody, modely a nástroje pro statickou a pro dynamickou analýzu software. Použití pro ověření spolehlivosti, výhody a omezení. [KIV/VSS]](25.md)
+    - zakladni pojmy ( system, uzivatel, metrika, zatez, benchmark)
+    - musime merit v kontextu ( 
+    - k cemu je to dobry ( srovnavani systemu, spravne planovani atd.)
+    - zakladni vlastnosti - opakovatelnost, meritelny vysledek
+    - rozdeleni: realne programy, specializovane programy (napodobeniny), synteticke programy (sady instrukci), specificke algoritmy (Erastothenovo sito), jadro systemu.
+    - oblibeny benchmarky: Erastothenovo sito, Whetstone & Dhrystone, Debit/Credit, SPEC Suite, 3DMark
+    - navrh experimentu: nastaveni hranic, volba metriky, vyuzitelna kapacita, spolehlivostni metriky, ukladat raw data
+    - parametry vs faktory
+    - analyza vysledku (extremy, prumer, korelace vs kauzalita)
+    - podminena pravdepodobnost: senzitivita, specificita testu, prelevance jevu
+26) [Metody, modely a nástroje pro statickou a pro dynamickou analýzu software. Použití pro ověření spolehlivosti, výhody a omezení. [KIV/VSS]](25.md)
