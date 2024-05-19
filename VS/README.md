@@ -13,6 +13,16 @@
     - latentni potreba -> pojmenovana potreba -> nakup -> nasazeni -> udrzba (IT, uzivatele, manager, ITIL)
 
 02) [Iterativní vývoj software, jeho prvky a postupy, výhody a nedostatky. Příklady iterativních metodik, jejich složky a fáze. [KIV/ASWI]](02.md)
+    - iterativni vyvoj (schopnost reagovat na menici se pozadavky, nestabilni prostredi, inkrementalni dodavani SW (demo, iteracni release), opakovani aktivit a testovani)
+    - struktura iterace (planovani, zpresnovani pozadavku, implementace, verifikace/validace, review, retrospektiva; uzavrena na zmeny z venci, pevny deadline; faze projektu porad stejne (LOC, LCA, IOC, GA))
+    - UP (napr. RUP - prolinani aktivit, late design breakage, aktivity, role, artefakty)
+    - SCRUM (rizeni riziky a pozadavky od zakaznika, role - product owner, scrum master, team, sprint = jedna iterace, DoD)
+    - XP (mala ceremonie, eliminovani defektu)
+    - planovani (prediktivni (napr. statni zakazky, pevny rozsah) vs adaptivni (dynamicky rozsah), na zaklade zkusenosti, pocker game, analyticky - WBS, MH, story point, CMP, Gantt, PERT => navaznost aktivit; priority - MOSCOW, plan projektu vs plan iterace, product backlog vs iteracni backlog)
+    - rizeni rizik (prime vs neprime)
+    - epics => user stories => tasky
+    - sledovani prubehu iterace (burndown, team velocity)
+
 03) [Definice účelu softwarového produktu. Metody získávání a definice požadavků, související dokumenty, modely a standardy. [KIV/ASWI, (KIV/ZSWI, KIV/EITM)]](03.md)
 04) [Architektura softwarového systému, vztah k požadavkům na systém, formy popisu a modely. Způsoby ověření architektury, pojem „spustitelná architektura“. [KIV/ASWI, KIV/SAR, (KIV/EITM)]](04.md)
 05) [Postupy pro správu a řízení změn v projektu vývoje software, typy a možnosti nástrojů. Souvislost správy změn s ostatními disciplínami vývoje software. [KIV/ASWI, KIV/EITM]](05.md)
