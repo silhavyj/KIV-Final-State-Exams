@@ -3,6 +3,15 @@
 ### KIV/ASWI
 
 01) [Životní cyklus softwarového produktu (informačního systému), jeho modely a jejich charakteristiky. Softwarový proces, jeho klíčové prvky. [KIV/ASWI, (KIV/ZSWI)]](01.md)
+    - zivotni cyklus SW produktu (LCO (vize, PoC, PoT, ramcove pozadavky), LCA (diagramy), IOC (demo, feature-complete), GA (DoD, UAT, prechod do podpoty - L1 (helpdesk), L2 (service desk, admin), L3 (vyvojar)), odstavka)
+    - SW proces (definice, sklada se z aktivit (technicke/podpurne), roli (technicke/manazerske/podpurne), artefaktu (uroven formalnosti))
+    - SW proces vs metodika (definice projektu)
+    - metriky SW procesu (cyklicnost, ceremonie - viz XP, atd.)
+    - stupne volnosti pri planovani (klasicke modely (pevny rozsah, vodopad, V-model) vs iterativni modely (dynamicky rozsah, RUP, agilni metodiky, spiralovy model))
+    - adaptivni metodiky (napr. SCRUM, modifikace dle potreby, komunikace a zpetna vazba od zakaznika)
+    - delivery strategie (one-time, inkrementalni, evolucni, kontinualni - CI/CD)
+    - latentni potreba -> pojmenovana potreba -> nakup -> nasazeni -> udrzba (IT, uzivatele, manager, ITIL)
+
 02) [Iterativní vývoj software, jeho prvky a postupy, výhody a nedostatky. Příklady iterativních metodik, jejich složky a fáze. [KIV/ASWI]](02.md)
 03) [Definice účelu softwarového produktu. Metody získávání a definice požadavků, související dokumenty, modely a standardy. [KIV/ASWI, (KIV/ZSWI, KIV/EITM)]](03.md)
 04) [Architektura softwarového systému, vztah k požadavkům na systém, formy popisu a modely. Způsoby ověření architektury, pojem „spustitelná architektura“. [KIV/ASWI, KIV/SAR, (KIV/EITM)]](04.md)
