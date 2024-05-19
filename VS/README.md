@@ -30,10 +30,22 @@
     - epic (abstraktni) <- user-story <- feature <- task
     - use-case diagram (akteri, preconditions (aktualni stav), trigger, sekvence akci, vysledny stav), model uziti
     - pozadavky na data (logicky vs fyzicky diagram, CRUD matice (kdo co muze))
-    - diagram nasazeni, domenovy model
+    - diagram nasazeni, domenovy model, kontextovy diagram
     - vlastnosti systemu (FURPS+)
 
 04) [Architektura softwarového systému, vztah k požadavkům na systém, formy popisu a modely. Způsoby ověření architektury, pojem „spustitelná architektura“. [KIV/ASWI, KIV/SAR, (KIV/EITM)]](04.md)
+    - LOC = co a proc?; LCA = jak?
+    - SW architektura (hlavni architektonicka rozhodnuti, analogie k staveni domu, komponenty, konektory -> configurace, struktura, chovani, interakce; mimofunkcni pozadavky)
+        - funkci pozadavky => definice komponent, rozhrani a interakce
+        - mimofunkci pozadavky => definice datoveho modelu
+        - 20% vsech pozadavku = architektonicky vyznamne
+    - architektonicky styl vs vzor
+    - 4+1 (logicky (struktura), vyvojovy (technologie, projekty, tymy), fyzicky (nasazeni, kontext), procesni (komunikace, paralelismus); + ostatni)
+    - C4 (= zoomovani -> kontext systemu -> kontejnery (napr. UI + backend) -> komponenty (napr. vrstvy backendu) -> kod (diagramy mapovatelne na kod))
+    - preskriptivni (as intented) vs deskriptivni (as implemented) - drift vs eroze
+    - dokumentace (SAD, oponentura, SoC = validace ze splnuje pozadavky zakaznika)
+    - spustitelna architektura (GCA, automaticke generovani, AADL, model-driven architecture, PIM, PSM)
+
 05) [Postupy pro správu a řízení změn v projektu vývoje software, typy a možnosti nástrojů. Souvislost správy změn s ostatními disciplínami vývoje software. [KIV/ASWI, KIV/EITM]](05.md)
 06) [Správa verzí, základní pojmy a postupy (hlavní vývoj, použití větví, značky). Struktura úložiště pro projekty různé velikosti. Nástroje pro správu verzí, jejich možnosti. [KIV/ASWI]](06.md)
 07) [Měření kvantitativních a kvalitativních charakteristik sw produktu či procesu, metoda GQM, příklady metrik. Využití metrik při řízení a zajištění kvality vývoje. [KIV/ASWI]](07.md)
