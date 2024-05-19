@@ -47,6 +47,13 @@
     - spustitelna architektura (GCA, automaticke generovani, AADL, model-driven architecture, PIM, PSM)
 
 05) [Postupy pro správu a řízení změn v projektu vývoje software, typy a možnosti nástrojů. Souvislost správy změn s ostatními disciplínami vývoje software. [KIV/ASWI, KIV/EITM]](05.md)
+    - konfiguracni management (sklada se z spravy zmen a spravy verzi, ve vsech fazi vyvoje, po GA je hlavnim faktorem rizeni vyvoje)
+    - ticket (submitter, CCB (cross-functional), developer, tester; stavy pozadavku na zmenu - vytvoreny, schvaleny, zamitnuty, naplanovany, uzavreny, overeny => zavisi na metodice; struktura - shrnuti, metadata, popis, log, vstupni data, zavaznost)
+    - nastroje (bug trackery (napr. BugZilla) vs ALM (Jira, Redmine), VCS (ClearCase, Git, atd.))
+    - ITIL (= framework pro ITMS, oprativni rizeni)
+        - incident management (incident) -> problem management, change management (CR), configuration management (CMDB), release managemet (DSL)
+        - plni roli L1 podpory, koordinuje L2 a L3
+
 06) [Správa verzí, základní pojmy a postupy (hlavní vývoj, použití větví, značky). Struktura úložiště pro projekty různé velikosti. Nástroje pro správu verzí, jejich možnosti. [KIV/ASWI]](06.md)
 07) [Měření kvantitativních a kvalitativních charakteristik sw produktu či procesu, metoda GQM, příklady metrik. Využití metrik při řízení a zajištění kvality vývoje. [KIV/ASWI]](07.md)
 
