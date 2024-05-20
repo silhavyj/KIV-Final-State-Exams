@@ -55,6 +55,12 @@
         - plni roli L1 podpory, koordinuje L2 a L3
 
 06) [Správa verzí, základní pojmy a postupy (hlavní vývoj, použití větví, značky). Struktura úložiště pro projekty různé velikosti. Nástroje pro správu verzí, jejich možnosti. [KIV/ASWI]](06.md)
+    - konfiguracni management (sklada se z spravy zmen a spravy verzi, ve vsech fazi vyvoje, po GA je hlavnim faktorem rizeni vyvoje)
+    - prvek konfigurace, granularita verzovani (verzovani komponent -> uplne verzovani (git tagy)), verze (revize vs varianta), verzovani podle stavu vs podle zmen, extenzionalni vs intenzionalni, delta, changeset, tag (label), baseline, codeline
+    - VCS (centralizovany vs distribuovany), pracovni prostor, merge, konvence, branch strategie (RCS, CVS, SVN)
+    - pravidla sestavovani (jednoznacnost, opakovatelnost, uplnost, konzistence; PROJEKT_v2_BUILD2134_20180612; in-house vs remote; maven, cmake)
+    - typy sestaveni (prirustkovy vs uplny; soukromy, integracni, release)
+
 07) [Měření kvantitativních a kvalitativních charakteristik sw produktu či procesu, metoda GQM, příklady metrik. Využití metrik při řízení a zajištění kvality vývoje. [KIV/ASWI]](07.md)
 
 ### KIV/EITM
