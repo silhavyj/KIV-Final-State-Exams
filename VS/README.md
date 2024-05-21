@@ -90,6 +90,27 @@
         - Service Delivery (takticke rizeni, service-level management, financial management, availability managment, capacity management, CMDB, SLA, OLA, UC (underpinning contract), DRP = RPO (napr. denni zalohy) + RTO (napr. obnova do dvou hodin))
 
 10) [Strategické řízení firem, poslání a role IT v organizaci, tvorba strategie IT/IS. Koncepce a metody řízení IT -- Enterprise architektura (EA) a IT governance. [KIV/EITM]](10.md)
+    - podnik (= jednotka ekonomiky), cile (primarni, odvozeny, dilci)
+    - strategicke rizeni (dlouhodobe, poslani podniku (kdo jsme?) = vize (kde chceme byt?) + mise (jak toho dosahneme?), mise = cile (takticke rizeni, SMART cile) + zamery)
+    - tvorba strategie = analyza vnitrniho prostredi, vnejsiho prostredi a zajmovych skupin
+        - analyza vnejsiho prostredi (porterova analyza 5 sile, STEP)
+        - analyza vnitrniho prostredi (bostonska matice (relativni podil na trhu X mira rustu odvetvi; => otazniku -> hvezdy -> dojne kravy -> bidni psi); SWOT (interni - silne/slabe stranky, externi - prilezitosti/hrozby; => strategie vyuziti, hledani, vyhybani, konfrontace))
+        - analyza zajmovych skupin (idenfikace + zjisteni predpokladu, kontexty - kulturni, politicky, eticky; (zanedbatelny, vyznamky) X (nejisty, jisty))
+        - => cilem je si vymezit postaveni na trhu, najit vhodnou strategii
+    - volba strategie (generovani alternativ, brainstorming, porovnani, vyber (prijatelnost, vhodnost, realizovatelnost, poskytnuti vyhody))
+    - organizacni struktura firmy (funkci, divizni, maticova)
+    - produktova vs projektova vrstva
+    - teorie vitality (uzitecna -> efektivni -> stabilni (vice noh businessu) -> flexibilni)
+    - firemni rozhodovani (majority rule, consensus, hirearchicky (chain of command)), role (CEO, CFO, COO, CIO, CTO, CMO, politicke role (napr. generalni reditel, viceprezident, atd.))
+    - rizeni (strategicke, takticke, operativni)
+    - ITS (business strategie, integrace -> vizi, podniku s okolim, technologie, atd.)
+    - stary vs novy model IT (shadow IT - unik dat, bezpecnost, flexibilita)
+    - business strategie (kde jsme? co to znamena? kde chceme byt? jak toho dosahneme? => SMART cile)
+    - role IT v podniku (motor/strojovna, poskytovatel sluzeb, soucast businessu)
+    - EA (urbanisticka koncepce, neni IT disciplina, 4 vrstvy = business -> information -> application -> technology; zachman - 6 pohledu, UML diagramy)
+    - IT governance (management (ITIL) vs governance (COBIT))
+    - COBIT (4 domeny, metriky, mezinarodni framework pro governance, Balanced Scorecards)
+
 11) [Proces akvizice IS/IT systému. Výběrové řízení, poptávka a nabídka, výběr a nákup řešení, studie proveditelnosti, PoC, PoT, poptávkové řízení (RFI, RFP, RFQ).[KIV/EITM]](11.md)
 12) [Projektové a multiprojektové řízení, projektová kancelář, metody hodnocení projektů, PMBOK. [KIV/EITM, (KIV/ASWI)]](12.md)
 13) [Způsoby integrace informačních systémů, přístupy a technologie pro jednotlivé vrstvy. [KIV/EITM, (KIV/PIA)]](13.md)
