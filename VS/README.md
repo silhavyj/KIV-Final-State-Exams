@@ -62,6 +62,16 @@
     - typy sestaveni (prirustkovy vs uplny; soukromy, integracni, release)
 
 07) [Měření kvantitativních a kvalitativních charakteristik sw produktu či procesu, metoda GQM, příklady metrik. Využití metrik při řízení a zajištění kvality vývoje. [KIV/ASWI]](07.md)
+    - vnitrni (architektura, udrzovatelnost, testovatelnost) => vnejsi (bezpecnost, rychlost) kvalita
+    - Six Sigma (-> 99% vyrovku chceme mit v dobre kategorii, hodnoceni kvality vyrobniho procesu; klk % vyrobku spada do naseho chtene intervalu)
+    - opak kvality (error, defekt, chybovy stav, selhani)
+    - drivejsi odstraneni chyb => levnejsi; verifikace vs validace
+    - IDS vs IPS; unit testy, regresni testky, funkci testy, stress testy, smoke testy, monkey testy, staticka analyza kodu
+    - best practices (navrhove vzory, jmenne konvence, formalni proces)
+    - technicka opopentura (moderator, pruvodce, autor, zapisovatel, opnenti), peer-review
+    - metriky (kvantifikace GQM, FURPS+, LOC, pokryti testy, MTBF = MTTF + MTTR, staticka analyza, burndown, velocity) => co merit, jak proc?
+    - GQM (goal, question, metric; napr. zlepsit spravedlnost v ocenovani prace na projektu)
+    - CMMI (initial, managed, defined, quantitatively managed, optimizing)
 
 ### KIV/EITM
 
