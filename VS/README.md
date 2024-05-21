@@ -112,6 +112,18 @@
     - COBIT (4 domeny, metriky, mezinarodni framework pro governance, Balanced Scorecards)
 
 11) [Proces akvizice IS/IT systému. Výběrové řízení, poptávka a nabídka, výběr a nákup řešení, studie proveditelnosti, PoC, PoT, poptávkové řízení (RFI, RFP, RFQ).[KIV/EITM]](11.md)
+    - akvizice IS (latentni potreba, potreba, nakup, nasazeni, provoz; planovani IS, analyza IS, vybere (nakup), dodavka/implementace, podpora, ukonceni)
+    - obchodni parametry dodavky (cas, cena, kvalita => rozsah, TCO = porizovaci naklady + provozni naklady)
+    - studie proveditelnosti (metadata (historie uprav, zkraty, klicova slova, obsah), kontaktni udaje, executive summary, soucastny stav, problem, moznosti reseni (funkcionalita, technologie, SWOT, hruby plan, cena, rizika -> {ppst, dopad} => ignorovat, prijmout (protokol jak resit?), protiopatreni, delegovat))
+    - RFI (case study, studio proveditelnosti, osloveni firem)
+    - poptavka (= RFP) (metadata, zadavatel + kontakt pro dotazy, predmet (preferovane reseni, omezeni, ramcovy casovy a financni odhad), doba/misto plneni, platebni podminky, kriteria hodnoceni, kriteria na uchazece, misto a zpusob doruceni nabidek, povinnosti zadavatel/dodavatel, struktura odpovedi - sablona)
+    - nabidka (= RFQ) (metadata (zadavatel/dodavatel), executive summary, popis reseni, diskuze splneni pozadavku, navrh harmonogramu, cenova nabidka, prilohy - navrh smlouvy o dilo, reference, vypis z rejstriku)
+    - obchodni dokumenty (certifikace (statni, oborova (ISO), vendorova), reference (slepe/zakaznicke), case study)
+    - hodnoceni nabidek (vahy, vzorce, postup znam dopredu, kriteria (tvrda, mekka))
+    - PoT (zameren na technologie, obecna/vygenerovana data) vs PoC
+    - zakon o verejnych zakazkach (transparentnost, utraceni verejnych penez, rozsah (maly rozsah, podlimitni, nadlimitni) => druhy rizeni (zjednodusenne podlimitni, otevrene, uzsi, jednaci rizeni bez uverjneni))
+    - zjednodusenne podlimitni rizeni (predpoklady - zakladni, profesni, ekonomicke, technicke)
+
 12) [Projektové a multiprojektové řízení, projektová kancelář, metody hodnocení projektů, PMBOK. [KIV/EITM, (KIV/ASWI)]](12.md)
 13) [Způsoby integrace informačních systémů, přístupy a technologie pro jednotlivé vrstvy. [KIV/EITM, (KIV/PIA)]](13.md)
 14) [Integrace IS na datové vrstvě, datová pumpa, EDI, proces extrakce, transformace a vložení dat (ETL). [KIV/EITM, KIV/DBM2]](14.md)
