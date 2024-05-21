@@ -76,6 +76,12 @@
 ### KIV/EITM
 
 08) [Postupy a techniky související s nasazením produktu do provozu. Postup vyřazení softwarového produktu z provozu. [KIV/ASWI, (KIV/EITM)]](08.md)
+    - GA milnik (automatizovane nastroje - Docker, Kubernetes, field testing, smoke testy, stress testy, zatezove testy, DoD, post-mortem review)
+    - produkt v provozu (monitorovani, zalohovani, patchovani, L1, L2, L2 podpora, ITIL (incident management, problem management, change management, CMDB, DSL), helpdesk vs servicedesk)
+    - typy udrzby (adaptivni (skalovani), preventivni (monitoring), korektivni (bug-fix), perfektivni (UX))
+    - DEVOPS (CI/CD, automatizace; DEVS (plan, code, build, test) => (release) OPS (deploy, operate, monitor))
+    - odebrani systemu (doziti, zamrazeni investic, akvizice noveho systemu; strategie (big-bang, po etapach, paralelne s nasazovani noveho), aktualizace documentace, migrace dat, archivace)
+
 09) [Přehled činností při provozu sw (IS/IT) produktu. Řízení, dodávka a podpora IT služeb (ITSM), řízení změn a incidentů, související metodiky (ITIL a další). [KIV/ASWI, KIV/EITM]](09.md)
 10) [Strategické řízení firem, poslání a role IT v organizaci, tvorba strategie IT/IS. Koncepce a metody řízení IT -- Enterprise architektura (EA) a IT governance. [KIV/EITM]](10.md)
 11) [Proces akvizice IS/IT systému. Výběrové řízení, poptávka a nabídka, výběr a nákup řešení, studie proveditelnosti, PoC, PoT, poptávkové řízení (RFI, RFP, RFQ).[KIV/EITM]](11.md)
