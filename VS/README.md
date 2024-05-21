@@ -83,6 +83,12 @@
     - odebrani systemu (doziti, zamrazeni investic, akvizice noveho systemu; strategie (big-bang, po etapach, paralelne s nasazovani noveho), aktualizace documentace, migrace dat, archivace)
 
 09) [Přehled činností při provozu sw (IS/IT) produktu. Řízení, dodávka a podpora IT služeb (ITSM), řízení změn a incidentů, související metodiky (ITIL a další). [KIV/ASWI, KIV/EITM]](09.md)
+    - porizeni SW produktu (latentni potreba -> pojemenovana potreba -> vyber/nakup -> nasazeni -> provoz; planovani IS (vnitrni vs vnejsi vlivy) -> analyza IS -> vyber IS (RFP, RFI, krabicove reseni) -> dodavka (viz ASWI) -> podpora (L1, L2, L3) -> provoz (napr. ITIL) -> odebrani systemu)
+    - ITSM (rozhrani pro spravu IT, neni technicky orientovany, dodavani sluzeb zakaznikovi)
+    - ITIL (rika co nerika jak (viz proces vs metodika), implementace ITSM, v2-v5, 8 knih - Service Support & Service Delivery (= zaklad ITILu), infrastructure management, application management, security management, business perspective, atd.)
+        - Service Support (operativni rizeni, incident = neplanovane selhani, service desk, incident management, problem management, znalostni DB, change management, release management (DSL), CMDB)
+        - Service Delivery (takticke rizeni, service-level management, financial management, availability managment, capacity management, CMDB, SLA, OLA, UC (underpinning contract), DRP = RPO (napr. denni zalohy) + RTO (napr. obnova do dvou hodin))
+
 10) [Strategické řízení firem, poslání a role IT v organizaci, tvorba strategie IT/IS. Koncepce a metody řízení IT -- Enterprise architektura (EA) a IT governance. [KIV/EITM]](10.md)
 11) [Proces akvizice IS/IT systému. Výběrové řízení, poptávka a nabídka, výběr a nákup řešení, studie proveditelnosti, PoC, PoT, poptávkové řízení (RFI, RFP, RFQ).[KIV/EITM]](11.md)
 12) [Projektové a multiprojektové řízení, projektová kancelář, metody hodnocení projektů, PMBOK. [KIV/EITM, (KIV/ASWI)]](12.md)
