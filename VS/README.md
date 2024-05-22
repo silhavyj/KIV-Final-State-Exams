@@ -125,6 +125,22 @@
     - zjednodusenne podlimitni rizeni (predpoklady - zakladni, profesni, ekonomicke, technicke)
 
 12) [Projektové a multiprojektové řízení, projektová kancelář, metody hodnocení projektů, PMBOK. [KIV/EITM, (KIV/ASWI)]](12.md)
+    - definice projektu, projektovy trojuhelnik (cas, cena, kvalita => rozsah, projekt vs proces, artefakt, milnik, proces vs metodika (+ priklady - RUP, waterfall, V-model, agilni, atd.), PM)
+    - faze projektu (LCO (vize), LCA (pozadavky, architektura), IOC (MVP, demo), GA/REL (DoD))
+    - kriticke faktory uspechu/neuspechu
+    - PMBOK (mezinarodni standard jak vest projekty, 9 oblasi projektoveho rizeni, pojmy, znalosti, techniky, procesy, atd.)
+        - rozsah (MOSCOW, WBS, typy pozadavku)
+        - cas (PDM, Gantt, PERT, kriticka cesta)
+        - nakladu (sunk cost, prime, neprime, optimalizace)
+        - lidskych zdroju (vzdelavani, nabor, planovani)
+        - kvality (definice kvality -> metriky -> referencni hodnoty -> monitorovani -> korekce/rizeni)
+        - rizik ({ ppst, dopad }; ignorovat, prijmout, protiopatreni, delegovat)
+        - komunikace (RAM, tok predavani informaci)
+        - obstaravani projektu (smlouvy, hodnoceni projektu, vyberove rizeni, CMMI, PPM)
+        - integrace => vsechno dohromady
+    - projektove rizeni (PPM, hlavni ukoly, standardizace procesu/nastroju, PMO - projektova kancelar vs EA)
+    - metody hodnoceni projektu (NPV, ROI, payback analysis, WSM)
+
 13) [Způsoby integrace informačních systémů, přístupy a technologie pro jednotlivé vrstvy. [KIV/EITM, (KIV/PIA)]](13.md)
 14) [Integrace IS na datové vrstvě, datová pumpa, EDI, proces extrakce, transformace a vložení dat (ETL). [KIV/EITM, KIV/DBM2]](14.md)
 15) [Správa dat v podniku (Data Management). Kvalita dat a její řízení, master data management (MDM). Nestrukturovaná podniková data, správa podnikového obsahu (ECM). [KIV/EITM, (KIV/DBM2)]](15.md)
