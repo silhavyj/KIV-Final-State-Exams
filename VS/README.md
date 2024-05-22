@@ -142,6 +142,15 @@
     - metody hodnoceni projektu (NPV, ROI, payback analysis, WSM)
 
 13) [Způsoby integrace informačních systémů, přístupy a technologie pro jednotlivé vrstvy. [KIV/EITM, (KIV/PIA)]](13.md)
+    - duvody pro integraci
+    - integrace na datove vrstve
+        - SQL import, export, data vs informace vs znalost, EDI (EDI via VAN, AS2), ETL (heterogenita zdroju, nastroje, konverze formatu, agregace), kavlita dat (definici kvality -> metriky, monitorovani, rizeni, MDM, MDM server, MD, odstraneni duplicit, validate platnosti)
+    - integrace na aplikacni vrstve
+        - vznik rozhrani (RPC, REST, SOAP, WebServicer, WSDL, konektory, adaptery, middleware, SOA (bezstavovat, znovupouzitelnost, skryvani informace, SOA governance, SIMM, atd.), konceptialni model, ESB (transformace, smerovani, monitoring))
+    - integrace na prezentacni vrstve
+        - portaly (agregace, customizace, autorizace; typy - B2E, B2C, B2B, portlet (UI element); cile - propojit, zlepsit, zrychlit, usetrit, SSO, dashboard)
+        - mashupy, Web 2.0, Low-code, No-code, Pro-code
+
 14) [Integrace IS na datové vrstvě, datová pumpa, EDI, proces extrakce, transformace a vložení dat (ETL). [KIV/EITM, KIV/DBM2]](14.md)
 15) [Správa dat v podniku (Data Management). Kvalita dat a její řízení, master data management (MDM). Nestrukturovaná podniková data, správa podnikového obsahu (ECM). [KIV/EITM, (KIV/DBM2)]](15.md)
 16) [Analytické nástroje pro sledování výkonu organizace, KPI a dashboardy, podpora rozhodování, Business Inteligence (BI). [KIV/EITM, (KIV/DBM2)]](16.md)
