@@ -144,7 +144,7 @@
 13) [Způsoby integrace informačních systémů, přístupy a technologie pro jednotlivé vrstvy. [KIV/EITM, (KIV/PIA)]](13.md)
     - duvody pro integraci
     - integrace na datove vrstve
-        - SQL import, export, data vs informace vs znalost, EDI (EDI via VAN, AS2), ETL (heterogenita zdroju, nastroje, konverze formatu, agregace), kavlita dat (definici kvality -> metriky, monitorovani, rizeni, MDM, MDM server, MD, odstraneni duplicit, validate platnosti)
+        - SQL import, export, data vs informace vs znalost, EDI (point-to-point vs EDI via VAN, AS2, sifrovani, podpisy), ETL (heterogenita zdroju, nastroje, konverze formatu, agregace), kavlita dat (definici kvality -> metriky, monitorovani, rizeni, MDM, MDM server, MD, odstraneni duplicit, validate platnosti)
     - integrace na aplikacni vrstve
         - vznik rozhrani (RPC, REST, SOAP, WebServicer, WSDL, konektory, adaptery, middleware, SOA (bezstavovat, znovupouzitelnost, skryvani informace, SOA governance, SIMM, atd.), konceptialni model, ESB (transformace, smerovani, monitoring))
     - integrace na prezentacni vrstve
@@ -152,6 +152,13 @@
         - mashupy, Web 2.0, Low-code, No-code, Pro-code
 
 14) [Integrace IS na datové vrstvě, datová pumpa, EDI, proces extrakce, transformace a vložení dat (ETL). [KIV/EITM, KIV/DBM2]](14.md)
+    - duvody pro integraci (datova, aplikacni, prezentacni)
+    - SQL export/import, cron, presun dat z ruznych systemu do DW, data -> informace -> znalost
+    - zpusoby - presun souboru, sdilena DB, datove pumpy (ETL), replikace dat, EDI
+    - EDI (komunikace dvema nezavislymi subjekty, stanardni dokumenty, elektronicka podoba, automatizace, formy - point-to-point vs EDI via VAN (HTTP, sifrovani, podpisy, atd.))
+    - datova pumpa = ETL (heterogenni zdroje, "klikaci" nastroje, extrakce (notifikace, inkrementalni, uplna), periodicka, transformace (konverze, agregace, XML -> JSON, cisteni), loading -> naplneni DW/MDM serveru)
+    - data governance (standardizovane formaty, unikanost, overeni vuci autorite, dlouhodoby proces, postup: porozumeni datum, definicie metrik a referencnich hodnot, mereni kvality, MDM, MD (business critical), MDM server)
+
 15) [Správa dat v podniku (Data Management). Kvalita dat a její řízení, master data management (MDM). Nestrukturovaná podniková data, správa podnikového obsahu (ECM). [KIV/EITM, (KIV/DBM2)]](15.md)
 16) [Analytické nástroje pro sledování výkonu organizace, KPI a dashboardy, podpora rozhodování, Business Inteligence (BI). [KIV/EITM, (KIV/DBM2)]](16.md)
 17) [Řízení komunikace a spolupráce v organizaci, workflow, ESN. Business process management (BPM). [KIV/EITM, (KIV/ZIM)]](17.md)
