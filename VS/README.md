@@ -157,9 +157,21 @@
     - zpusoby - presun souboru, sdilena DB, datove pumpy (ETL), replikace dat, EDI
     - EDI (komunikace dvema nezavislymi subjekty, stanardni dokumenty, elektronicka podoba, automatizace, formy - point-to-point vs EDI via VAN (HTTP, sifrovani, podpisy, atd.))
     - datova pumpa = ETL (heterogenni zdroje, "klikaci" nastroje, extrakce (notifikace, inkrementalni, uplna), periodicka, transformace (konverze, agregace, XML -> JSON, cisteni), loading -> naplneni DW/MDM serveru)
-    - data governance (standardizovane formaty, unikanost, overeni vuci autorite, dlouhodoby proces, postup: porozumeni datum, definicie metrik a referencnich hodnot, mereni kvality, MDM, MD (business critical), MDM server)
+    - data governance (standardizovane formaty, unikanost, overeni vuci autorite, dlouhodoby proces, postup: porozumeni datum, definicie metrik a referencnich hodnot, mereni kvality, MDM, MD (business critical), MDM server = Single Source of Truth)
 
 15) [Správa dat v podniku (Data Management). Kvalita dat a její řízení, master data management (MDM). Nestrukturovaná podniková data, správa podnikového obsahu (ECM). [KIV/EITM, (KIV/DBM2)]](15.md)
+    - EDM, data governance, DMBOK, MDM, MD (business critical), Single Source of Truth
+    - kvalita a rizeni dat (standardizace, unikatnost, aktualnost (autorita), integritni omezeni, porozumeni datum, metriky, referencni hodnoty, kontiualni proces)
+    - kvalita dat = pristupnost, spravnost, relevantnost, auktualnost, konzistence, unikatnost
+    - normalni formy
+        - 1 NF (kazdy atribut je automicky (viz 2 telefonni cisla))
+        - 2 NF (kazdy neklicovy attr je plne zavisli na kazdem kandidatnim klici)
+        - 3 NF (vsechny neklicove attr jsou navzajem nezavisle)
+        - BCNF (vsechny attr tvorici primarni klic musi byt nezavisle)
+    - DW <=> Data Mart pomoci ETL = datova pumpa
+    - analyza nad DW (OLAP krychle, dimenzionalni tabulky)
+    - ECM (nestruktorovana data = zaznamy ze schuzek, screenshoty, dokumentace, atd. => chceme zkratit cas vyhledavani; sber (OCR) -> uchovani -> rizeni pristupu -> archivace)
+
 16) [Analytické nástroje pro sledování výkonu organizace, KPI a dashboardy, podpora rozhodování, Business Inteligence (BI). [KIV/EITM, (KIV/DBM2)]](16.md)
 17) [Řízení komunikace a spolupráce v organizaci, workflow, ESN. Business process management (BPM). [KIV/EITM, (KIV/ZIM)]](17.md)
 18) [Přehled problematiky bezpečnosti IT/IS, komplexní přístupy a nástroje pro řízení bezpečnosti [KIV/EITM, (KIV/BIT)]](18.md)
