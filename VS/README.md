@@ -202,6 +202,19 @@
     - typy malwaru (ransomware, spyware, adware, worms, rootkit, keylogger)
 
 19) [Outsourcing IT. Poskytování IT jako služby (ITaaS), výhody a nevýhody cloudových technologií. [KIV/EITM]](19.md)
+    - outsourcing (co se outsourcuje - podpurne metody, BP, vztah mezi poskytovatelem a uzivatelem)
+    - typy: off-shore (indove), on-site (uklizecka), near-shore (nemecko)
+    - duvody: chci (expanze), musim (nemam know-how), zkousim
+    - prinosy: snizeni nakladu, flexibilita, soustredeni se na kriticke cinnosti
+    - rizika: vendor-lockin, overhead, unik citlivych informaci, komunikace, casova pasma
+    - insourcing: nabyti znalosti nazpatek
+    - platebni model (man hour, za kus, pausal, penale)
+    - SLA (definice cinnosti, casovy ramec, QLA, komunikace, zadavani pozadavku, platebni model, definice kvality, zpusob reportingu)
+    - cloud (vyuzivani hw pres internet), cloud vs hosting
+        - chyby: licencni podminky, chyby strategie
+        - vyhody: snadne skalovani, nemusim se starat o hw, podpora 24/7
+        - nevyhody: cena, unik dat, zavislost na poskytovateli
+    - distribucni modely: XaaS, IaaS (servery), PaaS (IDE), SaaS (Microsoft Office), ITaaS (cely IT)
 
 ### KIV/DB2
 
