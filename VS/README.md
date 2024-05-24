@@ -193,6 +193,14 @@
     - socual business (ESN, profily, komentare, viz Facebook, Web 2.0 (neni spojeni s technologii ale s principem pouzivani))
 
 18) [Přehled problematiky bezpečnosti IT/IS, komplexní přístupy a nástroje pro řízení bezpečnosti [KIV/EITM, (KIV/BIT)]](18.md)
+    - safety vs security
+    - security (kontinualni proces, musi byt soucasti navrhu systemu, kompromis - bezpecnost, pohodli, pouzitelnost, zodpovedny clovek = CSO)
+    - oblasti podnikove bezpecnosti (hashovani vs sifrovani, symetricka (EAS, DES, blowfish) vs asymetricka sifra (RSA, ECC), legislativa, zabezpecni site, fishing, OS zabezpeceni, IDM (autentizace vs autorizace))
+    - sledovani bezpecnosti (IDS vs IPS, reaktivni, proaktivni, prediktivni, logy, penetracni testovani)
+    - elektronicky podpis (hash, privatni klic vs verejny klic)
+    - TSL certifikat (obsah, hash, princip overeni spojeni)
+    - typy malwaru (ransomware, spyware, adware, worms, rootkit, keylogger)
+
 19) [Outsourcing IT. Poskytování IT jako služby (ITaaS), výhody a nevýhody cloudových technologií. [KIV/EITM]](19.md)
 
 ### KIV/DB2
