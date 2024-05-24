@@ -183,6 +183,15 @@
     - OLTP processing, Six Sigma
 
 17) [Řízení komunikace a spolupráce v organizaci, workflow, ESN. Business process management (BPM). [KIV/EITM, (KIV/ZIM)]](17.md)
+    - ECM (nestrukturovana data, rychlost vyhledavani dokumentu, funkce - ziskani, sprava, distribuce, archivace)
+    - BPM (systematicke zavadeni a definovani BP; definice procesu = sled akci (workflows) vedouci k nejakemu vysledku)
+        - postup: definice BP => BPMN => BPEL (vyuziva BR)
+        - navrh, modelovani, implementovani, monitorovani, optimalizace
+    - BR ("promenna" typu if then), BRMS, BRE (wrapper, sprava BR)
+    - mereni procesu (z hlediska pridane hodnoty, z hlediska vykonnosti - doba trvani, propustnost)
+    - struktura firmy (funkci, divizni, meticove)
+    - socual business (ESN, profily, komentare, viz Facebook, Web 2.0 (neni spojeni s technologii ale s principem pouzivani))
+
 18) [Přehled problematiky bezpečnosti IT/IS, komplexní přístupy a nástroje pro řízení bezpečnosti [KIV/EITM, (KIV/BIT)]](18.md)
 19) [Outsourcing IT. Poskytování IT jako služby (ITaaS), výhody a nevýhody cloudových technologií. [KIV/EITM]](19.md)
 
