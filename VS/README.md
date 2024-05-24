@@ -173,6 +173,15 @@
     - ECM (nestruktorovana data = zaznamy ze schuzek, screenshoty, dokumentace, atd. => chceme zkratit cas vyhledavani; sber (OCR) -> uchovani -> rizeni pristupu -> archivace)
 
 16) [Analytické nástroje pro sledování výkonu organizace, KPI a dashboardy, podpora rozhodování, Business Inteligence (BI). [KIV/EITM, (KIV/DBM2)]](16.md)
+    - BI (mereni -> SW/HW -> znalosti, rizeni podniku, vizualizace dat, dashboardy)
+    - data -> infomace -> znalost (data mining = AI)
+    - performance management (kde jsme? co to znamena? co a jak upravit? kontinualni analyza v case)
+    - KPI (sledovani cilu, vizualizace v dashboardu = BAM)
+    - OLAP (multidimenzionalita dat, provozni DB => DW, podpora pro BI)
+    - OLAP krychle (dimenze = cas, level = mesic, member = kveten, fact = 15 (neceho); operace - slicing, dicing, drill-up, drill-down, pivoting)
+    - DW (casove nemenny, predmetove orientovany (zakaznik), integrovany, historicky)
+    - OLTP processing, Six Sigma
+
 17) [Řízení komunikace a spolupráce v organizaci, workflow, ESN. Business process management (BPM). [KIV/EITM, (KIV/ZIM)]](17.md)
 18) [Přehled problematiky bezpečnosti IT/IS, komplexní přístupy a nástroje pro řízení bezpečnosti [KIV/EITM, (KIV/BIT)]](18.md)
 19) [Outsourcing IT. Poskytování IT jako služby (ITaaS), výhody a nevýhody cloudových technologií. [KIV/EITM]](19.md)
