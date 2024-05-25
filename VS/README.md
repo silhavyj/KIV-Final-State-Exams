@@ -219,6 +219,15 @@
 ### KIV/DB2
 
 20) [Standardizace vývoje databázové technologie, norma ISO/IEC 9075 – rozšíření možností relačního modelu a trend vývoje databázové technologie - procedurální prostředky v rámci jazyka SQL. Kurzory – definice, klasifikace, použití kurzorů. Uložené procedury a funkce, balíky (packages), kompilace, spouštění. Standard SQL/PSM. [KIV/DB2]](20.md)
+    - norma ISO 9075 (nutne minimum SQL, definice dat, editace dat, vyber dat, pristupova prava, transakce)
+    - relacni model (ACID, silna konzistence, spatny vykon/skalovatelnost, DDL (CREATE, DROP), DML (INSTERT, UPDATE, DELETE))
+    - NoSQL (distribuovane, necentralizaovanost, dynamicke skalovani, BigData (4V), nerelacni datovy model, vysoky vykon, typy - klic-hodnota (Redis, session), dokumentove (MongoDB, XML, JSON), grafove (Neo4J), sloupcove, CAP, ACID vs BASE)
+    - NewSQL (kombinace ACID a BASE, zamezeni nutnosti pouziti specialniho HW)
+    - PL/SQL (zavadeni imperativnosti do jinak deklarativniho jazyka (co? vs jak?), aplikacni logika v DB, integrritni omezeni, FOR, LOOP, IF-THEN, EXCEPTION)
+        - DECLARE (funkce/procedure) AS DECALARE -> BEGIN -> EXCEPTION -> END
+        - kurzory (iterator, implicitni vs explicitni (CREATE, OPEN, FETCH, CLOSE, %FOUND, %NOTFOUND, %ROWCOUNT))
+        - zaznamy (struktura v C), funkce (presne jedna navratova hodna) vs procedura, balicky (analogie k namesace/package, public vs private, stavovy vs bezstavovy, kompilace)
+
 21) [Dynamické a statické SQL, aktivní databáze – charakteristika, význam, příklady využití, porovnání s jinými možnostmi ovládání integrity a konzistence databáze. [KIV/DB2]](21.md)
 22) [Objektové vlastnosti jazyka SQL99, rozšíření datových typů. Vlastnosti objektově orientovaného datového modelu, možnosti použití, porovnání s relačním a objektově-relačním modelem. Standard SQL/OLB. [KIV/DB2]](22.md)
 23) [SQL/MM – multimediální databáze - základní rámec normy ISO/IEC 13249, full-textová data, prostorová data, obrázky (statické i videa). Možnosti dotazování, oblasti využití. XML databáze – charakteristické vlastnosti, výhody a nevýhody. Standard SQL/XML. [KIV/DB2]](23.md)
