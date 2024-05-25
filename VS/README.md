@@ -235,10 +235,17 @@
         - PL/SQL blok spusteni s danou udalosti nad DB objektem (view, table, schema, ...)
         - aktivacni bod (BEFORE/AFTER INSERT OR UPDATE salary ON emplyees -> BEGIN switch END)
         - kontrola integritniho omezeni, pridana rezije, logovani, statistika, business logika
-        - systemove vs DML trigery
+        - systemove (napr. start DB) vs DML trigery
         - prikazove vs radkove triggery (BEFORE prikazovy -> BEFORE radkovy -> SQL -> AFTER radkovy -> AFTER prikazovy)
 
 22) [Objektové vlastnosti jazyka SQL99, rozšíření datových typů. Vlastnosti objektově orientovaného datového modelu, možnosti použití, porovnání s relačním a objektově-relačním modelem. Standard SQL/OLB. [KIV/DB2]](22.md)
+    - SQL/OLB (Object Language Bindings - standard pro integraci SQL v Jave)
+    - objektove vlastnosti SQL99 (motivace, pridavani OOP principu/objektu do SQL, OOSRDB, rekurzivni struktury, slozite transakce, zapouzdreni, ADT, UDT (CREATE TYPE \<name\> AS OBJECT), OID, TYPE vs BODY -> procedure, function, FINAL, NOT FINAL, VARRAY, REF \<adt_name\>)
+    - objektovy vs relacni svet (vazby - one-to-many atd. vs dedicnost)
+    - ORM (JDBC - "kurzor" pristup, JPA (repository), tridy = tabulky, sloupce = atributy, plne automatizovane ORM vs manualni ORM (resi jen mapovani cloupec -> atribut), SELECT N+1, LAZY vs EAGER loading)
+    - problemy ORM (public/private, DTO, dedicnost - kazda trida = 1 tabulka (hodne SQL), vse v 1 tabulka (prazdna pole), zvlast tabulka pro rodice a zvlast pro kazdeho potomka (kompromis))
+    - JOINy (INNER, LEFT, RIGHT, OUTER)
+
 23) [SQL/MM – multimediální databáze - základní rámec normy ISO/IEC 13249, full-textová data, prostorová data, obrázky (statické i videa). Možnosti dotazování, oblasti využití. XML databáze – charakteristické vlastnosti, výhody a nevýhody. Standard SQL/XML. [KIV/DB2]](23.md)
 24) [NoSQL databáze – charakteristika, porovnání ACID a BASE, CAP teorém. Kategorie NoSQL databází na základě datového modelu, příklady architektur. [KIV/DB2]
 ](24.md)
