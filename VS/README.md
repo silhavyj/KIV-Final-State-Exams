@@ -198,7 +198,7 @@
     - oblasti podnikove bezpecnosti (hashovani vs sifrovani, symetricka (EAS, DES, blowfish) vs asymetricka sifra (RSA, ECC), legislativa, zabezpecni site, fishing, OS zabezpeceni, IDM (autentizace vs autorizace))
     - sledovani bezpecnosti (IDS vs IPS, reaktivni, proaktivni, prediktivni, logy, penetracni testovani)
     - elektronicky podpis (hash, privatni klic vs verejny klic)
-    - TSL certifikat (obsah, hash, princip overeni spojeni)
+    - TLS certifikat (obsah, hash, princip overeni spojeni)
     - typy malwaru (ransomware, spyware, adware, worms, rootkit, keylogger)
 
 19) [Outsourcing IT. Poskytování IT jako služby (ITaaS), výhody a nevýhody cloudových technologií. [KIV/EITM]](19.md)
@@ -247,6 +247,20 @@
     - JOINy (INNER, LEFT, RIGHT, OUTER)
 
 23) [SQL/MM – multimediální databáze - základní rámec normy ISO/IEC 13249, full-textová data, prostorová data, obrázky (statické i videa). Možnosti dotazování, oblasti využití. XML databáze – charakteristické vlastnosti, výhody a nevýhody. Standard SQL/XML. [KIV/DB2]](23.md)
+    - klasicke relacni DB vs multimedialni DB (dotaz na uplnou shodu, metrika, porovnani cisel vs porovnani obrazku, semantika, relevantnost)
+    - priklady: obrazove DB, video kolekce, geometricke kolekce, casove rady, audio, biologicke DB, melodie, text
+    - dotazy (klasicky realacni vs multimedialni -> dotaz na uplnou shodu, relevance)
+    - typy MDB: text-base (analotace), content-based (pixely obrazku), hybridni (= kombinace)
+    - modality vyhledavani (dotazovani vs browsing, query-by-example (viz Google images))
+    - kriteria metrikovych vlastnosti (reflexivita, symetrika, pozitivni definitiva, tranzitivita)
+    - 6 casti
+        - full-text (CONTAINTS, SOUNDS-LIKE)
+        - spatial (priklad prostoroveho dotazu: vsechna mesta rozdelena rekou)
+        - general purpose facilities?
+        - still image (porovnavani obrazku, pixel, textura, barva)
+        - data mining (AI, zisk znalosti)
+    - SQL/XML (zalozene na XML, efektivnejsi nez XML-enabled, vyhledvani, atd.)
+
 24) [NoSQL databáze – charakteristika, porovnání ACID a BASE, CAP teorém. Kategorie NoSQL databází na základě datového modelu, příklady architektur. [KIV/DB2]
 ](24.md)
 25) [Problém zpracování velkých dat, Big Data – charakteristické vlastnosti (5V), příklady uvedeného typu dat, alternativy zpracování, princip Map Reduce, Hadoop. [KIV/DB2, (KIV/DBM2, KIV/EITM)]](25.md)
