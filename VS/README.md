@@ -229,6 +229,15 @@
         - zaznamy (struktura v C), funkce (presne jedna navratova hodna) vs procedura, balicky (analogie k namesace/package, public vs private, stavovy vs bezstavovy, kompilace)
 
 21) [Dynamické a statické SQL, aktivní databáze – charakteristika, význam, příklady využití, porovnání s jinými možnostmi ovládání integrity a konzistence databáze. [KIV/DB2]](21.md)
+    - staticke SQL (SQL zname v dobe prekladu, kompilace neni za runtime => efektivnejsi, mensi flexibilita, "bezpecnejsi" (SQL injection))
+    - dynamicke SQL (SQL definovane jako string, binding promennych, kompilace za runtme => pomalejsi, SQL injection, EXECUTE IMMEDIATE <sql_string> USING <x1, ..., xn>)
+    - aktivni DB (triggery)
+        - PL/SQL blok spusteni s danou udalosti nad DB objektem (view, table, schema, ...)
+        - aktivacni bod (BEFORE/AFTER INSERT OR UPDATE salary ON emplyees -> BEGIN switch END)
+        - kontrola integritniho omezeni, pridana rezije, logovani, statistika, business logika
+        - systemove vs DML trigery
+        - prikazove vs radkove triggery (BEFORE prikazovy -> BEFORE radkovy -> SQL -> AFTER radkovy -> AFTER prikazovy)
+
 22) [Objektové vlastnosti jazyka SQL99, rozšíření datových typů. Vlastnosti objektově orientovaného datového modelu, možnosti použití, porovnání s relačním a objektově-relačním modelem. Standard SQL/OLB. [KIV/DB2]](22.md)
 23) [SQL/MM – multimediální databáze - základní rámec normy ISO/IEC 13249, full-textová data, prostorová data, obrázky (statické i videa). Možnosti dotazování, oblasti využití. XML databáze – charakteristické vlastnosti, výhody a nevýhody. Standard SQL/XML. [KIV/DB2]](23.md)
 24) [NoSQL databáze – charakteristika, porovnání ACID a BASE, CAP teorém. Kategorie NoSQL databází na základě datového modelu, příklady architektur. [KIV/DB2]
