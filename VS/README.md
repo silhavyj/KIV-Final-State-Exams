@@ -263,6 +263,18 @@
 
 24) [NoSQL databáze – charakteristika, porovnání ACID a BASE, CAP teorém. Kategorie NoSQL databází na základě datového modelu, příklady architektur. [KIV/DB2]
 ](24.md)
+    - NoSQL (nerelacni datovy model, skalovatelnost, horizontalni skalovani, Open-Source, distribuovana architektura)
+    - ACID (= databazovy system, striktni (pesimisticky), atomicita, konzistence, izolovatnost, durability)
+    - BASE (= BASE = distribuovany system (optimisticky), basically available, soft state, eventually consistent, priblizne odpovedi OK, best effort)
+    - CAP (2/3, konzistence, dostupnost, odolnost proti vypadku site)
+        - CA (LDAP, dvoufazovy commit, Postgres, MySQL (obecne DB na jednom uzlu))
+        - CP (distribuovane DB, MongoDB, vetsinova shoda)
+        - AP (DNS)
+    - kategorie NoSQL DB (klic-hodnota (Redis), dokumentove (MongoDB), grafove (Neo4J), wide-column (Hadoop))
+    - architektura NoSQL dtabazi (paritioning (virtualni nody), deleni (hashing, consistent hashing), replikace, membership (gossip))
+    - konzistence dat (casova znacka, verzovani radku v tabulce, vektorove hodiny)
+    - vyhledavani (query interpret, companion SQL databaze, Scatter-Gather, Distributed B-tree, Distributed trie (Prefix Hashtable))
+
 25) [Problém zpracování velkých dat, Big Data – charakteristické vlastnosti (5V), příklady uvedeného typu dat, alternativy zpracování, princip Map Reduce, Hadoop. [KIV/DB2, (KIV/DBM2, KIV/EITM)]](25.md)
 26) [Distribuované databáze – koncepce distribuovaného databázového systému, replikace a fragmentace dat, distribuovaná správa transakcí. [KIV/DB2]](26.md)
 27) [Temporální databáze, porovnání klasických a temporálních databází, modely času, vztah událostí a času (snapshot), temporální SQL. [KIV/DB2]](27.md)
