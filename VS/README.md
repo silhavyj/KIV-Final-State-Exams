@@ -276,5 +276,13 @@
     - vyhledavani (query interpret, companion SQL databaze, Scatter-Gather, Distributed B-tree, Distributed trie (Prefix Hashtable))
 
 25) [Problém zpracování velkých dat, Big Data – charakteristické vlastnosti (5V), příklady uvedeného typu dat, alternativy zpracování, princip Map Reduce, Hadoop. [KIV/DB2, (KIV/DBM2, KIV/EITM)]](25.md)
+    - 5V (volume, velocity, varienty, veracity, value, musi splnovat alespon 2V)
+    - PPR: IoT, co toje? historie (na starych PC (diskety 1.44 MB)), Kilometer Square Array
+    - EITM: necentralizovana, distribuovana data, nelze alanyzovat beznymi SW v rozumnem case, socialni site, burza, kamery, nestrukturovana data
+    - DS: code-to-data vs data-to-code
+    - zpusoby ukladani big data - data lake vs DW/Data Mart (LOB), ETL, strukturovana vs semi-strukturovana vs binarni data
+    - Hadoop (HDFS, Yarn, open-source, velke mnozstvi malych PC, ekosytem/framework, zaklad je distribuovany FS, vyuziva Map-Reduce)
+    - Map-Reduce (obecny koncept distribuovaneho zpracovani, funkce map-shuffle-reduce (viz pocitani vysytu slov kocka, pes, krava, atd.))
+
 26) [Distribuované databáze – koncepce distribuovaného databázového systému, replikace a fragmentace dat, distribuovaná správa transakcí. [KIV/DB2]](26.md)
 27) [Temporální databáze, porovnání klasických a temporálních databází, modely času, vztah událostí a času (snapshot), temporální SQL. [KIV/DB2]](27.md)
