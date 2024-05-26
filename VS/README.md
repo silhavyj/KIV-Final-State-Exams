@@ -285,4 +285,14 @@
     - Map-Reduce (obecny koncept distribuovaneho zpracovani, funkce map-shuffle-reduce (viz pocitani vysytu slov kocka, pes, krava, atd.))
 
 26) [Distribuované databáze – koncepce distribuovaného databázového systému, replikace a fragmentace dat, distribuovaná správa transakcí. [KIV/DB2]](26.md)
+    - DS (nezavisla mnozina uzlu, komunikace po siti, HW nezavislot, dojem jednoho systemu, decentralizace)
+    - pozadavky na idealni DDBS (nevislost na HW (heterogenita), lokalite dat, fragmentaci, spohelivost, skalovatelnost, atd.)
+    - nevyhody DDBS (drazsi, horsi migrace dat, slozitejsi udrzba)
+    - taxonomie (tesna integrace, poloautonomie, uplna izolace)
+    - distribuovana transakce (podtransakce, stavy: active, ready to commit, commit, abort, failed, commited, atd., dvoufazovy commit, trifazovy commit, transakcni model (Transakcni-Manager (begin, RW, end, commit, abort), Trasnakcni-Planovac))
+    - Concurrency Control (tridy algoritmu - vzajemne vylouceni = zamykani vs sada pravidel pro rizeni transakci; dvoufazove zamykani, dvoufazove striktni zamykani)
+    - typy transparence: datova, sitova, replikacni, fragmentacni
+    - fragmentace (datova lokalita, rychlost odezvy, selekce (radky) vs projekce (sloupce))
+    - replikace (spolehlivost, synchronni (soucast transakce) vs asynchronni (periodicke vs s operaci read), provedeni -> DML vs zmenene radky vs cela tabulka, master-slave (zmeny jen u mastera, repliky read-only vs zmena kdekoliv))
+
 27) [Temporální databáze, porovnání klasických a temporálních databází, modely času, vztah událostí a času (snapshot), temporální SQL. [KIV/DB2]](27.md)
