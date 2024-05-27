@@ -296,3 +296,21 @@
     - replikace (spolehlivost, synchronni (soucast transakce) vs asynchronni (periodicke vs s operaci read), provedeni -> DML vs zmenene radky vs cela tabulka, master-slave (zmeny jen u mastera, repliky read-only vs zmena kdekoliv))
 
 27) [Temporální databáze, porovnání klasických a temporálních databází, modely času, vztah událostí a času (snapshot), temporální SQL. [KIV/DB2]](27.md)
+    - motivace (cas je pritomen v mnoha realnych systemech - skladova evidence, brani leku, atd.)
+    - klasicke DB (nepodporuji cas, rucni casova nadstavba => potencialni chyby pri psani dotazu (manualne, trivialni))
+    - temporalni DB (podporuji implicitne praci s casem - BETWEEN, PRECEDES, SUCCEEDS, OVERLAP => mene chyb v aplikacnim kodu)
+    - temporalni projekce (jako projekce v klasickych DB = podmnozina atributu (sloupcu), plati-od X plati-do)
+    - temporalni spojeni (particializace - casovy join v temporalnich DB)
+    - modely casu (omezeny/nekonecny, absolutni/relativni)
+        - dle usporadani (linearni, vetveny, cyklicky (7 dni v tydnu))
+        - dle hustoty (diskretni, husty (racionalni cisla -> zlomky), spojity (realna cisla))
+        - chronon = "zakladni jednotka" (neni to okamzik ale doba)
+    - datove typy pro cas (okamzik (DATE, TIME, TIMESTAMP), usek (15:30-15:50), interval (30 min))
+    - cas platnosti vs cas transakce (datove modely - snapshot, valid time, transaction time)
+    - bitemporalni vs temporalni DB
+    - priklady temporalnich datovych modelu (segevuv (okamzik casu platnosti), sardum (intervaly casu platnosti))
+    - temporalni SQL (BETWEEN x AND y, AS OF, CONTAINED IN, OVERLAP, PRECEDES / SUCCEEDS)
+        - restrukturalizace (temporalni projekce) vs particializace (join dle casu)
+        - "kdo mel (ma) brat nejaky lek dele nez 6 mesicu (v souhrnu)?"
+        - "Jake leky mela Marie predepsane v roce 1996?"
+        - "jake bylo nejdelsi obdobi kdy davka Proventilu pro Marii rostla"
