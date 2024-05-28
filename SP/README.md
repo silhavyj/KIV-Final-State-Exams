@@ -45,7 +45,7 @@
     - stavy vlakna (zjednoduseni vs realita - SMP, afinita)
     - stavove fronty (prosovani ukazatele na PCB)
     - planovac (RR, RR s prioritama, staticka vs dynamicka priorita)
-    - Linux planovac (Active, Expired, epocha, => CPF - red/black, vrtuntime)
+    - Linux planovac (Active, Expired, epocha, => CPF - red/black, vrtuntime, 140 statických priorit=0-99 real-time task, 100-139 normal task
     - Windows (RR s prioritami - staticka + dynamicka)
 
 06) [Meziprocesová synchronizace – princip a implementace semaforu, mutexu, roury, zpráv a signálů. [KIV/OS]](06.md)
