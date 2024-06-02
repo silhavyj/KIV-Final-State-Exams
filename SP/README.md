@@ -1,5 +1,11 @@
 ## SP - Systémové programování
 
+- nahradni otázka -> stejna sada, ale klidne jiny predmet (spise stejny)
+- OS/PPR - random, ale hlavne procesy, mezi procesova komunikace, jadro a planovani, systemove volani, spurious wakeup, multithreading spise ne
+- FJP - rekurzivni sestup spise ne, hodne pravdepodobne gramatiky zpusob prekladu a konstrukci jazyka??
+
+---
+
 ### KIV/OS
 
 01) [Jádro operačního systému a uživatelský režim procesu, zavedení vybraného typu jádra a uživatelského procesu. [KIV/OS, (KIV/ZOS)]](01.md) **[ pravdepodobne, koutny ]**
