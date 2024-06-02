@@ -2,7 +2,7 @@
 
 ### KIV/OS
 
-01) [Jádro operačního systému a uživatelský režim procesu, zavedení vybraného typu jádra a uživatelského procesu. [KIV/OS, (KIV/ZOS)]](01.md)
+01) [Jádro operačního systému a uživatelský režim procesu, zavedení vybraného typu jádra a uživatelského procesu. [KIV/OS, (KIV/ZOS)]](01.md) **[ pravdepodobne, koutny ]**
     - co je OS (planovani procesu + rizeny pristup ke zdrojum)
     - jadro kernelu (co to je, zavedeni, interface - syscally, typy jadra)
     - uzivatelsky proces (CPL0, RTL, privelegovani instrukce, bootstrap)
@@ -29,7 +29,7 @@
     - IO/zarizeni (IRQ, PIC, PMOI, MMIO - backplane bus, Linux VFS - vse se tvari jako soubor)
     - komunikace s I/O (prime, radic (+ preruseni), DMA, ovladac)
 
-04) [Vlákna na symetrickém multiprocesoru, jejich synchronizace a implementace. [KIV/OS]](04.md)
+04) [Vlákna na symetrickém multiprocesoru, jejich synchronizace a implementace. [KIV/OS]](04.md) **[ pravdepodobne ]**
     - vlakno (co to je - planovaci jednotka? implementace TCB + obsah TCB, crt0)
     - concurrency vs parallelism
     - kooperativni (napr. MS-DOS, yield) vs preemtivni planovani (IRQ0, kontext switch, TSS)
@@ -39,7 +39,7 @@
     - stavove fronty vlakna
     - kernelova vs userspace vlakna (RTL planovac, kernel planovac)
 
-05) [Plánovač – Process Control Block, Thread Control Block, stavová fronta a algoritmus plánovače. [KIV/OS, (KIV/ZOS)]](05.md)
+05) [Plánovač – Process Control Block, Thread Control Block, stavová fronta a algoritmus plánovače. [KIV/OS, (KIV/ZOS)]](05.md) **[ pravdepodobne ]**
     - PCB (struktura - co obsahuje, afinita, ACL, ...)
     - TCB ve Windows (TEB, TLS = Thread Local Storage)
     - stavy vlakna (zjednoduseni vs realita - SMP, afinita)
@@ -48,7 +48,7 @@
     - Linux planovac (Active, Expired, epocha, => CPF - red/black, vrtuntime, 140 statických priorit=0-99 real-time task, 100-139 normal task
     - Windows (RR s prioritami - staticka + dynamicka)
 
-06) [Meziprocesová synchronizace – princip a implementace semaforu, mutexu, roury, zpráv a signálů. [KIV/OS]](06.md)
+06) [Meziprocesová synchronizace – princip a implementace semaforu, mutexu, roury, zpráv a signálů. [KIV/OS]](06.md) **[ hodne pravdepodobne ]**
     - k cemu je meziprocesova komunikace
     - spinlock (= jedina moznost synchronizace, implementovano v userspace - RTL)
     - semafor (struktura - co obsahuje, kod, Acquire (while (counter == 0)), TryAcquire, Release, notify_all_threads, binarni semafor)
@@ -80,7 +80,7 @@
     - VT-d (routovani I/O mezi virtualizovanymi OS)
     - VfA (vSMP, VMM, sitove uzly)
 
-09) [Systémy reálného času - typy úloh, plánování a rizika. [KIV/OS]](09.md)
+09) [Systémy reálného času - typy úloh, plánování a rizika. [KIV/OS]](09.md) **[ hodne pravdepodobne ]**
     - non-real-time, soft-real-time, hard-real-time
     - terminologie (task, job, plan, parametry (ai, ci, si, fi), odvozene parametry Di, Ri, ...)
     - typy tasku (periodicky, aperiodicky, sporadicky)
@@ -113,7 +113,7 @@
     - SoA a AoS (usporadni pameti -> linerarni uruychleni jen teoreticke!!)
     - segmented scan (maska, custom operator, reset algoritmu)
 
-13) [Programové prostředky pro multithreading – POSIX, WinAPI, C++11 (s využitím STL a RAII). [KIV/PPR]](13.md)
+13) [Programové prostředky pro multithreading – POSIX, WinAPI, C++11 (s využitím STL a RAII). [KIV/PPR]](13.md) **[ spise NEpravdepodobne ]**
     - POSIX (kontrakt funci .h, objekty + atributy, mapovani POSIX na WinAPI)
     - WinAPI
         - Job
@@ -152,7 +152,7 @@
     - SYCL (jeden codebase, vice backendu, programovaci model)
     - DPC++ (= Data Parallel C++, implementace SYCL od Intelu, soucasti OneAPI toolkitu)
 
-16) [Spurious wakeup – charakteristika a ošetření. Rendez-Vous, vč. konstrukce “select” v jazyce Ada a jejího porovnání s Java monitorem. [KIV/PPR]](16.md)
+16) [Spurious wakeup – charakteristika a ošetření. Rendez-Vous, vč. konstrukce “select” v jazyce Ada a jejího porovnání s Java monitorem. [KIV/PPR]](16.md) **[ pravdepodobne, spurious wakeup ]**
     - spurious wakeup (falesne vzbuzeni, notify_all, rezie, notify_one + signal = problem, reseni ne v kernelu ale userpacu (if => while))
     - Ada (historie, popis jazyka, zpusob synchronizace, tasky, subtasky, begin end = telo tasku)
     - Entry (blokujici - ceka na accept = bod setkani = randez-vous)
@@ -178,7 +178,7 @@
 
 ### KIV/FJP
 
-18) [Základní struktura překladače, datové struktury potřebné pro překlad. [KIV/FJP]](18.md)
+18) [Základní struktura překladače, datové struktury potřebné pro překlad. [KIV/FJP]](18.md) **[ pravdepodobne, lexikalni analyza ]**
     - vyuziti prekladacu (IDE, SQL, MS Word, silikon)
     - vicevrstvy prekladac (LLVM, frontend, backend)
     - struktura prekladace vs interpretu
@@ -190,21 +190,21 @@
     - optimalizator (kde, cile, priklady (inlining, zjednoduseni algebry, autovekrotizace, mrtvy kod)
     - generovani kodu (jazyk trojic, jazyk ctveric)
 
-19) [Definice regulární gramatiky, vztah regulárních gramatik a konečných automatů, implementace automatu, způsoby a příklady využití. Nástroje pro práci s regulárními výrazy. [KIV/FJP]](19.md)
+19) [Definice regulární gramatiky, vztah regulárních gramatik a konečných automatů, implementace automatu, způsoby a příklady využití. Nástroje pro práci s regulárními výrazy. [KIV/FJP]](19.md) **[ pravdepodobne ]**
     - gramatika (definice - G = (𝑁, Σ, 𝑃, 𝑆), prepisovaci pravidla, L(G), derivace, vetna forma, slovo/veta)
     - klasifikace gramatik (viz tvar prepisovacich pravidel, rekurzivne spocetna, kontextova, bezkontextova, regularni (typ 3), podmnoziny, BNF)
     - regularni gramatiky (prava + leva = gramatika typu 2, nedostatky KA, NKA vs DKA (prevod - obraceni pravidel, nakreslit, obratit hrany, NDK na DKAm, nakreslit))
     - regularni vyrazy (konkantenace ab, sjednoceni a+b, uzavera a*, vylepsni - a?, a{4}, popis tokenu lexeru, validace vstupu (email, ip), formalni struktura lexeru (= automaticke generovani, paralelni DKA))
     - implementace DKA (= tabulka prechodu, curr_state = [curr_state, next_intput])
 
-20) [Definice bezkontextové gramatiky, vztah bezkontextové gramatiky a obecného zásobníkového automatu. Využití bezkontextových gramatik. Nástroje pro generování automatu a překladače, jejich výhody a omezení. [KIV/FJP]](20.md)
+20) [Definice bezkontextové gramatiky, vztah bezkontextové gramatiky a obecného zásobníkového automatu. Využití bezkontextových gramatik. Nástroje pro generování automatu a překladače, jejich výhody a omezení. [KIV/FJP]](20.md) **[ pravdepodobne, zasobnikovy automat ]**
     - bezkontextove gramatiky (definice, tvar prepisovaciho pravidla)
     - obecny zasobnikovy automat (𝑃𝐷𝐴 = { 𝑄, Σ, Γ, 𝛿, 𝑞0 , 𝑧0 , 𝐹 }, schema, pamet, konfigurace, vlastnosti (jednocestky, nedeterministiky - backtracking, akceptacni), kazda BKG lze prevest do GNF => lze sestavit jednoduchy LL(1) ale n^4 pravidel)
     - GNF (= Greinbachove Normalni forma, S -> e, prave strany zacinaji neterminalnem, ruzny 1. neterminal pravych stran)
     - analyza shora dolu (first-first kolize (leva faktorizce/vytikani), first-folow (pohlceni terminalu) kolize, FIRST (E.), FOLLOW(E -> E.))
     - analyza zdole nahoru (reduce-reduce kolize, shift-reduce kolize, SLR(k), LALR(k))
 
-21) [Metody syntaktické analýzy. Výhody a nevýhody rekurzivního sestupu. [KIV/FJP]](21.md)
+21) [Metody syntaktické analýzy. Výhody a nevýhody rekurzivního sestupu. [KIV/FJP]](21.md) **[ jedna ze zachrannych otazek ]**
     - gramatika (G = (𝑁, Σ, 𝑃, 𝑆), obecny tvar prepisovacich pravidel, L(G), derivace (prava/leva), vetna forma, slovo, fraze vzhledem k F)
     - viceznacnost gramatiky (nutna podminka, postup odstraneni, NP problem, priorita vyhodnocovani derivacniho stromu)
     - syntakticka analyza (shora dolu, ze spoda, backtracking, rekurzivni sestup, zasobnikovy automat)
@@ -227,14 +227,14 @@
     - transformace gramatiky (GNF (n^4), duvody = odstraneni kolizi, zacykleni pri reseni first-first nebo first-follow kolizi)
     - ulohy algoritmicky nerozhodnutelne (nalezeni ekvivalentni jednoznacne gramatiky)
 
-23) [Využití zásobníkového automatu k analýze shora dolů. Konstrukce deterministického automatu, vhodný tvar gramatiky. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](23.md)
+23) [Využití zásobníkového automatu k analýze shora dolů. Konstrukce deterministického automatu, vhodný tvar gramatiky. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](23.md) **[ pravdepodobne, zasobnikovy automat ]**
     - zasobnikovy automat (𝑃𝐷𝐴 = { 𝑄, Σ, Γ, 𝛿, 𝑞0 , 𝑧0 , 𝐹 }, konfigurace, jednocestny, nedeterministicky, akceptacni, nekonecna pamet)
     - analyza shora dolue (redukce/srovnani, GNF (definice), implementace tabulky prechodu, FIRST, FOLLOW)
     - LL analyzator (FIRST(α U FOLLOW(A)) ∩ FIRST(β U FOLLOW(A), nesmi obsahovat levou rekurzi, first-first kolize (substituce + leva faktorizace), first-follow kolize (pohlceni symbolu)), FIRST_k, FOLLOW_k)
     - silna vs slaba LL(k) (rozhodnuti na zaklade k symbolu na vstupu + zasobnik, CELY NACTENY VSTUP + k symbolu na vstupu + zasobnik => v praxi nepouzitelne)
     - vyjadrovaci sila LL a LR (|LR| > |LL|, |LR| > |LALR| > |SLR(k)| > |SLR(1)| > |LR(0)|)
 
-24) [Využití zásobníkového automatu k analýze zdola nahoru. Konstrukce nedeterministického automatu, třídy gramatik pro deterministickou analýzu zdola nahoru. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](24.md)
+24) [Využití zásobníkového automatu k analýze zdola nahoru. Konstrukce nedeterministického automatu, třídy gramatik pro deterministickou analýzu zdola nahoru. Vyjadřovací síla LL a LR gramatik. [KIV/FJP]](24.md) **[ pravdepodobne, zasobnikovy automat ]**
     - zasobnikovy automat (𝑃𝐷𝐴 = { 𝑄, Σ, Γ, 𝛿, 𝑞0 , 𝑧0 , 𝐹 }, konfigurace, jednocestny, nedeterministicky, akceptacni, nekonecna pamet)
     - analyza zdola nahoru (chceme dojit k S, postupne slucovani pravidel -> nahrazovani levou stranou)
     - LR(0) (rekuce/prsun, ctelme zleva doprava a delame nejpravejsi moznou derivaci, tabulka akci, tabulka prechodu (jazyk PDA))
