@@ -1,8 +1,20 @@
 ## VS - Vývoj softwarových systémů
 
+- Brada: druhy pozadavku - jinak spise SAR
+- pokud Valdman s Bradou, tak tady zkousi urcite Valdman
+- Moucek (zakladni otazky)
+- Herout (testovani)
+- Zima (poze DB2, kurzory, ulozene procedury, triggery, NoSQL)
+- SAR - Brada + Moucek, taky v urcitych pripadech Valdman nebo Dostal
+- ASWI - metodiky pro spravu verzi a zmen
+- EITM - role IT, PoC, PoT, dalsi dokumenty
+- DB2 - CAP, pokud nebude kleckova nebo Zima tak pravdepodobne ne
+
+---
+
 ### KIV/ASWI
 
-01) [Životní cyklus softwarového produktu (informačního systému), jeho modely a jejich charakteristiky. Softwarový proces, jeho klíčové prvky. [KIV/ASWI, (KIV/ZSWI)]](01.md)
+01) [Životní cyklus softwarového produktu (informačního systému), jeho modely a jejich charakteristiky. Softwarový proces, jeho klíčové prvky. [KIV/ASWI, (KIV/ZSWI)]](01.md) **[ PoC, PoT, Brada ]**
     - zivotni cyklus SW produktu (LCO (vize, PoC, PoT, ramcove pozadavky), LCA (diagramy), IOC (demo, feature-complete), GA (DoD, UAT, prechod do podpoty - L1 (helpdesk), L2 (service desk, admin), L3 (vyvojar)), odstavka)
     - SW proces (definice, sklada se z aktivit (technicke/podpurne), roli (technicke/manazerske/podpurne), artefaktu (uroven formalnosti))
     - SW proces vs metodika (definice projektu)
@@ -12,7 +24,7 @@
     - delivery strategie (one-time, inkrementalni, evolucni, kontinualni - CI/CD)
     - latentni potreba -> pojmenovana potreba -> nakup -> nasazeni -> udrzba (IT, uzivatele, manager, ITIL)
 
-02) [Iterativní vývoj software, jeho prvky a postupy, výhody a nedostatky. Příklady iterativních metodik, jejich složky a fáze. [KIV/ASWI]](02.md)
+02) [Iterativní vývoj software, jeho prvky a postupy, výhody a nedostatky. Příklady iterativních metodik, jejich složky a fáze. [KIV/ASWI]](02.md) **[ Brada ]**
     - iterativni vyvoj (schopnost reagovat na menici se pozadavky, nestabilni prostredi, inkrementalni dodavani SW (demo, iteracni release), opakovani aktivit a testovani)
     - struktura iterace (planovani, zpresnovani pozadavku, implementace, verifikace/validace, review, retrospektiva; uzavrena na zmeny z venci, pevny deadline; faze projektu porad stejne (LOC, LCA, IOC, GA))
     - UP (napr. RUP - prolinani aktivit, late design breakage, aktivity, role, artefakty)
@@ -23,7 +35,7 @@
     - epics => user stories => tasky
     - sledovani prubehu iterace (burndown, team velocity)
 
-03) [Definice účelu softwarového produktu. Metody získávání a definice požadavků, související dokumenty, modely a standardy. [KIV/ASWI, (KIV/ZSWI, KIV/EITM)]](03.md)
+03) [Definice účelu softwarového produktu. Metody získávání a definice požadavků, související dokumenty, modely a standardy. [KIV/ASWI, (KIV/ZSWI, KIV/EITM)]](03.md) **[ PoC, PoT ]**
     - faze zahajeni (LCO milnik, definice ucely, stakeholdery, ramcovy plan projektu, komunikace, seznam rizik = {ppst, dopad}, omezeni, standardy, klicove pozadavky)
     - faze konstrukce (LCA milnik, banchmark, PoC, PoT, MVP)
     - sber pozadavku (pozadavek -> jednoznacny, uplny, jedinecny, trasovatelny, overitelny, specifikace pozadavku = rozhrani zakaznik / dodavatel; pozadavek -> new, reviewed, accepted, released; zpusoby ziskavani pozadavku = interaktivni / neinteraktivni; RFI)
@@ -46,7 +58,7 @@
     - dokumentace (SAD, oponentura, SoC = validace ze splnuje pozadavky zakaznika)
     - spustitelna architektura (GCA, automaticke generovani, AADL, model-driven architecture, PIM, PSM)
 
-05) [Postupy pro správu a řízení změn v projektu vývoje software, typy a možnosti nástrojů. Souvislost správy změn s ostatními disciplínami vývoje software. [KIV/ASWI, KIV/EITM]](05.md)
+05) [Postupy pro správu a řízení změn v projektu vývoje software, typy a možnosti nástrojů. Souvislost správy změn s ostatními disciplínami vývoje software. [KIV/ASWI, KIV/EITM]](05.md) **[ Brada i Valdman, oblibena ]**
     - konfiguracni management (sklada se z spravy zmen a spravy verzi, ve vsech fazi vyvoje, po GA je hlavnim faktorem rizeni vyvoje)
     - ticket (submitter, CCB (cross-functional), developer, tester; stavy pozadavku na zmenu - vytvoreny, schvaleny, zamitnuty, naplanovany, uzavreny, overeny => zavisi na metodice; struktura - shrnuti, metadata, popis, log, vstupni data, zavaznost)
     - nastroje (bug trackery (napr. BugZilla) vs ALM (Jira, Redmine), VCS (ClearCase, Git, atd.))
@@ -54,7 +66,7 @@
         - incident management (incident) -> problem management, change management (CR), configuration management (CMDB), release managemet (DSL)
         - plni roli L1 podpory, koordinuje L2 a L3
 
-06) [Správa verzí, základní pojmy a postupy (hlavní vývoj, použití větví, značky). Struktura úložiště pro projekty různé velikosti. Nástroje pro správu verzí, jejich možnosti. [KIV/ASWI]](06.md)
+06) [Správa verzí, základní pojmy a postupy (hlavní vývoj, použití větví, značky). Struktura úložiště pro projekty různé velikosti. Nástroje pro správu verzí, jejich možnosti. [KIV/ASWI]](06.md) **[ pravdepodobne, verzovani ]**
     - konfiguracni management (sklada se z spravy zmen a spravy verzi, ve vsech fazi vyvoje, po GA je hlavnim faktorem rizeni vyvoje)
     - prvek konfigurace, granularita verzovani (verzovani komponent -> uplne verzovani (git tagy)), verze (revize vs varianta), verzovani podle stavu vs podle zmen, extenzionalni vs intenzionalni, delta, changeset, tag (label), baseline, codeline
     - VCS (centralizovany vs distribuovany), pracovni prostor, merge, konvence, branch strategie (RCS, CVS, SVN)
@@ -75,21 +87,21 @@
 
 ### KIV/EITM
 
-08) [Postupy a techniky související s nasazením produktu do provozu. Postup vyřazení softwarového produktu z provozu. [KIV/ASWI, (KIV/EITM)]](08.md)
+08) [Postupy a techniky související s nasazením produktu do provozu. Postup vyřazení softwarového produktu z provozu. [KIV/ASWI, (KIV/EITM)]](08.md) **[ pravdepodobne, postupy a techniky nasazeni produktu ]**
     - GA milnik (automatizovane nastroje - Docker, Kubernetes, field testing, smoke testy, stress testy, zatezove testy, DoD, post-mortem review)
     - produkt v provozu (monitorovani, zalohovani, patchovani, L1, L2, L2 podpora, ITIL (incident management, problem management, change management, CMDB, DSL), helpdesk vs servicedesk)
     - typy udrzby (adaptivni (skalovani), preventivni (monitoring), korektivni (bug-fix), perfektivni (UX))
     - DEVOPS (CI/CD, automatizace; DEVS (plan, code, build, test) => (release) OPS (deploy, operate, monitor))
     - odebrani systemu (doziti, zamrazeni investic, akvizice noveho systemu; strategie (big-bang, po etapach, paralelne s nasazovani noveho), aktualizace documentace, migrace dat, archivace)
 
-09) [Přehled činností při provozu sw (IS/IT) produktu. Řízení, dodávka a podpora IT služeb (ITSM), řízení změn a incidentů, související metodiky (ITIL a další). [KIV/ASWI, KIV/EITM]](09.md)
+09) [Přehled činností při provozu sw (IS/IT) produktu. Řízení, dodávka a podpora IT služeb (ITSM), řízení změn a incidentů, související metodiky (ITIL a další). [KIV/ASWI, KIV/EITM]](09.md) **[ ITIL, Brada i Valdman ]**
     - porizeni SW produktu (latentni potreba -> pojemenovana potreba -> vyber/nakup -> nasazeni -> provoz; planovani IS (vnitrni vs vnejsi vlivy) -> analyza IS -> vyber IS (RFP, RFI, krabicove reseni) -> dodavka (viz ASWI) -> podpora (L1, L2, L3) -> provoz (napr. ITIL) -> odebrani systemu)
     - ITSM (rozhrani pro spravu IT, neni technicky orientovany, dodavani sluzeb zakaznikovi)
     - ITIL (rika co nerika jak (viz proces vs metodika), implementace ITSM, v2-v5, 8 knih - Service Support & Service Delivery (= zaklad ITILu), infrastructure management, application management, security management, business perspective, atd.)
         - Service Support (operativni rizeni, incident = neplanovane selhani, service desk, incident management, problem management, znalostni DB, change management, release management (DSL), CMDB)
         - Service Delivery (takticke rizeni, service-level management, financial management, availability managment, capacity management, CMDB, SLA, OLA, UC (underpinning contract), DRP = RPO (napr. denni zalohy) + RTO (napr. obnova do dvou hodin))
 
-10) [Strategické řízení firem, poslání a role IT v organizaci, tvorba strategie IT/IS. Koncepce a metody řízení IT -- Enterprise architektura (EA) a IT governance. [KIV/EITM]](10.md)
+10) [Strategické řízení firem, poslání a role IT v organizaci, tvorba strategie IT/IS. Koncepce a metody řízení IT -- Enterprise architektura (EA) a IT governance. [KIV/EITM]](10.md) **[ pravdepodobne, Valdman ]**
     - podnik (= jednotka ekonomiky), cile (primarni, odvozeny, dilci)
     - strategicke rizeni (dlouhodobe, poslani podniku (kdo jsme?) = vize (kde chceme byt?) + mise (jak toho dosahneme?), mise = cile (takticke rizeni, SMART cile) + zamery)
     - tvorba strategie = analyza vnitrniho prostredi, vnejsiho prostredi a zajmovych skupin
@@ -111,7 +123,7 @@
     - IT governance (management (ITIL) vs governance (COBIT))
     - COBIT (4 domeny, metriky, mezinarodni framework pro governance, Balanced Scorecards)
 
-11) [Proces akvizice IS/IT systému. Výběrové řízení, poptávka a nabídka, výběr a nákup řešení, studie proveditelnosti, PoC, PoT, poptávkové řízení (RFI, RFP, RFQ).[KIV/EITM]](11.md)
+11) [Proces akvizice IS/IT systému. Výběrové řízení, poptávka a nabídka, výběr a nákup řešení, studie proveditelnosti, PoC, PoT, poptávkové řízení (RFI, RFP, RFQ).[KIV/EITM]](11.md) **[ casta, PoC, PoT, Brada i Valdman ]**
     - akvizice IS (latentni potreba, potreba, nakup, nasazeni, provoz; planovani IS, analyza IS, vybere (nakup), dodavka/implementace, podpora, ukonceni)
     - obchodni parametry dodavky (cas, cena, kvalita => rozsah, TCO = porizovaci naklady + provozni naklady)
     - studie proveditelnosti (metadata (historie uprav, zkraty, klicova slova, obsah), kontaktni udaje, executive summary, soucastny stav, problem, moznosti reseni (funkcionalita, technologie, SWOT, hruby plan, cena, rizika -> {ppst, dopad} => ignorovat, prijmout (protokol jak resit?), protiopatreni, delegovat))
@@ -141,7 +153,7 @@
     - projektove rizeni (PPM, hlavni ukoly, standardizace procesu/nastroju, PMO - projektova kancelar vs EA)
     - metody hodnoceni projektu (NPV, ROI, payback analysis, WSM)
 
-13) [Způsoby integrace informačních systémů, přístupy a technologie pro jednotlivé vrstvy. [KIV/EITM, (KIV/PIA)]](13.md)
+13) [Způsoby integrace informačních systémů, přístupy a technologie pro jednotlivé vrstvy. [KIV/EITM, (KIV/PIA)]](13.md) **[ integrace na nejake vrstve ]**
     - duvody pro integraci
     - integrace na datove vrstve
         - SQL import, export, data vs informace vs znalost, EDI (point-to-point vs EDI via VAN, AS2, sifrovani, podpisy), ETL (heterogenita zdroju, nastroje, konverze formatu, agregace), kavlita dat (definici kvality -> metriky, monitorovani, rizeni, MDM, MDM server, MD, odstraneni duplicit, validate platnosti)
@@ -201,7 +213,7 @@
     - TLS certifikat (obsah, hash, princip overeni spojeni)
     - typy malwaru (ransomware, spyware, adware, worms, rootkit, keylogger)
 
-19) [Outsourcing IT. Poskytování IT jako služby (ITaaS), výhody a nevýhody cloudových technologií. [KIV/EITM]](19.md)
+19) [Outsourcing IT. Poskytování IT jako služby (ITaaS), výhody a nevýhody cloudových technologií. [KIV/EITM]](19.md) **[ outsourcing ]**
     - outsourcing (co se outsourcuje - podpurne metody, BP, vztah mezi poskytovatelem a uzivatelem)
     - typy: off-shore (indove), on-site (uklizecka), near-shore (nemecko)
     - duvody: chci (expanze), musim (nemam know-how), zkousim
@@ -218,7 +230,7 @@
 
 ### KIV/DB2
 
-20) [Standardizace vývoje databázové technologie, norma ISO/IEC 9075 – rozšíření možností relačního modelu a trend vývoje databázové technologie - procedurální prostředky v rámci jazyka SQL. Kurzory – definice, klasifikace, použití kurzorů. Uložené procedury a funkce, balíky (packages), kompilace, spouštění. Standard SQL/PSM. [KIV/DB2]](20.md)
+20) [Standardizace vývoje databázové technologie, norma ISO/IEC 9075 – rozšíření možností relačního modelu a trend vývoje databázové technologie - procedurální prostředky v rámci jazyka SQL. Kurzory – definice, klasifikace, použití kurzorů. Uložené procedury a funkce, balíky (packages), kompilace, spouštění. Standard SQL/PSM. [KIV/DB2]](20.md) **[ pravdepodobne ]**
     - norma ISO 9075 (nutne minimum SQL, definice dat, editace dat, vyber dat, pristupova prava, transakce)
     - relacni model (ACID, silna konzistence, spatny vykon/skalovatelnost, DDL (CREATE, DROP), DML (INSTERT, UPDATE, DELETE))
     - NoSQL (distribuovane, necentralizaovanost, dynamicke skalovani, BigData (4V), nerelacni datovy model, vysoky vykon, typy - klic-hodnota (Redis, session), dokumentove (MongoDB, XML, JSON), grafove (Neo4J), sloupcove, CAP, ACID vs BASE)
@@ -238,7 +250,7 @@
         - systemove (napr. start DB) vs DML trigery
         - prikazove vs radkove triggery (BEFORE prikazovy -> BEFORE radkovy -> SQL -> AFTER radkovy -> AFTER prikazovy)
 
-22) [Objektové vlastnosti jazyka SQL99, rozšíření datových typů. Vlastnosti objektově orientovaného datového modelu, možnosti použití, porovnání s relačním a objektově-relačním modelem. Standard SQL/OLB. [KIV/DB2]](22.md)
+22) [Objektové vlastnosti jazyka SQL99, rozšíření datových typů. Vlastnosti objektově orientovaného datového modelu, možnosti použití, porovnání s relačním a objektově-relačním modelem. Standard SQL/OLB. [KIV/DB2]](22.md) **[ pravdepodobne ]**
     - SQL/OLB (Object Language Bindings - standard pro integraci SQL v Jave)
     - objektove vlastnosti SQL99 (motivace, pridavani OOP principu/objektu do SQL, OOSRDB, rekurzivni struktury, slozite transakce, zapouzdreni, ADT, UDT (CREATE TYPE \<name\> AS OBJECT), OID, TYPE vs BODY -> procedure, function, FINAL, NOT FINAL, VARRAY, REF \<adt_name\>)
     - objektovy vs relacni svet (vazby - one-to-many atd. vs dedicnost)
@@ -246,7 +258,7 @@
     - problemy ORM (public/private, DTO, dedicnost - kazda trida = 1 tabulka (hodne SQL), vse v 1 tabulka (prazdna pole), zvlast tabulka pro rodice a zvlast pro kazdeho potomka (kompromis))
     - JOINy (INNER, LEFT, RIGHT, OUTER)
 
-23) [SQL/MM – multimediální databáze - základní rámec normy ISO/IEC 13249, full-textová data, prostorová data, obrázky (statické i videa). Možnosti dotazování, oblasti využití. XML databáze – charakteristické vlastnosti, výhody a nevýhody. Standard SQL/XML. [KIV/DB2]](23.md)
+23) [SQL/MM – multimediální databáze - základní rámec normy ISO/IEC 13249, full-textová data, prostorová data, obrázky (statické i videa). Možnosti dotazování, oblasti využití. XML databáze – charakteristické vlastnosti, výhody a nevýhody. Standard SQL/XML. [KIV/DB2]](23.md) **[ multimedialni DB ]**
     - klasicke relacni DB vs multimedialni DB (dotaz na uplnou shodu, metrika, porovnani cisel vs porovnani obrazku, semantika, relevantnost)
     - priklady: obrazove DB, video kolekce, geometricke kolekce, casove rady, audio, biologicke DB, melodie, text
     - dotazy (klasicky realacni vs multimedialni -> dotaz na uplnou shodu, relevance)
@@ -262,7 +274,7 @@
     - SQL/XML (zalozene na XML, efektivnejsi nez XML-enabled, vyhledvani, atd.)
 
 24) [NoSQL databáze – charakteristika, porovnání ACID a BASE, CAP teorém. Kategorie NoSQL databází na základě datového modelu, příklady architektur. [KIV/DB2]
-](24.md)
+](24.md) **[ pravdepodobne, NoSQL, ACID, BASE, Zima, Dostal, Kleckova ]**
     - NoSQL (nerelacni datovy model, skalovatelnost, horizontalni skalovani, Open-Source, distribuovana architektura)
     - ACID (= databazovy system, striktni (pesimisticky), atomicita, konzistence, izolovatnost, durability)
     - BASE (= BASE = distribuovany system (optimisticky), basically available, soft state, eventually consistent, priblizne odpovedi OK, best effort)
