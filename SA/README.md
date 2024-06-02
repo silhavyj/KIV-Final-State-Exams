@@ -1,5 +1,11 @@
 ## SA - Softwarové architektury
 
+- PIA - Danek pouze v kombinaci tema s WEB i Dostal
+- WEB: SO, klientske pozadavky, struktura aplikace (MVC)
+- VSS: v pohode (spise nebude), Lipka, jen v pripade kdyz nebylo FJP?
+
+---
+
 01) [Principy správného strukturování software (modularita, skrývání informace, separation of concerns, SOLID), způsoby realizace a význam pro kvalitu sw systémů. [KIV/SAR; KIV/OOP]](01.md) **[ pravdepodobne, Danek, SOLID, IoC ]**
     - Imperativní(Procedurální) programování (píšeme jak má program dělat) vs deklarativní (SQL, specifikujeme co ale ne jak)
     - Modularita (rozdělení kódu, testování, čitelnost, znovupoužitelnost, nahrazení)
